@@ -37,8 +37,6 @@ jobs:
       - name: Run ML Hires Signal Agent
         env:
           THEIRSTACK_API_KEY: ${{ secrets.THEIRSTACK_API_KEY }}
-          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
-          ADZUNA_API_KEY: ${{ secrets.ADZUNA_API_KEY }}
         run: python ml_hires_agent.py
 
       - name: Commit output and state

@@ -405,19 +405,10 @@ def run_pipeline() -> None:
             if is_ml_job(j.get("job_title", "") or "")
         ]
 
-        # Adzuna fallback: use if TheirStack returns 0 and Adzuna creds exist
         az_jobs = []
-        if len(ml_ts_jobs) == 0 and (ADZUNA_APP_ID and ADZUNA_API_KEY):
-            log.debug("Falling back to Adzuna for %s", name)
-            az_raw = query_adzuna(name, since_date)
-            az_jobs = [
-                j for j in az_raw
-                if is_ml_job(j.get("title", "") or "")
-            ]
-            time.sleep(0.5)  # polite
 
-        # Combine counts
-        total_this_week = len(ml_ts_jobs) + len(az_jobs)
+        # Combine counts (TheirStack only for MVP)
+        total_this_week = len(ml_ts_jobs)
 
         # Prior week count
         prior = prior_state.get(domain, {})
@@ -670,11 +661,8 @@ def write_excel(rows: list[dict], path: Path, week_of: str) -> None:
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    if not THEIRSTACK_API_KEY and not (ADZUNA_APP_ID and ADZUNA_API_KEY):
-        log.error(
-            "No API credentials found. Set THEIRSTACK_API_KEY "
-            "and/or ADZUNA_APP_ID + ADZUNA_API_KEY environment variables."
-        )
+    if not THEIRSTACK_API_KEY:
+        log.error("THEIRSTACK_API_KEY environment variable is not set.")
         sys.exit(1)
 
     run_pipeline()
