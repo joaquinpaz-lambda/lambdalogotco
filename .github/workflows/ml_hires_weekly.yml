@@ -1,0 +1,52 @@
+name: ML Hires Signal — Weekly Run
+
+on:
+  schedule:
+    # Every Sunday at 11pm UTC
+    - cron: "0 23 * * 0"
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Reason for manual run"
+        required: false
+        default: "Manual trigger"
+
+jobs:
+  run-ml-hires-agent:
+    name: Run ML Hires Signal Agent
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ML Hires Signal Agent
+        env:
+          THEIRSTACK_API_KEY: ${{ secrets.THEIRSTACK_API_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_API_KEY: ${{ secrets.ADZUNA_API_KEY }}
+        run: python ml_hires_agent.py
+
+      - name: Commit output and state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          WEEK_OF=$(date -u +%Y-%m-%d)
+          git add output/ data/ml_hires_state.json
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Weekly ML Hires Signal — ${WEEK_OF}"
+          git push
