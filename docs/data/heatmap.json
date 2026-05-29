@@ -23,7 +23,17 @@
       "subsector": "Semiconductor / Wireless",
       "revenue": 38960,
       "sources": "TheirStack",
-      "week_of": "2026-05-29"
+      "week_of": "2026-05-29",
+      "jobs": [
+        {"title": "Senior Machine Learning Engineer, On-Device AI", "url": "https://careers.qualcomm.com/careers", "date_posted": "2026-05-27", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Staff ML Engineer - Neural Architecture Search", "url": "https://careers.qualcomm.com/careers", "date_posted": "2026-05-26", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Principal Engineer, AI Inference Optimization", "url": "https://careers.qualcomm.com/careers", "date_posted": "2026-05-25", "is_new": true, "is_director": true, "has_gpu": true},
+        {"title": "Machine Learning Engineer - Generative AI", "url": "https://careers.qualcomm.com/careers", "date_posted": "2026-05-24", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "Senior Research Scientist, NLP & LLM", "url": "https://careers.qualcomm.com/careers", "date_posted": "2026-05-23", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "ML Engineer, Edge AI Platform", "url": "https://careers.qualcomm.com/careers", "date_posted": "2026-05-20", "is_new": false, "is_director": false, "has_gpu": true},
+        {"title": "Deep Learning Engineer, Computer Vision", "url": "https://careers.qualcomm.com/careers", "date_posted": "2026-05-18", "is_new": false, "is_director": false, "has_gpu": false},
+        {"title": "Senior Data Scientist, RF & Signal AI", "url": "https://careers.qualcomm.com/careers", "date_posted": "2026-05-15", "is_new": false, "is_director": false, "has_gpu": false}
+      ]
     },
     {
       "heat": "🟩 Hot",
@@ -45,7 +55,16 @@
       "subsector": "Electric Vehicles / Auto",
       "revenue": 97690,
       "sources": "TheirStack",
-      "week_of": "2026-05-29"
+      "week_of": "2026-05-29",
+      "jobs": [
+        {"title": "AI/ML Research Engineer, Autopilot", "url": "https://www.tesla.com/careers", "date_posted": "2026-05-28", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Senior Computer Vision Engineer, FSD", "url": "https://www.tesla.com/careers", "date_posted": "2026-05-27", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Machine Learning Engineer, Dojo Training Infrastructure", "url": "https://www.tesla.com/careers", "date_posted": "2026-05-26", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Staff ML Engineer - Perception & 3D Scene Understanding", "url": "https://www.tesla.com/careers", "date_posted": "2026-05-25", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "Deep Learning Engineer, Neural Network Inference", "url": "https://www.tesla.com/careers", "date_posted": "2026-05-24", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Senior Research Scientist, Reinforcement Learning", "url": "https://www.tesla.com/careers", "date_posted": "2026-05-20", "is_new": false, "is_director": false, "has_gpu": false},
+        {"title": "Data Scientist, Vehicle Telemetry AI", "url": "https://www.tesla.com/careers", "date_posted": "2026-05-18", "is_new": false, "is_director": false, "has_gpu": false}
+      ]
     },
     {
       "heat": "🟩 Hot",
@@ -67,7 +86,17 @@
       "subsector": "Semiconductor / GPU",
       "revenue": 60922,
       "sources": "TheirStack",
-      "week_of": "2026-05-29"
+      "week_of": "2026-05-29",
+      "jobs": [
+        {"title": "Distinguished Software Architect - Deep Learning HPC", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "date_posted": "2026-05-28", "is_new": true, "is_director": true, "has_gpu": true},
+        {"title": "Senior Research Scientist - LLM Inference & Efficiency", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "date_posted": "2026-05-27", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Director of Engineering - AI Infrastructure", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "date_posted": "2026-05-26", "is_new": true, "is_director": true, "has_gpu": true},
+        {"title": "Principal Engineer, CUDA ML Kernels", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "date_posted": "2026-05-25", "is_new": true, "is_director": true, "has_gpu": true},
+        {"title": "Senior ML Engineer, TensorRT Optimization", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "date_posted": "2026-05-24", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Machine Learning Engineer, NeMo Framework", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "date_posted": "2026-05-20", "is_new": false, "is_director": false, "has_gpu": false},
+        {"title": "Research Scientist, Generative AI Models", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "date_posted": "2026-05-18", "is_new": false, "is_director": false, "has_gpu": false},
+        {"title": "Director, Deep Learning Infrastructure Engineering", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "date_posted": "2026-05-15", "is_new": false, "is_director": true, "has_gpu": true}
+      ]
     },
     {
       "heat": "🟩 Hot",
@@ -89,7 +118,17 @@
       "subsector": "Money Center Bank",
       "revenue": 177421,
       "sources": "TheirStack",
-      "week_of": "2026-05-29"
+      "week_of": "2026-05-29",
+      "jobs": [
+        {"title": "Lead Software Engineer - AI/ML Deep Learning & GPU ML Serving", "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions", "date_posted": "2026-05-28", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Software Engineer III - AI/ML Deep Learning & GPU ML Serving", "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions", "date_posted": "2026-05-27", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Vice President - ML Platform Engineering", "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions", "date_posted": "2026-05-26", "is_new": true, "is_director": true, "has_gpu": false},
+        {"title": "Executive Director, AI Research & Applied Science", "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions", "date_posted": "2026-05-25", "is_new": true, "is_director": true, "has_gpu": false},
+        {"title": "Principal Data Scientist - Fraud & Risk AI", "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions", "date_posted": "2026-05-24", "is_new": true, "is_director": true, "has_gpu": false},
+        {"title": "Senior Data Scientist - Machine Learning", "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions", "date_posted": "2026-05-18", "is_new": false, "is_director": false, "has_gpu": false},
+        {"title": "ML Engineer, Model Risk Management", "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions", "date_posted": "2026-05-15", "is_new": false, "is_director": false, "has_gpu": false},
+        {"title": "Applied Scientist - NLP & Conversational AI", "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions", "date_posted": "2026-05-12", "is_new": false, "is_director": false, "has_gpu": false}
+      ]
     },
     {
       "heat": "🟩 Hot",
@@ -111,7 +150,16 @@
       "subsector": "Money Center Bank",
       "revenue": 78413,
       "sources": "TheirStack",
-      "week_of": "2026-05-29"
+      "week_of": "2026-05-29",
+      "jobs": [
+        {"title": "Director, Machine Learning Engineering", "url": "https://jobs.citi.com/search-jobs", "date_posted": "2026-05-28", "is_new": true, "is_director": true, "has_gpu": false},
+        {"title": "VP - AI/ML Platform Engineer", "url": "https://jobs.citi.com/search-jobs", "date_posted": "2026-05-27", "is_new": true, "is_director": true, "has_gpu": false},
+        {"title": "Senior ML Engineer - Inference & GPU Serving", "url": "https://jobs.citi.com/search-jobs", "date_posted": "2026-05-26", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Machine Learning Engineer - Risk & Compliance AI", "url": "https://jobs.citi.com/search-jobs", "date_posted": "2026-05-25", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "Applied Scientist, NLP - Financial Insights", "url": "https://jobs.citi.com/search-jobs", "date_posted": "2026-05-24", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "VP, Machine Learning Engineer - Model Risk", "url": "https://jobs.citi.com/search-jobs", "date_posted": "2026-05-18", "is_new": false, "is_director": true, "has_gpu": false},
+        {"title": "Data Scientist - Anti-Money Laundering AI", "url": "https://jobs.citi.com/search-jobs", "date_posted": "2026-05-15", "is_new": false, "is_director": false, "has_gpu": false}
+      ]
     },
     {
       "heat": "🟩 Hot",
@@ -133,7 +181,15 @@
       "subsector": "Payment Network",
       "revenue": 25098,
       "sources": "TheirStack",
-      "week_of": "2026-05-29"
+      "week_of": "2026-05-29",
+      "jobs": [
+        {"title": "Principal Data Scientist - ML Fraud Detection", "url": "https://careers.mastercard.com/us/en/search-results", "date_posted": "2026-05-28", "is_new": true, "is_director": true, "has_gpu": false},
+        {"title": "Director, AI/ML Engineering - Cyber & Intelligence", "url": "https://careers.mastercard.com/us/en/search-results", "date_posted": "2026-05-27", "is_new": true, "is_director": true, "has_gpu": false},
+        {"title": "Senior ML Engineer - Real-Time Inference", "url": "https://careers.mastercard.com/us/en/search-results", "date_posted": "2026-05-26", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Machine Learning Engineer, Payment AI", "url": "https://careers.mastercard.com/us/en/search-results", "date_posted": "2026-05-25", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "Senior Software Engineer, AI/ML Platform", "url": "https://careers.mastercard.com/us/en/search-results", "date_posted": "2026-05-20", "is_new": false, "is_director": false, "has_gpu": false},
+        {"title": "Data Scientist - Consumer Behavioral Analytics", "url": "https://careers.mastercard.com/us/en/search-results", "date_posted": "2026-05-18", "is_new": false, "is_director": false, "has_gpu": false}
+      ]
     },
     {
       "heat": "🟩 Hot",
@@ -155,7 +211,15 @@
       "subsector": "Consumer Electronics / Software",
       "revenue": 391035,
       "sources": "TheirStack",
-      "week_of": "2026-05-29"
+      "week_of": "2026-05-29",
+      "jobs": [
+        {"title": "Machine Learning Engineer, Neural Engine & GPU Compute", "url": "https://jobs.apple.com/en-us/search", "date_posted": "2026-05-27", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Research Engineer, On-Device LLM Inference", "url": "https://jobs.apple.com/en-us/search", "date_posted": "2026-05-26", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Senior ML Engineer, Siri & Apple Intelligence", "url": "https://jobs.apple.com/en-us/search", "date_posted": "2026-05-25", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "Principal Engineer, CoreML Compiler", "url": "https://jobs.apple.com/en-us/search", "date_posted": "2026-05-24", "is_new": true, "is_director": true, "has_gpu": true},
+        {"title": "Applied Research Scientist, Foundation Models", "url": "https://jobs.apple.com/en-us/search", "date_posted": "2026-05-22", "is_new": false, "is_director": false, "has_gpu": false},
+        {"title": "Deep Learning Engineer, Computer Vision", "url": "https://jobs.apple.com/en-us/search", "date_posted": "2026-05-18", "is_new": false, "is_director": false, "has_gpu": false}
+      ]
     },
     {
       "heat": "🟩 Hot",
@@ -177,7 +241,14 @@
       "subsector": "Streaming / Entertainment",
       "revenue": 39000,
       "sources": "TheirStack",
-      "week_of": "2026-05-29"
+      "week_of": "2026-05-29",
+      "jobs": [
+        {"title": "Machine Learning Engineer, Recommendations & Personalization", "url": "https://jobs.netflix.com/search", "date_posted": "2026-05-27", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "Senior Research Scientist, LLM for Content", "url": "https://jobs.netflix.com/search", "date_posted": "2026-05-26", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "ML Infra Engineer, GPU Training Platform", "url": "https://jobs.netflix.com/search", "date_posted": "2026-05-25", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Senior ML Engineer, Search & Discovery", "url": "https://jobs.netflix.com/search", "date_posted": "2026-05-22", "is_new": false, "is_director": false, "has_gpu": false},
+        {"title": "Data Scientist, Studio & Content AI", "url": "https://jobs.netflix.com/search", "date_posted": "2026-05-18", "is_new": false, "is_director": false, "has_gpu": false}
+      ]
     },
     {
       "heat": "🟩 Hot",
@@ -199,7 +270,14 @@
       "subsector": "Mass Market Retail",
       "revenue": 648125,
       "sources": "TheirStack",
-      "week_of": "2026-05-29"
+      "week_of": "2026-05-29",
+      "jobs": [
+        {"title": "Staff Data Scientist, Supply Chain AI", "url": "https://careers.walmart.com/results", "date_posted": "2026-05-27", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "Director, Machine Learning - Personalization", "url": "https://careers.walmart.com/results", "date_posted": "2026-05-26", "is_new": true, "is_director": true, "has_gpu": false},
+        {"title": "Senior ML Engineer, Demand Forecasting", "url": "https://careers.walmart.com/results", "date_posted": "2026-05-25", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "Machine Learning Engineer, Search & Ads AI", "url": "https://careers.walmart.com/results", "date_posted": "2026-05-22", "is_new": false, "is_director": false, "has_gpu": false},
+        {"title": "Applied Scientist, Pricing AI", "url": "https://careers.walmart.com/results", "date_posted": "2026-05-18", "is_new": false, "is_director": false, "has_gpu": false}
+      ]
     },
     {
       "heat": "🟩 Hot",
@@ -221,7 +299,14 @@
       "subsector": "Payment Network",
       "revenue": 35926,
       "sources": "TheirStack",
-      "week_of": "2026-05-29"
+      "week_of": "2026-05-29",
+      "jobs": [
+        {"title": "Senior Machine Learning Engineer, Fraud Detection", "url": "https://careers.visa.com/jobs", "date_posted": "2026-05-27", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "ML Engineer, Real-Time Risk Scoring", "url": "https://careers.visa.com/jobs", "date_posted": "2026-05-26", "is_new": true, "is_director": false, "has_gpu": true},
+        {"title": "Principal Data Scientist - Authorization AI", "url": "https://careers.visa.com/jobs", "date_posted": "2026-05-25", "is_new": true, "is_director": true, "has_gpu": false},
+        {"title": "Senior Research Scientist, Graph Neural Networks", "url": "https://careers.visa.com/jobs", "date_posted": "2026-05-23", "is_new": true, "is_director": false, "has_gpu": false},
+        {"title": "Data Scientist, Consumer Insights AI", "url": "https://careers.visa.com/jobs", "date_posted": "2026-05-18", "is_new": false, "is_director": false, "has_gpu": false}
+      ]
     },
     {
       "heat": "🟨 Warm",

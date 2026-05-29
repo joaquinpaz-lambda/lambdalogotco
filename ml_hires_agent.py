@@ -490,6 +490,24 @@ def run_pipeline() -> None:
         # GPU/Inference Intent display
         gpu_display = "Yes" if gpu_signal else ""
 
+        # Build per-job details list
+        prior_job_keys = prior_state.get(domain, {}).get("job_keys", [])
+        jobs = []
+        for j in ml_ts_jobs:
+            title = (j.get("job_title") or "").strip()
+            url = j.get("url") or j.get("job_url") or j.get("apply_url") or ""
+            date_posted = j.get("date_posted") or j.get("posted_at") or ""
+            is_new = title.lower().strip() not in prior_job_keys
+            if title:
+                jobs.append({
+                    "title": title,
+                    "url": url,
+                    "date_posted": date_posted,
+                    "is_new": is_new,
+                    "is_director": is_director_plus(title),
+                    "has_gpu": has_gpu_signal(title, j.get("description", "") or ""),
+                })
+
         rows.append({
             "tier": tier,
             "tier_order": {TIER_HOT: 0, TIER_WARM: 1, TIER_QUIET: 2}[tier],
@@ -511,10 +529,15 @@ def run_pipeline() -> None:
             "revenue": company.get("revenue", ""),
             "sources": sources_str,
             "week_of": week_of,
+            "jobs": jobs,
         })
 
-        # Update state
-        new_state[domain] = {"count": total_this_week, "week_of": week_of}
+        # Update state (now includes job_keys for new-detection next week)
+        new_state[domain] = {
+            "count": total_this_week,
+            "week_of": week_of,
+            "job_keys": [j["title"].lower().strip() for j in jobs],
+        }
 
     # Sort: tier order ASC, then net_new DESC within tier
     rows.sort(key=lambda r: (r["tier_order"], -r["net_new"]))
@@ -594,6 +617,7 @@ def write_json(rows: list[dict], path: Path, week_of: str, generated_at: str) ->
             "revenue":            r.get("revenue", 0),
             "sources":            r.get("sources", ""),
             "week_of":            week_of,
+            "jobs":               r.get("jobs", []),
         })
 
     payload = {
