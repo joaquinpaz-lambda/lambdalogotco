@@ -348,7 +348,17 @@ def score_account(
     wow_pct: float,
     has_director: bool,
     total_this_week: int,
+    is_first_run: bool,
 ) -> str:
+    # On first run there's no prior baseline, so net_new == total_this_week for everyone.
+    # In that case ignore WoW % (it's always 100%) and score purely on absolute count.
+    if is_first_run:
+        if total_this_week >= HOT_MIN_NET_NEW and (has_director or total_this_week >= 10):
+            return TIER_HOT
+        if total_this_week > 0:
+            return TIER_WARM
+        return TIER_QUIET
+
     if (
         net_new >= HOT_MIN_NET_NEW
         or wow_pct >= HOT_MIN_PCT
@@ -379,9 +389,11 @@ def run_pipeline() -> None:
 
     # Load prior state
     prior_state = load_state()
+    is_first_run = len(prior_state) == 0
     log.info(
-        "Prior state loaded: %d companies tracked",
+        "Prior state loaded: %d companies tracked%s",
         len(prior_state),
+        " (first run — using absolute count scoring)" if is_first_run else "",
     )
 
     # ---- Query TheirStack (batch) ----
@@ -453,7 +465,7 @@ def run_pipeline() -> None:
         gpu_signal = len(gpu_jobs_found) > 0
 
         # Score
-        tier = score_account(net_new, wow_pct, has_director, total_this_week)
+        tier = score_account(net_new, wow_pct, has_director, total_this_week, is_first_run)
 
         # Notable signal text
         notable = build_notable_signal(net_new, has_director, gpu_signal, total_this_week)
