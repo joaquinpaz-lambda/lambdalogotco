@@ -169,9 +169,12 @@ def query_theirstack_batch(domains: list[str], since_date: str) -> dict[str, lis
             break
 
         for job in jobs:
-            # Match job back to domain
-            company_obj = job.get("company", {}) or {}
-            job_domain = (company_obj.get("domain") or "").lower().strip()
+            # Match job back to domain — TheirStack returns company as dict or string
+            company_raw = job.get("company", {})
+            if isinstance(company_raw, dict):
+                job_domain = (company_raw.get("domain") or "").lower().strip()
+            else:
+                job_domain = str(company_raw or "").lower().strip()
             # Try to match against our requested domains
             matched = False
             for d in domains:
