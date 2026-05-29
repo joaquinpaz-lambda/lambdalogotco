@@ -20,10 +20,11 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout pipeline branch
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          ref: claude/epic-fermi-veqzr
+          fetch-depth: 0
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -39,7 +40,7 @@ jobs:
           THEIRSTACK_API_KEY: ${{ secrets.THEIRSTACK_API_KEY }}
         run: python ml_hires_agent.py
 
-      - name: Commit output and state
+      - name: Commit data to pipeline branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -47,4 +48,22 @@ jobs:
           git add output/ data/ml_hires_state.json docs/data/
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Weekly ML Hires Signal — ${WEEK_OF}"
-          git push
+          git push origin claude/epic-fermi-veqzr
+
+      - name: Publish heatmap.json to main (GitHub Pages)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          WEEK_OF=$(date -u +%Y-%m-%d)
+          # Save the fresh heatmap
+          cp docs/data/heatmap.json /tmp/heatmap.json
+          # Switch to main
+          git fetch origin main
+          git checkout main
+          # Overwrite the heatmap
+          mkdir -p docs/data
+          cp /tmp/heatmap.json docs/data/heatmap.json
+          git add docs/data/heatmap.json
+          git diff --cached --quiet && echo "heatmap unchanged" && exit 0
+          git commit -m "Update ML hires heatmap — ${WEEK_OF}"
+          git push origin main
