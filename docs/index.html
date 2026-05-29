@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ML Hiring Signal — Lambda Labs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Reset & Base ─────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #0a0a0a;
+      --bg-2:        #111111;
+      --bg-3:        #1a1a1a;
+      --bg-4:        #222222;
+      --border:      #2a2a2a;
+      --border-2:    #333333;
+      --text:        #f0f0f0;
+      --text-2:      #a0a0a0;
+      --text-3:      #666666;
+      --green:       #22c55e;
+      --green-dim:   #166534;
+      --green-bg:    rgba(34,197,94,0.08);
+      --green-bg-2:  rgba(34,197,94,0.15);
+      --yellow:      #eab308;
+      --yellow-bg:   rgba(234,179,8,0.08);
+      --yellow-bg-2: rgba(234,179,8,0.15);
+      --purple:      #a855f7;
+      --purple-bg:   rgba(168,85,247,0.12);
+      --orange:      #f97316;
+      --orange-bg:   rgba(249,115,22,0.12);
+      --red:         #ef4444;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Header ──────────────────────────────────────────────────────── */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,10,10,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .wordmark {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.02em;
+      white-space: nowrap;
+    }
+
+    .wordmark .lambda {
+      color: var(--green);
+      font-size: 22px;
+    }
+
+    .header-divider {
+      width: 1px;
+      height: 28px;
+      background: var(--border-2);
+    }
+
+    .header-subtitle {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-2);
+      white-space: nowrap;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .week-badge {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--green);
+      background: var(--green-bg);
+      border: 1px solid rgba(34,197,94,0.2);
+      padding: 4px 10px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+
+    .updated-ts {
+      font-size: 11px;
+      color: var(--text-3);
+      white-space: nowrap;
+    }
+
+    /* ── Summary Strip ───────────────────────────────────────────────── */
+    .summary-strip {
+      background: var(--bg-2);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .stat-chip {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--bg-3);
+    }
+
+    .stat-chip.hot {
+      border-color: rgba(34,197,94,0.3);
+      background: var(--green-bg);
+    }
+
+    .stat-chip.warm {
+      border-color: rgba(234,179,8,0.3);
+      background: var(--yellow-bg);
+    }
+
+    .stat-chip.quiet {
+      border-color: var(--border-2);
+      background: var(--bg-3);
+    }
+
+    .stat-num {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .stat-chip.hot .stat-num  { color: var(--green); }
+    .stat-chip.warm .stat-num { color: var(--yellow); }
+    .stat-chip.quiet .stat-num { color: var(--text-2); }
+
+    .stat-label {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-2);
+    }
+
+    .summary-total {
+      margin-left: auto;
+      font-size: 13px;
+      color: var(--text-3);
+    }
+
+    /* ── Pod Filter ──────────────────────────────────────────────────── */
+    .pod-filter {
+      padding: 14px 24px;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .pod-btn {
+      padding: 7px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--border-2);
+      background: var(--bg-3);
+      color: var(--text-2);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .pod-btn:hover {
+      border-color: var(--green);
+      color: var(--green);
+      background: var(--green-bg);
+    }
+
+    .pod-btn.active {
+      background: var(--green);
+      border-color: var(--green);
+      color: #000;
+      font-weight: 700;
+    }
+
+    /* ── Main Content ────────────────────────────────────────────────── */
+    .content {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 32px 24px 80px;
+    }
+
+    /* ── Section Headers ─────────────────────────────────────────────── */
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .section-title.hot  { color: var(--green); }
+    .section-title.warm { color: var(--yellow); }
+    .section-title.quiet { color: var(--text-3); }
+
+    .section-count {
+      font-size: 13px;
+      color: var(--text-3);
+      font-weight: 400;
+    }
+
+    /* ── Hot Cards Grid ──────────────────────────────────────────────── */
+    .hot-section {
+      margin-bottom: 48px;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 16px;
+    }
+
+    .account-card {
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+
+    .account-card:hover {
+      border-color: var(--green);
+      transform: translateY(-2px);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .card-company {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    .card-subsector {
+      font-size: 12px;
+      color: var(--text-3);
+      margin-top: 2px;
+    }
+
+    .card-ml-count {
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .card-ml-number {
+      font-size: 36px;
+      font-weight: 900;
+      color: var(--green);
+      line-height: 1;
+      letter-spacing: -0.03em;
+    }
+
+    .card-ml-label {
+      font-size: 11px;
+      color: var(--text-3);
+      margin-top: 1px;
+    }
+
+    .card-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .badge {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 20px;
+    }
+
+    .badge-net-new {
+      background: var(--green-bg-2);
+      color: var(--green);
+      border: 1px solid rgba(34,197,94,0.25);
+    }
+
+    .badge-gpu {
+      background: var(--purple-bg);
+      color: var(--purple);
+      border: 1px solid rgba(168,85,247,0.25);
+    }
+
+    .badge-director {
+      background: var(--orange-bg);
+      color: var(--orange);
+      border: 1px solid rgba(249,115,22,0.25);
+    }
+
+    .card-notable {
+      font-size: 13px;
+      color: var(--text-2);
+      line-height: 1.5;
+    }
+
+    .card-top-role {
+      font-size: 12px;
+      color: var(--text-3);
+      font-style: italic;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .cta-btn {
+      display: block;
+      width: 100%;
+      padding: 11px 16px;
+      background: var(--green);
+      color: #000;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 700;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-align: center;
+      transition: background 0.15s ease, transform 0.1s ease;
+      margin-top: auto;
+      text-decoration: none;
+    }
+
+    .cta-btn:hover {
+      background: #16a34a;
+      transform: scale(1.01);
+    }
+
+    /* ── Warm Table ──────────────────────────────────────────────────── */
+    .warm-section {
+      margin-bottom: 48px;
+    }
+
+    .accounts-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .accounts-table th {
+      padding: 12px 16px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-3);
+      background: var(--bg-3);
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .accounts-table th:first-child { padding-left: 20px; }
+    .accounts-table th:last-child  { padding-right: 20px; text-align: right; }
+
+    .accounts-table td {
+      padding: 12px 16px;
+      font-size: 13px;
+      color: var(--text-2);
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+
+    .accounts-table td:first-child { padding-left: 20px; }
+    .accounts-table td:last-child  { padding-right: 20px; text-align: right; }
+
+    .accounts-table tr:last-child td { border-bottom: none; }
+
+    .accounts-table tr:hover td { background: var(--bg-3); }
+
+    .td-company {
+      font-weight: 600;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    .td-subsector {
+      color: var(--text-3);
+      font-size: 12px;
+    }
+
+    .td-roles {
+      font-weight: 700;
+      color: var(--yellow);
+      white-space: nowrap;
+    }
+
+    .td-notable {
+      max-width: 260px;
+      color: var(--text-2);
+    }
+
+    .td-badges {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+    }
+
+    /* ── Quiet Section ───────────────────────────────────────────────── */
+    .quiet-section { margin-bottom: 48px; }
+
+    .quiet-toggle {
+      width: 100%;
+      padding: 14px 20px;
+      background: var(--bg-3);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text-3);
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+
+    .quiet-toggle:hover {
+      color: var(--text-2);
+      border-color: var(--border-2);
+    }
+
+    .quiet-toggle-icon {
+      transition: transform 0.2s ease;
+    }
+
+    .quiet-toggle.open .quiet-toggle-icon {
+      transform: rotate(180deg);
+    }
+
+    .quiet-content {
+      display: none;
+      margin-top: 12px;
+    }
+
+    .quiet-content.visible {
+      display: block;
+    }
+
+    .accounts-table.quiet-table td {
+      color: var(--text-3);
+    }
+
+    .accounts-table.quiet-table .td-company {
+      color: var(--text-2);
+    }
+
+    /* ── Empty / Error States ────────────────────────────────────────── */
+    .empty-state {
+      padding: 64px 24px;
+      text-align: center;
+      color: var(--text-3);
+    }
+
+    .empty-state h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text-2);
+    }
+
+    .empty-state p {
+      font-size: 14px;
+    }
+
+    /* ── No results in filtered view ─────────────────────────────────── */
+    .no-results {
+      padding: 32px 24px;
+      text-align: center;
+      color: var(--text-3);
+      font-size: 14px;
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    /* ── Loading ─────────────────────────────────────────────────────── */
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40vh;
+      gap: 12px;
+      color: var(--text-3);
+      font-size: 14px;
+    }
+
+    .spinner {
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--border-2);
+      border-top-color: var(--green);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Responsive ──────────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .header {
+        padding: 0 16px;
+        height: auto;
+        min-height: 56px;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .wordmark { font-size: 15px; }
+      .wordmark .lambda { font-size: 18px; }
+      .header-subtitle { display: none; }
+      .updated-ts { display: none; }
+
+      .summary-strip { padding: 12px 16px; gap: 8px; }
+      .stat-chip { padding: 8px 12px; }
+      .stat-num { font-size: 18px; }
+
+      .pod-filter { padding: 10px 16px; gap: 6px; }
+      .pod-btn { font-size: 12px; padding: 6px 10px; }
+
+      .content { padding: 20px 16px 60px; }
+
+      .cards-grid { grid-template-columns: 1fr; }
+
+      .accounts-table th:nth-child(3),
+      .accounts-table td:nth-child(3) { display: none; }
+
+      .summary-total { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Header ───────────────────────────────────────────────────────────── -->
+<header class="header">
+  <div class="header-left">
+    <div class="wordmark">
+      <span class="lambda">λ</span> Lambda Labs
+    </div>
+    <div class="header-divider"></div>
+    <div class="header-subtitle">ML Hiring Signal</div>
+  </div>
+  <div class="header-right">
+    <div class="week-badge" id="week-badge">Week of —</div>
+    <div class="updated-ts" id="updated-ts"></div>
+  </div>
+</header>
+
+<!-- ── Summary Strip ────────────────────────────────────────────────────── -->
+<div class="summary-strip" id="summary-strip">
+  <div class="stat-chip hot">
+    <div class="stat-num" id="stat-hot">—</div>
+    <div class="stat-label">🟩 Hot Accounts</div>
+  </div>
+  <div class="stat-chip warm">
+    <div class="stat-num" id="stat-warm">—</div>
+    <div class="stat-label">🟨 Warm Accounts</div>
+  </div>
+  <div class="stat-chip quiet">
+    <div class="stat-num" id="stat-quiet">—</div>
+    <div class="stat-label">⬜ Quiet</div>
+  </div>
+  <div class="summary-total" id="summary-total"></div>
+</div>
+
+<!-- ── Pod Filter ───────────────────────────────────────────────────────── -->
+<div class="pod-filter" id="pod-filter">
+  <button class="pod-btn active" data-pod="all">All Pods</button>
+  <button class="pod-btn" data-pod="POD 1">POD 1 · Capital Markets</button>
+  <button class="pod-btn" data-pod="POD 2">POD 2 · Healthcare</button>
+  <button class="pod-btn" data-pod="POD 3">POD 3 · Manufacturing</button>
+  <button class="pod-btn" data-pod="POD 4">POD 4 · Banking</button>
+  <button class="pod-btn" data-pod="POD 5">POD 5 · Tech &amp; Auto</button>
+  <button class="pod-btn" data-pod="POD 6">POD 6 · Telco &amp; Retail</button>
+  <button class="pod-btn" data-pod="POD 7">POD 7 · Higher Ed</button>
+</div>
+
+<!-- ── Main Content ─────────────────────────────────────────────────────── -->
+<main class="content" id="main-content">
+  <div class="loading" id="loading-state">
+    <div class="spinner"></div>
+    <span>Loading signal data...</span>
+  </div>
+</main>
+
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+let allAccounts = [];
+let activePod = 'all';
+
+// ── Data Loading ───────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch('data/heatmap.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    initApp(data);
+  } catch (err) {
+    console.error('Failed to load heatmap.json:', err);
+    showError();
+  }
+}
+
+function showError() {
+  document.getElementById('main-content').innerHTML = `
+    <div class="empty-state">
+      <h2>No data loaded yet</h2>
+      <p>Run the weekly pipeline first, or serve this page from a web server (not file://).</p>
+    </div>
+  `;
+  document.getElementById('week-badge').textContent = 'No data';
+}
+
+// ── App Init ───────────────────────────────────────────────────────────────
+function initApp(data) {
+  allAccounts = data.accounts || [];
+
+  // Header
+  const weekOf = data.week_of || '';
+  document.getElementById('week-badge').textContent =
+    weekOf ? 'Week of ' + formatDate(weekOf) : 'Week of —';
+
+  if (data.generated_at) {
+    const d = new Date(data.generated_at);
+    document.getElementById('updated-ts').textContent =
+      'Updated ' + d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+  }
+
+  // Summary
+  const sum = data.summary || {};
+  document.getElementById('stat-hot').textContent   = sum.hot   ?? 0;
+  document.getElementById('stat-warm').textContent  = sum.warm  ?? 0;
+  document.getElementById('stat-quiet').textContent = sum.quiet ?? 0;
+  document.getElementById('summary-total').textContent =
+    `${allAccounts.length} companies tracked`;
+
+  // Pod filter
+  setupPodFilter();
+
+  // Render
+  render();
+}
+
+// ── Pod Filter ─────────────────────────────────────────────────────────────
+function setupPodFilter() {
+  document.querySelectorAll('.pod-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activePod = btn.dataset.pod;
+      document.querySelectorAll('.pod-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    });
+  });
+}
+
+function filterAccounts() {
+  if (activePod === 'all') return allAccounts;
+  return allAccounts.filter(a => a.pod && a.pod.startsWith(activePod));
+}
+
+// ── Render ─────────────────────────────────────────────────────────────────
+function render() {
+  const accounts = filterAccounts();
+
+  const hot   = accounts.filter(a => isHot(a));
+  const warm  = accounts.filter(a => isWarm(a));
+  const quiet = accounts.filter(a => isQuiet(a));
+
+  const main = document.getElementById('main-content');
+  main.innerHTML = '';
+
+  // Hot section
+  const hotSection = document.createElement('div');
+  hotSection.className = 'hot-section';
+  hotSection.innerHTML = `
+    <div class="section-header">
+      <h2 class="section-title hot">🟩 ACT NOW — ${hot.length} Hot Account${hot.length !== 1 ? 's' : ''}</h2>
+    </div>
+  `;
+
+  if (hot.length === 0) {
+    hotSection.innerHTML += `<div class="no-results">No hot accounts match this filter.</div>`;
+  } else {
+    const grid = document.createElement('div');
+    grid.className = 'cards-grid';
+    hot.forEach(a => grid.appendChild(buildHotCard(a)));
+    hotSection.appendChild(grid);
+  }
+  main.appendChild(hotSection);
+
+  // Warm section
+  const warmSection = document.createElement('div');
+  warmSection.className = 'warm-section';
+  warmSection.innerHTML = `
+    <div class="section-header">
+      <h2 class="section-title warm">🟨 Monitor — ${warm.length} Trending Account${warm.length !== 1 ? 's' : ''}</h2>
+    </div>
+  `;
+
+  if (warm.length === 0) {
+    warmSection.innerHTML += `<div class="no-results">No warm accounts match this filter.</div>`;
+  } else {
+    warmSection.appendChild(buildWarmTable(warm));
+  }
+  main.appendChild(warmSection);
+
+  // Quiet section
+  const quietSection = document.createElement('div');
+  quietSection.className = 'quiet-section';
+
+  const quietToggle = document.createElement('button');
+  quietToggle.className = 'quiet-toggle';
+  quietToggle.innerHTML = `
+    <span>⬜ Show ${quiet.length} quiet account${quiet.length !== 1 ? 's' : ''}</span>
+    <span class="quiet-toggle-icon">▾</span>
+  `;
+
+  const quietContent = document.createElement('div');
+  quietContent.className = 'quiet-content';
+  if (quiet.length > 0) {
+    quietContent.appendChild(buildQuietTable(quiet));
+  }
+
+  quietToggle.addEventListener('click', () => {
+    const isOpen = quietContent.classList.toggle('visible');
+    quietToggle.classList.toggle('open', isOpen);
+    quietToggle.querySelector('span:first-child').textContent =
+      isOpen
+        ? `⬜ Hide ${quiet.length} quiet account${quiet.length !== 1 ? 's' : ''}`
+        : `⬜ Show ${quiet.length} quiet account${quiet.length !== 1 ? 's' : ''}`;
+  });
+
+  quietSection.appendChild(quietToggle);
+  quietSection.appendChild(quietContent);
+  main.appendChild(quietSection);
+}
+
+// ── Hot Card ───────────────────────────────────────────────────────────────
+function buildHotCard(a) {
+  const card = document.createElement('div');
+  card.className = 'account-card';
+
+  const netNewText = a.net_new > 0 ? `+${a.net_new} this week` : `${a.net_new} WoW`;
+
+  card.innerHTML = `
+    <div class="card-top">
+      <div>
+        <div class="card-company">${esc(a.company)}</div>
+        <div class="card-subsector">${esc(a.subsector || '')}</div>
+      </div>
+      <div class="card-ml-count">
+        <div class="card-ml-number">${a.ml_roles_this_week}</div>
+        <div class="card-ml-label">ML roles</div>
+      </div>
+    </div>
+    <div class="card-badges">
+      ${a.net_new > 0 ? `<span class="badge badge-net-new">+${a.net_new} this week</span>` : ''}
+      ${a.gpu_signal    ? `<span class="badge badge-gpu">⚡ GPU Signal</span>` : ''}
+      ${a.director_count > 0 ? `<span class="badge badge-director">👤 Director+</span>` : ''}
+    </div>
+    <div class="card-notable">${esc(a.notable || '')}</div>
+    <div class="card-top-role" title="${esc(a.top_role || '')}">
+      ${a.top_role && a.top_role !== '—' ? '🎯 ' + esc(a.top_role) : ''}
+    </div>
+    <button class="cta-btn" onclick="handleOutbound('${esc(a.company)}', '${esc(a.domain)}')">
+      Outbound Now →
+    </button>
+  `;
+  return card;
+}
+
+// ── Warm Table ─────────────────────────────────────────────────────────────
+function buildWarmTable(accounts) {
+  const table = document.createElement('table');
+  table.className = 'accounts-table';
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Subsector</th>
+        <th>ML Roles</th>
+        <th>Net New</th>
+        <th>Signals</th>
+        <th>Notable</th>
+      </tr>
+    </thead>
+    <tbody id="warm-tbody"></tbody>
+  `;
+  const tbody = table.querySelector('#warm-tbody');
+  accounts.forEach(a => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>
+        <div class="td-company">${esc(a.company)}</div>
+      </td>
+      <td class="td-subsector">${esc(a.subsector || '')}</td>
+      <td class="td-roles">${a.ml_roles_this_week}</td>
+      <td>${a.net_new > 0 ? `<span class="badge badge-net-new">+${a.net_new}</span>` : a.net_new}</td>
+      <td>
+        <div class="td-badges">
+          ${a.gpu_signal    ? `<span class="badge badge-gpu">⚡ GPU</span>` : ''}
+          ${a.director_count > 0 ? `<span class="badge badge-director">👤 Dir+</span>` : ''}
+        </div>
+      </td>
+      <td class="td-notable">${esc(a.notable || '')}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+  return table;
+}
+
+// ── Quiet Table ────────────────────────────────────────────────────────────
+function buildQuietTable(accounts) {
+  const table = document.createElement('table');
+  table.className = 'accounts-table quiet-table';
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Subsector</th>
+        <th>Pod</th>
+        <th style="text-align:right">ML Roles</th>
+      </tr>
+    </thead>
+    <tbody id="quiet-tbody"></tbody>
+  `;
+  const tbody = table.querySelector('#quiet-tbody');
+  accounts.forEach(a => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="td-company">${esc(a.company)}</td>
+      <td class="td-subsector">${esc(a.subsector || '')}</td>
+      <td class="td-subsector">${esc(a.pod_short || a.pod || '')}</td>
+      <td style="text-align:right;color:var(--text-3)">${a.ml_roles_this_week}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+  return table;
+}
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+function isHot(a)   { return (a.heat || '').includes('Hot');  }
+function isWarm(a)  { return (a.heat || '').includes('Warm'); }
+function isQuiet(a) { return (a.heat || '').includes('Quiet') || (!isHot(a) && !isWarm(a)); }
+
+function esc(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function formatDate(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00Z');
+  return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+}
+
+function handleOutbound(company, domain) {
+  // Opens LinkedIn search for company — seller-friendly shortcut
+  const query = encodeURIComponent(`${company} site:linkedin.com/in`);
+  window.open(`https://www.linkedin.com/company/${encodeURIComponent(domain.replace('.com','').replace('.',''))}`, '_blank');
+}
+
+// ── Boot ────────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>

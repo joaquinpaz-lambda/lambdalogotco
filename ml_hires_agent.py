@@ -28,6 +28,7 @@ BASE_DIR = Path(__file__).parent
 COMPANIES_FILE = BASE_DIR / "companies.json"
 STATE_FILE = BASE_DIR / "data" / "ml_hires_state.json"
 OUTPUT_DIR = BASE_DIR / "output"
+DOCS_DIR = BASE_DIR / "docs"
 
 THEIRSTACK_API_KEY = os.environ.get("THEIRSTACK_API_KEY", "")
 ADZUNA_APP_ID = os.environ.get("ADZUNA_APP_ID", "")
@@ -528,6 +529,12 @@ def run_pipeline() -> None:
     write_excel(rows, output_file, week_of)
     log.info("Excel output: %s", output_file)
 
+    # ---- Write JSON for web app ----
+    generated_at = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    json_path = DOCS_DIR / "data" / "heatmap.json"
+    write_json(rows, json_path, week_of, generated_at)
+    log.info("JSON output: %s", json_path)
+
     # ---- Persist state ----
     save_state(new_state)
 
@@ -539,6 +546,69 @@ def run_pipeline() -> None:
         "Summary — Hot: %d | Warm: %d | Quiet: %d | Total: %d",
         hot_count, warm_count, quiet_count, len(rows),
     )
+
+
+# ---------------------------------------------------------------------------
+# JSON output (for web heatmap)
+# ---------------------------------------------------------------------------
+
+def write_json(rows: list[dict], path: Path, week_of: str, generated_at: str) -> None:
+    """Write heatmap.json for the docs/ web app."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    hot_count   = sum(1 for r in rows if r["tier"] == TIER_HOT)
+    warm_count  = sum(1 for r in rows if r["tier"] == TIER_WARM)
+    quiet_count = sum(1 for r in rows if r["tier"] == TIER_QUIET)
+
+    accounts = []
+    for r in rows:
+        tier = r["tier"]
+        if tier == TIER_HOT:
+            heat = "🟩 Hot"
+        elif tier == TIER_WARM:
+            heat = "🟨 Warm"
+        else:
+            heat = "⬜ Quiet"
+
+        pod = r.get("pod", "")
+        pod_short = pod[:5].strip() if pod else ""
+
+        accounts.append({
+            "heat":               heat,
+            "rank":               r.get("rank", 0),
+            "pod":                pod,
+            "pod_short":          pod_short,
+            "company":            r.get("company", ""),
+            "domain":             r.get("domain", ""),
+            "action":             r.get("action", ""),
+            "net_new":            r.get("net_new", 0),
+            "wow_pct":            round(r.get("wow_pct", 0.0), 1),
+            "notable":            r.get("notable", ""),
+            "ml_roles_this_week": r.get("total_this_week", 0),
+            "ml_roles_last_week": r.get("total_last_week", 0),
+            "high_signal":        r.get("high_signal", "") == "Yes",
+            "director_count":     r.get("director_count", 0),
+            "gpu_signal":         bool(r.get("gpu_display", "")),
+            "top_role":           r.get("top_role", "—"),
+            "subsector":          r.get("subsector", ""),
+            "revenue":            r.get("revenue", 0),
+            "sources":            r.get("sources", ""),
+            "week_of":            week_of,
+        })
+
+    payload = {
+        "week_of":      week_of,
+        "generated_at": generated_at,
+        "summary": {
+            "hot":   hot_count,
+            "warm":  warm_count,
+            "quiet": quiet_count,
+        },
+        "accounts": accounts,
+    }
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
 
 
 # ---------------------------------------------------------------------------

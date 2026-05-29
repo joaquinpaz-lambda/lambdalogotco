@@ -44,7 +44,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           WEEK_OF=$(date -u +%Y-%m-%d)
-          git add output/ data/ml_hires_state.json
+          git add output/ data/ml_hires_state.json docs/data/
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Weekly ML Hires Signal — ${WEEK_OF}"
           git push
