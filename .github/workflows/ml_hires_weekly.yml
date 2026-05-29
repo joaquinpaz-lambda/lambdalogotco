@@ -2,7 +2,6 @@ name: ML Hires Signal — Weekly Run
 
 on:
   schedule:
-    # Every Sunday at 11pm UTC
     - cron: "0 23 * * 0"
   workflow_dispatch:
     inputs:
