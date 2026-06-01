@@ -1,562 +1,708 @@
 {
   "capitalone.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "amazon.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "nvidia.com": {
-    "count": 20,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "oracle.com": {
-    "count": 5,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "disney.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "microsoft.com": {
-    "count": 6,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "lilly.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "uber.com": {
-    "count": 7,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "jhu.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "thermofisher.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "ford.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "merck.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "tamu.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "northropgrumman.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "jpmorganchase.com": {
-    "count": 19,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "meta.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "target.com": {
-    "count": 3,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "stanford.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "duke.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "morganstanley.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "moodys.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "unitedhealthgroup.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "jnj.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "pfizer.com": {
-    "count": 3,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "prudential.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "visa.com": {
-    "count": 8,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "paypal.com": {
-    "count": 1,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "apple.com": {
-    "count": 13,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "intel.com": {
-    "count": 4,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "walmart.com": {
-    "count": 8,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "columbia.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "cornell.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "gatech.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "ufl.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "ameriprise.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "apollo.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "bnymellon.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "blackrock.com": {
     "count": 3,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": [
+      "vp, ai platform engineering",
+      "alpha generation applied ai engineer, vice president",
+      "ai engineer, aladdin quality engineering, vice president"
+    ]
   },
   "blackstone.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "bn.brookfield.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "schwab.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "franklinresources.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "goldmansachs.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "ice.com": {
-    "count": 1,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "jefferies.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "kkr.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "lpl.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "northerntrust.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "raymondjames.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "spglobal.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "statestreet.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "troweprice.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "abbott.com": {
-    "count": 1,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "abbvie.com": {
-    "count": 3,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "amgen.com": {
-    "count": 3,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "bms.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "cardinalhealth.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "cencora.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "centene.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "cigna.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "cvshealth.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "elevancehealth.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "gilead.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "hcahealthcare.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "humana.com": {
-    "count": 3,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "mckesson.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "3m.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "boeing.com": {
-    "count": 1,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "carrier.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "caterpillar.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "cummins.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "deere.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "eaton.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "emerson.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "gevernova.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "gd.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "ge.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "honeywell.com": {
-    "count": 3,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "jacobs.com": {
-    "count": 2,
-    "week_of": "2026-05-29"
+    "count": 1,
+    "week_of": "2026-06-01",
+    "job_keys": [
+      "senior ai/data platform engineer (snowflake, genai)"
+    ]
   },
   "l3harris.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "lockheedmartin.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "paccar.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "parker.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "rtx.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "tranetechnologies.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "aig.com": {
-    "count": 1,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "allstate.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "americanexpress.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "bankofamerica.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "berkshirehathaway.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "block.xyz": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "chubb.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "citigroup.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "thehartford.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "mastercard.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "metlife.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "progressive.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "travelers.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "usbank.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "wellsfargo.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "abc.xyz": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "broadcom.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "cisco.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "corporate.comcast.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "gm.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "netflix.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "qualcomm.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "salesforce.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "stellantis.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "tesla.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "att.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "bestbuy.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "corporate.charter.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "costco.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "dollargeneral.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "dollartree.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "homedepot.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "kroger.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "lowes.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "paramount.com": {
-    "count": 2,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "pfgc.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "sysco.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "t-mobile.com": {
-    "count": 4,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "tjx.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "usfoods.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "verizon.com": {
-    "count": 3,
-    "week_of": "2026-05-29"
+    "count": 0,
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "walgreensbootsalliance.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "wbd.com": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "harvard.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "osu.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "psu.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "ucla.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "ucsd.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "ucsf.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "umd.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "umich.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "unc.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "upenn.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "washington.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   },
   "wisc.edu": {
     "count": 0,
-    "week_of": "2026-05-29"
+    "week_of": "2026-06-01",
+    "job_keys": []
   }
 }
