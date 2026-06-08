@@ -1,708 +1,760 @@
 {
   "capitalone.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "amazon.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "nvidia.com": {
-    "count": 0,
-    "week_of": "2026-06-01",
-    "job_keys": []
+    "count": 28,
+    "week_of": "2026-06-08",
+    "job_keys": [
+      "senior software engineer - deep learning compiler ci infrastructure",
+      "senior ml platform engineer",
+      "senior software engineer - developer tools for deep learning",
+      "senior deep learning scientist, speech synthesis",
+      "senior deep learning hardware modeling architect - lpu",
+      "senior deep learning algorithms engineer - bionemo",
+      "senior machine learning engineer, perception - autonomous driving",
+      "machine learning intern, humanoid robotics - 2026",
+      "research scientist, electronic design automation - new college grad 2026",
+      "senior software engineer, dgx cloud ai infrastructure",
+      "senior software engineer - verification ai infrastructure",
+      "research scientist, 3d computer vision",
+      "senior applied machine learning engineer - vlsi design",
+      "senior ai infrastructure engineer - dgx cloud",
+      "senior solutions architect, physical ai, generative ai and physical ai at nvaitc",
+      "senior applied ai and ai infrastructure engineer - chip design and dfx",
+      "senior software ai engineer, llm solutions",
+      "software engineer, dgx cloud ai infrastructure",
+      "senior software engineer, generative ai research",
+      "senior cuda test development software engineer, sdet",
+      "machine learning intern - 2026",
+      "senior performance engineer - llm inference frameworks",
+      "applied ai engineer - vlsi design",
+      "senior asic ai engineer",
+      "deep learning performance software engineer",
+      "senior research scientist",
+      "deep learning performance architect, cutlass dsl",
+      "deep learning computer architect - new college grad 2026"
+    ]
   },
   "oracle.com": {
-    "count": 0,
-    "week_of": "2026-06-01",
-    "job_keys": []
+    "count": 10,
+    "week_of": "2026-06-08",
+    "job_keys": [
+      "principal member of technical staff, ai infrastructure",
+      "senior software developer - oracle health, ai platform engineering",
+      "principal software developer - oracle health, ai platform engineering",
+      "senior principal applied scientist",
+      "senior principal applied scientist",
+      "architect, agentic - ai infrastructure",
+      "senior research scientist- rwe/harm reduction",
+      "principal tpm \u2013 ai infrastructure",
+      "principal tpm  \u2013 ai infrastructure",
+      "principal machine learning engineer"
+    ]
   },
   "disney.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "microsoft.com": {
-    "count": 0,
-    "week_of": "2026-06-01",
-    "job_keys": []
+    "count": 11,
+    "week_of": "2026-06-08",
+    "job_keys": [
+      "senior technical program manager - core ai platform",
+      "senior data scientist - fde",
+      "principal technical program manager- ai infrastructure",
+      "data scientist",
+      "senior applied scientist",
+      "senior business manager - ai infrastructure",
+      "ai for science residency - machine learning resident",
+      "principal applied scientist - auction & bidding",
+      "data scientist - pricing",
+      "senior applied scientist and principal applied scientist",
+      "principal data scientist - ise"
+    ]
   },
   "lilly.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "uber.com": {
-    "count": 0,
-    "week_of": "2026-06-01",
-    "job_keys": []
+    "count": 5,
+    "week_of": "2026-06-08",
+    "job_keys": [
+      "machine learning engineer ii - av labs",
+      "engineering manager ii, machine learning - rider pricing & incentives",
+      "senior manager, technical program management, genai",
+      "staff machine learning engineer, rider pricing & incentives",
+      "senior machine learning engineer| uber direct"
+    ]
   },
   "jhu.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "thermofisher.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "ford.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "merck.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "tamu.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "northropgrumman.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "jpmorganchase.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "meta.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "target.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "stanford.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "duke.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "morganstanley.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "moodys.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "unitedhealthgroup.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "jnj.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "pfizer.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "prudential.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "visa.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "paypal.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "apple.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "intel.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "walmart.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "columbia.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "cornell.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "gatech.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "ufl.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "ameriprise.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "apollo.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "bnymellon.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "blackrock.com": {
-    "count": 3,
-    "week_of": "2026-06-01",
-    "job_keys": [
-      "vp, ai platform engineering",
-      "alpha generation applied ai engineer, vice president",
-      "ai engineer, aladdin quality engineering, vice president"
-    ]
+    "count": 0,
+    "week_of": "2026-06-08",
+    "job_keys": []
   },
   "blackstone.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "bn.brookfield.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "schwab.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "franklinresources.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "goldmansachs.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "ice.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "jefferies.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "kkr.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "lpl.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "northerntrust.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "raymondjames.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "spglobal.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "statestreet.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "troweprice.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "abbott.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "abbvie.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "amgen.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "bms.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "cardinalhealth.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "cencora.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "centene.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "cigna.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "cvshealth.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "elevancehealth.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "gilead.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "hcahealthcare.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "humana.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "mckesson.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "3m.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "boeing.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "carrier.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "caterpillar.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "cummins.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "deere.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "eaton.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "emerson.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "gevernova.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "gd.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "ge.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "honeywell.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "jacobs.com": {
-    "count": 1,
-    "week_of": "2026-06-01",
-    "job_keys": [
-      "senior ai/data platform engineer (snowflake, genai)"
-    ]
+    "count": 0,
+    "week_of": "2026-06-08",
+    "job_keys": []
   },
   "l3harris.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "lockheedmartin.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "paccar.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "parker.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "rtx.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "tranetechnologies.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "aig.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "allstate.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "americanexpress.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "bankofamerica.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "berkshirehathaway.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "block.xyz": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "chubb.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "citigroup.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "thehartford.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "mastercard.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "metlife.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "progressive.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "travelers.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "usbank.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "wellsfargo.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "abc.xyz": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "broadcom.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "cisco.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "corporate.comcast.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "gm.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "netflix.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "qualcomm.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "salesforce.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "stellantis.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "tesla.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "att.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "bestbuy.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "corporate.charter.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "costco.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "dollargeneral.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "dollartree.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "homedepot.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "kroger.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "lowes.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "paramount.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "pfgc.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "sysco.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "t-mobile.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "tjx.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "usfoods.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "verizon.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "walgreensbootsalliance.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "wbd.com": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "harvard.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "osu.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "psu.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "ucla.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "ucsd.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "ucsf.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "umd.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "umich.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "unc.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "upenn.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "washington.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   },
   "wisc.edu": {
     "count": 0,
-    "week_of": "2026-06-01",
+    "week_of": "2026-06-08",
     "job_keys": []
   }
 }
