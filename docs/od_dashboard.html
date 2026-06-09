@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Named Account OD Dashboard — Lambda Labs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #0a0a0a;
+      --bg-2:        #111111;
+      --bg-3:        #1a1a1a;
+      --bg-4:        #222222;
+      --border:      #2a2a2a;
+      --border-2:    #333333;
+      --text:        #f0f0f0;
+      --text-2:      #a0a0a0;
+      --text-3:      #666666;
+      --green:       #22c55e;
+      --green-dim:   #166534;
+      --green-bg:    rgba(34,197,94,0.08);
+      --green-bg-2:  rgba(34,197,94,0.15);
+      --yellow:      #eab308;
+      --yellow-bg:   rgba(234,179,8,0.08);
+      --yellow-bg-2: rgba(234,179,8,0.15);
+      --purple:      #a855f7;
+      --purple-bg:   rgba(168,85,247,0.12);
+      --orange:      #f97316;
+      --orange-bg:   rgba(249,115,22,0.12);
+      --red:         #ef4444;
+      --red-bg:      rgba(239,68,68,0.10);
+      --blue:        #3b82f6;
+      --blue-bg:     rgba(59,130,246,0.10);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Header ─────────────────────────────────────────────────────── */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,10,10,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .header-left { display: flex; align-items: center; gap: 16px; }
+
+    .wordmark { font-size: 18px; font-weight: 700; color: #fff; letter-spacing: -0.02em; white-space: nowrap; }
+    .wordmark .lambda { color: var(--green); }
+
+    .header-divider { width: 1px; height: 24px; background: var(--border-2); }
+
+    .header-title { font-size: 14px; font-weight: 500; color: var(--text-2); white-space: nowrap; }
+
+    .header-right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+
+    .run-badge {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-3);
+      background: var(--bg-3);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 4px 10px;
+      white-space: nowrap;
+    }
+
+    /* ── Filters bar ─────────────────────────────────────────────────── */
+    .filters {
+      background: var(--bg-2);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .filter-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .filter-label { font-size: 11px; font-weight: 600; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.06em; white-space: nowrap; }
+
+    .chip {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border-2);
+      background: var(--bg-3);
+      color: var(--text-2);
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+      user-select: none;
+    }
+    .chip:hover { border-color: var(--green-dim); color: var(--text); }
+    .chip.active { background: var(--green-bg-2); border-color: var(--green); color: var(--green); }
+
+    .search-wrap { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+    .search-input {
+      font-family: inherit;
+      font-size: 13px;
+      background: var(--bg-3);
+      border: 1px solid var(--border-2);
+      border-radius: 8px;
+      color: var(--text);
+      padding: 6px 12px;
+      width: 220px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .search-input::placeholder { color: var(--text-3); }
+    .search-input:focus { border-color: var(--green-dim); }
+
+    /* ── Summary bar ─────────────────────────────────────────────────── */
+    .summary {
+      padding: 16px 24px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .stat {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .stat-val { font-size: 22px; font-weight: 700; color: var(--text); letter-spacing: -0.03em; }
+    .stat-val.green { color: var(--green); }
+    .stat-label { font-size: 11px; font-weight: 500; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.06em; }
+
+    .summary-divider { width: 1px; background: var(--border); align-self: stretch; }
+
+    /* ── Main content ────────────────────────────────────────────────── */
+    .content { padding: 24px; }
+
+    /* ── Seller section ──────────────────────────────────────────────── */
+    .seller-section { margin-bottom: 32px; }
+
+    .seller-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .seller-name { font-size: 16px; font-weight: 700; color: var(--text); }
+
+    .seller-stats {
+      display: flex;
+      gap: 16px;
+      margin-left: auto;
+    }
+
+    .seller-stat { font-size: 12px; color: var(--text-3); }
+    .seller-stat span { color: var(--text-2); font-weight: 600; }
+
+    /* ── Account block ───────────────────────────────────────────────── */
+    .account-block {
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .account-header {
+      display: grid;
+      grid-template-columns: 1fr auto auto auto auto;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .account-header:hover { background: var(--bg-3); }
+
+    .account-header.expanded { border-bottom: 1px solid var(--border); }
+
+    .acct-name-wrap { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+    .acct-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .acct-meta { font-size: 11px; color: var(--text-3); }
+
+    .acct-spend {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--green);
+      white-space: nowrap;
+      min-width: 80px;
+      text-align: right;
+    }
+
+    .acct-activity {
+      font-size: 11px;
+      color: var(--text-3);
+      white-space: nowrap;
+      min-width: 90px;
+      text-align: right;
+    }
+    .acct-activity.stale { color: var(--orange); }
+    .acct-activity.very-stale { color: var(--red); }
+
+    .tag-badge {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 5px;
+      white-space: nowrap;
+      letter-spacing: 0.03em;
+    }
+    .tag-1 { background: var(--green-bg-2);  color: var(--green);  border: 1px solid var(--green-dim); }
+    .tag-2 { background: var(--purple-bg);   color: var(--purple); border: 1px solid rgba(168,85,247,0.3); }
+    .tag-3 { background: var(--red-bg);      color: var(--red);    border: 1px solid rgba(239,68,68,0.3); }
+    .tag-4 { background: var(--yellow-bg-2); color: var(--yellow); border: 1px solid rgba(234,179,8,0.3); }
+    .tag-5 { background: var(--bg-4);        color: var(--text-3); border: 1px solid var(--border-2); }
+    .tag-none { background: var(--bg-4);     color: var(--text-3); border: 1px solid var(--border-2); }
+
+    .sfdc-link {
+      font-size: 11px;
+      color: var(--blue);
+      text-decoration: none;
+      white-space: nowrap;
+      opacity: 0.7;
+      transition: opacity 0.15s;
+    }
+    .sfdc-link:hover { opacity: 1; text-decoration: underline; }
+
+    .expand-icon {
+      font-size: 12px;
+      color: var(--text-3);
+      transition: transform 0.2s;
+      min-width: 16px;
+      text-align: center;
+    }
+    .expand-icon.open { transform: rotate(90deg); }
+
+    /* ── User rows ───────────────────────────────────────────────────── */
+    .user-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .user-table thead th {
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text-3);
+      padding: 8px 16px;
+      text-align: left;
+      background: var(--bg-3);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .user-table tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s;
+    }
+    .user-table tbody tr:last-child { border-bottom: none; }
+    .user-table tbody tr:hover { background: var(--bg-3); }
+
+    .user-table td {
+      font-size: 12px;
+      color: var(--text-2);
+      padding: 9px 16px;
+      vertical-align: middle;
+    }
+
+    .user-email { font-family: 'Courier New', monospace; font-size: 11px; color: var(--text-2); }
+    .gpu-badge {
+      font-size: 10px;
+      font-weight: 600;
+      background: var(--bg-4);
+      border: 1px solid var(--border-2);
+      border-radius: 4px;
+      padding: 2px 6px;
+      color: var(--text-3);
+      white-space: nowrap;
+    }
+
+    .spend-cell { font-weight: 600; color: var(--text); }
+
+    /* ── Empty / loading states ──────────────────────────────────────── */
+    .state-msg {
+      text-align: center;
+      padding: 80px 24px;
+      color: var(--text-3);
+      font-size: 14px;
+    }
+    .state-msg .big { font-size: 32px; margin-bottom: 12px; }
+
+    /* ── Responsive ──────────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .filters { padding: 10px 16px; }
+      .content { padding: 16px; }
+      .search-wrap { margin-left: 0; width: 100%; }
+      .search-input { width: 100%; }
+      .account-header { grid-template-columns: 1fr auto auto; }
+      .acct-activity, .sfdc-link { display: none; }
+      .header-title { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────────────────────── -->
+<header class="header">
+  <div class="header-left">
+    <div class="wordmark"><span class="lambda">λ</span> Lambda</div>
+    <div class="header-divider"></div>
+    <div class="header-title">Named Account OD Dashboard</div>
+  </div>
+  <div class="header-right">
+    <div class="run-badge" id="runBadge">Loading…</div>
+  </div>
+</header>
+
+<!-- ── Filters ─────────────────────────────────────────────────────────────── -->
+<div class="filters">
+  <div class="filter-group">
+    <span class="filter-label">Seller</span>
+    <div id="sellerFilters"></div>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Tag</span>
+    <div id="tagFilters"></div>
+  </div>
+  <div class="search-wrap">
+    <input class="search-input" id="searchInput" type="search" placeholder="Search accounts, emails…" />
+  </div>
+</div>
+
+<!-- ── Summary ─────────────────────────────────────────────────────────────── -->
+<div class="summary" id="summary">
+  <div class="stat"><div class="stat-val" id="statAccounts">—</div><div class="stat-label">Accounts</div></div>
+  <div class="summary-divider"></div>
+  <div class="stat"><div class="stat-val green" id="statSpend">—</div><div class="stat-label">Total OD Spend</div></div>
+  <div class="summary-divider"></div>
+  <div class="stat"><div class="stat-val" id="statUsers">—</div><div class="stat-label">Users</div></div>
+  <div class="summary-divider"></div>
+  <div class="stat"><div class="stat-val" id="statHighGrowth">—</div><div class="stat-label">High Growth</div></div>
+  <div class="summary-divider"></div>
+  <div class="stat"><div class="stat-val" id="stat1cc">—</div><div class="stat-label">1CC Candidates</div></div>
+</div>
+
+<!-- ── Content ─────────────────────────────────────────────────────────────── -->
+<main class="content" id="content">
+  <div class="state-msg"><div class="big">⟳</div>Loading dashboard data…</div>
+</main>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────────────
+let allRows = [];
+let activeSellers = new Set();
+let activeTags = new Set();
+let searchQuery = '';
+let expandedAccounts = new Set();
+
+const TAG_LABELS = {
+  '1_High_Growth':   'High Growth',
+  '2_1CC_Candidate': '1CC Candidate',
+  '3_Declining':     'Declining',
+  '4_A100_Migration':'A100 → H100',
+  '5_Abandoned':     'Abandoned',
+  'No_Tag':          'No Tag',
+};
+
+const TAG_CLASS = {
+  '1_High_Growth':   'tag-1',
+  '2_1CC_Candidate': 'tag-2',
+  '3_Declining':     'tag-3',
+  '4_A100_Migration':'tag-4',
+  '5_Abandoned':     'tag-5',
+  'No_Tag':          'tag-none',
+};
+
+// ── Fetch ─────────────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch('data/od_dashboard.json?_=' + Date.now());
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    allRows = data.rows || [];
+
+    document.getElementById('runBadge').textContent = 'Updated ' + (data.run_date || '—');
+
+    buildFilters();
+    render();
+  } catch (e) {
+    document.getElementById('content').innerHTML =
+      '<div class="state-msg"><div class="big">⚠</div>Could not load dashboard data.<br><small>' + e + '</small></div>';
+  }
+}
+
+// ── Filters ───────────────────────────────────────────────────────────────────
+function buildFilters() {
+  const sellers = [...new Set(allRows.map(r => r.seller_name).filter(Boolean))].sort();
+  const tags    = [...new Set(allRows.map(r => r.behavioral_tag))].sort();
+
+  const sellerWrap = document.getElementById('sellerFilters');
+  sellerWrap.innerHTML = '';
+  sellers.forEach(s => {
+    const chip = makeChip(s.split(' ')[0], () => toggleFilter(activeSellers, s, chip, render));
+    sellerWrap.appendChild(chip);
+  });
+
+  const tagWrap = document.getElementById('tagFilters');
+  tagWrap.innerHTML = '';
+  tags.forEach(t => {
+    const chip = makeChip(TAG_LABELS[t] || t, () => toggleFilter(activeTags, t, chip, render));
+    tagWrap.appendChild(chip);
+  });
+}
+
+function makeChip(label, onClick) {
+  const el = document.createElement('span');
+  el.className = 'chip';
+  el.textContent = label;
+  el.addEventListener('click', onClick);
+  return el;
+}
+
+function toggleFilter(set, val, chip, cb) {
+  if (set.has(val)) { set.delete(val); chip.classList.remove('active'); }
+  else              { set.add(val);    chip.classList.add('active'); }
+  cb();
+}
+
+// ── Filter logic ──────────────────────────────────────────────────────────────
+function filteredRows() {
+  const q = searchQuery.toLowerCase();
+  return allRows.filter(r => {
+    if (activeSellers.size > 0 && !activeSellers.has(r.seller_name)) return false;
+    if (activeTags.size    > 0 && !activeTags.has(r.behavioral_tag)) return false;
+    if (q) {
+      const haystack = [r.account_name, r.user_email, r.contact_name, r.account_pod].join(' ').toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+// ── Render ────────────────────────────────────────────────────────────────────
+function render() {
+  const rows = filteredRows();
+  updateSummary(rows);
+
+  // Group: seller → account_name
+  const bySeller = {};
+  rows.forEach(r => {
+    if (!bySeller[r.seller_name]) bySeller[r.seller_name] = {};
+    const key = r.account_name + '|||' + r.sfdc_account_link;
+    if (!bySeller[r.seller_name][key]) bySeller[r.seller_name][key] = [];
+    bySeller[r.seller_name][key].push(r);
+  });
+
+  const content = document.getElementById('content');
+
+  if (rows.length === 0) {
+    content.innerHTML = '<div class="state-msg"><div class="big">🔍</div>No accounts match the current filters.</div>';
+    return;
+  }
+
+  const frag = document.createDocumentFragment();
+
+  Object.entries(bySeller).sort(([a],[b]) => a.localeCompare(b)).forEach(([seller, accounts]) => {
+    const section = document.createElement('div');
+    section.className = 'seller-section';
+
+    const totalSpend = Object.values(accounts).flat().reduce((s,r) => {
+      // sum unique account spends (account_od_spend is same for all users in account)
+      return s;
+    }, 0);
+
+    // Compute unique account total spend
+    const acctSpendMap = {};
+    Object.values(accounts).flat().forEach(r => {
+      acctSpendMap[r.account_name] = r.account_od_spend;
+    });
+    const sellerTotal = Object.values(acctSpendMap).reduce((a,b) => a+b, 0);
+    const acctCount   = Object.keys(accounts).length;
+    const userCount   = Object.values(accounts).flat().length;
+
+    section.innerHTML = `
+      <div class="seller-header">
+        <div class="seller-name">${esc(seller)}</div>
+        <div class="seller-stats">
+          <div class="seller-stat"><span>${acctCount}</span> accounts</div>
+          <div class="seller-stat"><span>${userCount}</span> users</div>
+          <div class="seller-stat"><span>${fmt$(sellerTotal)}</span> total spend</div>
+        </div>
+      </div>
+    `;
+
+    Object.entries(accounts).forEach(([acctKey, userRows]) => {
+      const rep = userRows[0];
+      const acctId = acctKey;
+      const expanded = expandedAccounts.has(acctId);
+
+      const block = document.createElement('div');
+      block.className = 'account-block';
+
+      const daysAgo = rep.days_since_seller_activity;
+      const actClass = daysAgo > 90 ? 'very-stale' : daysAgo > 30 ? 'stale' : '';
+      const actText  = daysAgo != null ? `${daysAgo}d since activity` : 'No activity logged';
+
+      const tagKey = rep.behavioral_tag || 'No_Tag';
+      const tagLabel = TAG_LABELS[tagKey] || tagKey;
+      const tagCls   = TAG_CLASS[tagKey]  || 'tag-none';
+
+      block.innerHTML = `
+        <div class="account-header${expanded ? ' expanded' : ''}" data-acct="${esc(acctId)}">
+          <div class="acct-name-wrap">
+            <div class="acct-name">${esc(rep.account_name)}</div>
+            <div class="acct-meta">${esc(rep.account_pod || '')}</div>
+          </div>
+          <span class="tag-badge ${tagCls}">${esc(tagLabel)}</span>
+          <div class="acct-spend">${fmt$(rep.account_od_spend)}</div>
+          <div class="acct-activity ${actClass}">${actText}</div>
+          <a class="sfdc-link" href="${esc(rep.sfdc_account_link)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">SFDC ↗</a>
+          <div class="expand-icon${expanded ? ' open' : ''}">▶</div>
+        </div>
+        ${expanded ? buildUserTable(userRows) : ''}
+      `;
+
+      block.querySelector('.account-header').addEventListener('click', () => {
+        if (expandedAccounts.has(acctId)) expandedAccounts.delete(acctId);
+        else expandedAccounts.add(acctId);
+        render();
+      });
+
+      section.appendChild(block);
+    });
+
+    frag.appendChild(section);
+  });
+
+  content.innerHTML = '';
+  content.appendChild(frag);
+}
+
+function buildUserTable(rows) {
+  const thead = `
+    <thead><tr>
+      <th>Email</th>
+      <th>Contact</th>
+      <th>Title</th>
+      <th>GPU</th>
+      <th>First OD</th>
+      <th>Last OD</th>
+      <th>Months</th>
+      <th style="text-align:right">User Spend</th>
+    </tr></thead>`;
+
+  const tbody = rows.map(r => `
+    <tr>
+      <td><span class="user-email">${esc(r.user_email || '—')}</span></td>
+      <td>${esc(r.contact_name || '—')}</td>
+      <td>${esc(r.contact_title || '—')}</td>
+      <td><span class="gpu-badge">${esc(shortGpu(r.primary_gpu_type) || '—')}</span></td>
+      <td>${esc(r.first_od_date || '—')}</td>
+      <td>${esc(r.last_od_date  || '—')}</td>
+      <td>${r.months_active != null ? r.months_active : '—'}</td>
+      <td style="text-align:right" class="spend-cell">${fmt$(r.user_od_spend)}</td>
+    </tr>
+  `).join('');
+
+  return `<table class="user-table">${thead}<tbody>${tbody}</tbody></table>`;
+}
+
+// ── Summary ───────────────────────────────────────────────────────────────────
+function updateSummary(rows) {
+  const accounts   = new Set(rows.map(r => r.account_name)).size;
+  const spendMap   = {};
+  rows.forEach(r => { spendMap[r.account_name] = r.account_od_spend; });
+  const totalSpend = Object.values(spendMap).reduce((a,b) => a+b, 0);
+  const users      = rows.length;
+  const highGrowth = rows.filter(r => r.behavioral_tag === '1_High_Growth').length;
+  const cc1        = rows.filter(r => r.behavioral_tag === '2_1CC_Candidate').length;
+
+  document.getElementById('statAccounts').textContent  = accounts.toLocaleString();
+  document.getElementById('statSpend').textContent     = fmt$(totalSpend);
+  document.getElementById('statUsers').textContent     = users.toLocaleString();
+  document.getElementById('statHighGrowth').textContent= highGrowth.toLocaleString();
+  document.getElementById('stat1cc').textContent       = cc1.toLocaleString();
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function fmt$(n) {
+  if (n == null || isNaN(n)) return '—';
+  if (n >= 1_000_000) return '$' + (n/1_000_000).toFixed(1) + 'M';
+  if (n >= 1_000)     return '$' + Math.round(n/1_000) + 'K';
+  return '$' + Math.round(n);
+}
+
+function shortGpu(s) {
+  if (!s) return null;
+  // e.g. "gpu_8x_h100_sxm5" → "8× H100"
+  const m = s.match(/(\d+)x[_\s]*(h100|a100|a10|h200|b200)/i);
+  if (m) return m[1] + '× ' + m[2].toUpperCase();
+  return s.replace('gpu_', '').replace(/_/g, ' ');
+}
+
+function esc(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+
+// ── Search ────────────────────────────────────────────────────────────────────
+document.getElementById('searchInput').addEventListener('input', e => {
+  searchQuery = e.target.value.trim();
+  render();
+});
+
+// ── Boot ──────────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>

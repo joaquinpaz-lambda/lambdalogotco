@@ -1,0 +1,51 @@
+name: Named Account OD Dashboard — Daily Refresh
+
+on:
+  schedule:
+    # Every day at 6am UTC (overnight US, fresh for morning stand-up)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Reason for manual run"
+        required: false
+        default: "Manual trigger"
+
+jobs:
+  refresh-od-dashboard:
+    name: Refresh OD Dashboard Data
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install google-cloud-bigquery google-auth
+
+      - name: Run OD Dashboard Agent
+        env:
+          BIGQUERY_CREDENTIALS: ${{ secrets.BIGQUERY_CREDENTIALS }}
+        run: python od_dashboard_agent.py
+
+      - name: Commit updated data to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          RUN_DATE=$(date -u +%Y-%m-%d)
+          git add docs/data/od_dashboard.json
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Update OD dashboard data — ${RUN_DATE}"
+          git push origin main
