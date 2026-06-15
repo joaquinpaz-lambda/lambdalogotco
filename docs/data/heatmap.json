@@ -1,543 +1,15 @@
 {
-  "week_of": "2026-06-08",
-  "generated_at": "2026-06-08T00:08:06Z",
+  "week_of": "2026-06-15",
+  "generated_at": "2026-06-15T00:08:15Z",
   "summary": {
-    "hot": 4,
+    "hot": 0,
     "warm": 0,
-    "quiet": 136
+    "quiet": 140
   },
   "accounts": [
     {
-      "heat": "🟩 Hot",
-      "rank": 1,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "NVIDIA Corporation",
-      "domain": "nvidia.com",
-      "action": "Outbound Now — High ML Signal",
-      "net_new": 28,
-      "wow_pct": 100.0,
-      "notable": "GPU/inference signal; +28 new ML roles WoW",
-      "ml_roles_this_week": 28,
-      "ml_roles_last_week": 0,
-      "high_signal": true,
-      "director_count": 0,
-      "gpu_signal": true,
-      "top_role": "Senior Software Engineer - Deep Learning Compiler CI Infrastructure",
-      "subsector": "Semiconductors",
-      "revenue": 130497,
-      "sources": "TheirStack",
-      "week_of": "2026-06-08",
-      "jobs": [
-        {
-          "title": "Senior Software Engineer - Deep Learning Compiler CI Infrastructure",
-          "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-deep-learning-compiler-ci-infrastructure-at-nvidia-4424635376",
-          "date_posted": "2026-06-06",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior ML Platform Engineer",
-          "url": "https://www.linkedin.com/jobs/view/senior-ml-platform-engineer-at-nvidia-4424635374",
-          "date_posted": "2026-06-06",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Software Engineer - Developer Tools for Deep Learning",
-          "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-developer-tools-for-deep-learning-at-nvidia-4424628403",
-          "date_posted": "2026-06-06",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Deep Learning Scientist, Speech Synthesis",
-          "url": "https://vn.linkedin.com/jobs/view/senior-deep-learning-scientist-speech-synthesis-at-nvidia-4404474848",
-          "date_posted": "2026-06-05",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Deep Learning Hardware Modeling Architect - LPU",
-          "url": "https://www.linkedin.com/jobs/view/senior-deep-learning-hardware-modeling-architect-lpu-at-nvidia-4424472627",
-          "date_posted": "2026-06-05",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Deep Learning Algorithms Engineer - BioNeMo",
-          "url": "https://vn.linkedin.com/jobs/view/senior-deep-learning-algorithms-engineer-bionemo-at-nvidia-4404480761",
-          "date_posted": "2026-06-05",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Machine Learning Engineer, Perception - Autonomous Driving",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Machine-Learning-Engineer--Perception---Autonomous-Driving_JR2018915",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Machine Learning Intern, Humanoid Robotics - 2026",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Machine-Learning-Intern--Humanoid-Robotics---2026_JR2018845",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": false
-        },
-        {
-          "title": "Research Scientist, Electronic Design Automation - New College Grad 2026",
-          "url": "https://www.linkedin.com/jobs/view/research-scientist-electronic-design-automation-new-college-grad-2026-at-nvidia-4424323406",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Software Engineer, DGX Cloud AI Infrastructure",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-AI-Infrastructure_JR2019246",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Software Engineer - Verification AI Infrastructure",
-          "url": "https://il.linkedin.com/jobs/view/senior-software-engineer-verification-ai-infrastructure-at-nvidia-4404240285",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Research Scientist, 3D Computer Vision",
-          "url": "https://ch.linkedin.com/jobs/view/research-scientist-3d-computer-vision-at-nvidia-4404480766",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Applied Machine Learning Engineer - VLSI Design",
-          "url": "https://www.linkedin.com/jobs/view/senior-applied-machine-learning-engineer-vlsi-design-at-nvidia-4424341333",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior AI Infrastructure Engineer - DGX Cloud",
-          "url": "https://www.linkedin.com/jobs/view/senior-ai-infrastructure-engineer-dgx-cloud-at-nvidia-4424478488",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Solutions Architect, Physical AI, Generative AI and Physical AI at NVAITC",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Germany-Munich/Senior-Solutions-Architect--Physical-AI--Generative-AI-and-Physical-AI-at-NVAITC_JR2017605",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Applied AI and AI Infrastructure Engineer - Chip Design and DFX",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Applied-AI-and-AI-Infrastructure-Engineer---Chip-Design-and-DFX_JR2018256",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Software AI Engineer, LLM Solutions",
-          "url": "https://il.linkedin.com/jobs/view/senior-software-ai-engineer-llm-solutions-at-nvidia-4404230536",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Software Engineer, DGX Cloud AI Infrastructure",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DGX-Cloud-AI-Infrastructure_JR2019248",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Software Engineer, Generative AI Research",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Generative-AI-Research_JR2010593",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": false
-        },
-        {
-          "title": "Senior CUDA Test Development Software Engineer, SDET",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-CUDA-Test-Development-Software-Engineer--SDET_JR2019136",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Machine Learning Intern - 2026",
-          "url": "https://hk.linkedin.com/jobs/view/machine-learning-intern-2026-at-nvidia-4403674523",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Performance Engineer - LLM Inference Frameworks",
-          "url": "https://il.linkedin.com/jobs/view/senior-performance-engineer-llm-inference-frameworks-at-nvidia-4403682419",
-          "date_posted": "2026-06-02",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Applied AI Engineer - VLSI Design",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-AI-Engineer---VLSI-Design_JR2019190",
-          "date_posted": "2026-06-02",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior ASIC AI Engineer",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-ASIC-AI-Engineer_JR2019195",
-          "date_posted": "2026-06-02",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Deep Learning Performance Software Engineer",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Performance-Software-Engineer_JR2018878",
-          "date_posted": "2026-06-01",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Research Scientist",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Germany-Remote/Senior-Research-Scientist_JR2019164-1",
-          "date_posted": "2026-06-01",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Deep Learning Performance Architect, CUTLASS DSL",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Performance-Architect--CUTLASS-DSL_JR2018773",
-          "date_posted": "2026-06-01",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Deep Learning Computer Architect - New College Grad 2026",
-          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Deep-Learning-Computer-Architect---New-College-Grad-2026_JR2019178",
-          "date_posted": "2026-06-01",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        }
-      ]
-    },
-    {
-      "heat": "🟩 Hot",
-      "rank": 2,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Microsoft Corporation",
-      "domain": "microsoft.com",
-      "action": "Outbound Now — High ML Signal",
-      "net_new": 11,
-      "wow_pct": 100.0,
-      "notable": "Director+ hiring; GPU/inference signal; +11 new ML roles WoW",
-      "ml_roles_this_week": 11,
-      "ml_roles_last_week": 0,
-      "high_signal": true,
-      "director_count": 4,
-      "gpu_signal": true,
-      "top_role": "Principal Technical Program Manager- AI Infrastructure",
-      "subsector": "Software",
-      "revenue": 245122,
-      "sources": "TheirStack",
-      "week_of": "2026-06-08",
-      "jobs": [
-        {
-          "title": "Senior Technical Program Manager - Core AI Platform",
-          "url": "https://www.linkedin.com/jobs/view/senior-technical-program-manager-core-ai-platform-at-microsoft-4397445924",
-          "date_posted": "2026-06-07",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Data Scientist - FDE",
-          "url": "https://nl.linkedin.com/jobs/view/senior-data-scientist-fde-at-microsoft-4425113413",
-          "date_posted": "2026-06-06",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": false
-        },
-        {
-          "title": "Principal Technical Program Manager- AI Infrastructure",
-          "url": "https://www.linkedin.com/jobs/view/principal-technical-program-manager-ai-infrastructure-at-microsoft-4425115393",
-          "date_posted": "2026-06-06",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": true
-        },
-        {
-          "title": "Data Scientist",
-          "url": "https://www.linkedin.com/jobs/view/data-scientist-at-microsoft-4396586712",
-          "date_posted": "2026-06-05",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Applied Scientist",
-          "url": "https://in.linkedin.com/jobs/view/senior-applied-scientist-at-microsoft-4414592447",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Business Manager - AI Infrastructure",
-          "url": "https://apply.careers.microsoft.com/careers/job/1970393556872936?domain=microsoft.com&utm_source=indeed",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": false
-        },
-        {
-          "title": "AI for Science Residency - Machine Learning Resident",
-          "url": "https://de.linkedin.com/jobs/view/ai-for-science-residency-machine-learning-resident-at-microsoft-4422953074",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Principal Applied Scientist - Auction & Bidding",
-          "url": "https://www.linkedin.com/jobs/view/principal-applied-scientist-auction-bidding-at-microsoft-4393534746",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": true
-        },
-        {
-          "title": "Data Scientist - Pricing",
-          "url": "https://apply.careers.microsoft.com/careers/job/1970393556872454?domain=microsoft.com&utm_source=indeed",
-          "date_posted": "2026-06-02",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Applied Scientist and Principal Applied Scientist",
-          "url": "https://apply.careers.microsoft.com/careers/job/1970393556872450?domain=microsoft.com&utm_source=indeed",
-          "date_posted": "2026-06-02",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": false
-        },
-        {
-          "title": "Principal Data Scientist - ISE",
-          "url": "https://uk.linkedin.com/jobs/view/principal-data-scientist-ise-at-microsoft-4422401509",
-          "date_posted": "2026-06-02",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": false
-        }
-      ]
-    },
-    {
-      "heat": "🟩 Hot",
-      "rank": 3,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Oracle Corporation",
-      "domain": "oracle.com",
-      "action": "Outbound Now — High ML Signal",
-      "net_new": 10,
-      "wow_pct": 100.0,
-      "notable": "Director+ hiring; GPU/inference signal; +10 new ML roles WoW",
-      "ml_roles_this_week": 10,
-      "ml_roles_last_week": 0,
-      "high_signal": true,
-      "director_count": 7,
-      "gpu_signal": true,
-      "top_role": "Principal Member of Technical Staff, AI Infrastructure",
-      "subsector": "Software / Cloud",
-      "revenue": 52961,
-      "sources": "TheirStack",
-      "week_of": "2026-06-08",
-      "jobs": [
-        {
-          "title": "Principal Member of Technical Staff, AI Infrastructure",
-          "url": "https://www.linkedin.com/jobs/view/principal-member-of-technical-staff-ai-infrastructure-at-oracle-4353092590",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Software Developer - Oracle Health, AI Platform Engineering",
-          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335829",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": false
-        },
-        {
-          "title": "Principal Software Developer - Oracle Health, AI Platform Engineering",
-          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335828",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": false
-        },
-        {
-          "title": "Senior Principal Applied Scientist",
-          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335774",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": false
-        },
-        {
-          "title": "Senior Principal Applied Scientist",
-          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/335774",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": false
-        },
-        {
-          "title": "Architect, Agentic - AI Infrastructure",
-          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335772",
-          "date_posted": "2026-06-04",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": false
-        },
-        {
-          "title": "Senior Research Scientist- RWE/Harm Reduction",
-          "url": "https://www.linkedin.com/jobs/view/senior-research-scientist-rwe-harm-reduction-at-oracle-4401682107",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": false
-        },
-        {
-          "title": "Principal TPM – AI Infrastructure",
-          "url": "https://www.linkedin.com/jobs/view/principal-tpm-%E2%80%93-ai-infrastructure-at-oracle-4420153395",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": true
-        },
-        {
-          "title": "Principal TPM  – AI Infrastructure",
-          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/331129",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": true
-        },
-        {
-          "title": "Principal Machine Learning Engineer",
-          "url": "https://www.linkedin.com/jobs/view/principal-machine-learning-engineer-at-oracle-4419263437",
-          "date_posted": "2026-06-02",
-          "is_new": true,
-          "is_director": true,
-          "has_gpu": true
-        }
-      ]
-    },
-    {
-      "heat": "🟩 Hot",
-      "rank": 4,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Uber Technologies",
-      "domain": "uber.com",
-      "action": "Outbound Now — High ML Signal",
-      "net_new": 5,
-      "wow_pct": 100.0,
-      "notable": "GPU/inference signal; +5 new ML roles WoW",
-      "ml_roles_this_week": 5,
-      "ml_roles_last_week": 0,
-      "high_signal": true,
-      "director_count": 0,
-      "gpu_signal": true,
-      "top_role": "Engineering Manager II, Machine Learning - Rider Pricing & Incentives",
-      "subsector": "Mobility / Delivery",
-      "revenue": 43970,
-      "sources": "TheirStack",
-      "week_of": "2026-06-08",
-      "jobs": [
-        {
-          "title": "Machine Learning Engineer II - AV Labs",
-          "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-ii-av-labs-at-uber-4406111687",
-          "date_posted": "2026-06-06",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": false
-        },
-        {
-          "title": "Engineering Manager II, Machine Learning - Rider Pricing & Incentives",
-          "url": "https://www.linkedin.com/jobs/view/engineering-manager-ii-machine-learning-rider-pricing-incentives-at-uber-4424718385",
-          "date_posted": "2026-06-05",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Manager, Technical Program Management, GenAI",
-          "url": "https://tnl2.jometer.com/v2/job?iis=Job+Board+-+Recruitment+Marketing&iisn=Indeed+Organic&jz=5wqzse15ba4fa3fffceafe2b62a2b0675789fOAAAKAAAAABQ",
-          "date_posted": "2026-06-03",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": false
-        },
-        {
-          "title": "Staff Machine Learning Engineer, Rider Pricing & Incentives",
-          "url": "https://www.linkedin.com/jobs/view/staff-machine-learning-engineer-rider-pricing-incentives-at-uber-4392323132",
-          "date_posted": "2026-06-02",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        },
-        {
-          "title": "Senior Machine Learning Engineer| Uber Direct",
-          "url": "https://tnl2.jometer.com/v2/job?iis=Job+Board+-+Recruitment+Marketing&iisn=Indeed+Organic&jz=5wqzsb8a61ec5d8110ae879de98e59dcbf444KMAAKAAAAABQ",
-          "date_posted": "2026-06-01",
-          "is_new": true,
-          "is_director": false,
-          "has_gpu": true
-        }
-      ]
-    },
-    {
       "heat": "⬜ Quiet",
-      "rank": 5,
+      "rank": 1,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Capital One Financial",
@@ -555,12 +27,12 @@
       "subsector": "Consumer Bank",
       "revenue": 39135,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 6,
+      "rank": 2,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Amazon.com Inc.",
@@ -578,12 +50,12 @@
       "subsector": "E-commerce / Cloud",
       "revenue": 637959,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 7,
+      "rank": 3,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Walt Disney Company",
@@ -601,12 +73,12 @@
       "subsector": "Media / Streaming",
       "revenue": 91361,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 8,
+      "rank": 4,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Eli Lilly and Company",
@@ -624,12 +96,12 @@
       "subsector": "Pharmaceuticals",
       "revenue": 45042,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 9,
+      "rank": 5,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Johns Hopkins University",
@@ -647,12 +119,12 @@
       "subsector": "R1 Research University",
       "revenue": 3833,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 10,
+      "rank": 6,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Thermo Fisher Scientific",
@@ -670,12 +142,12 @@
       "subsector": "Life Sci Tools",
       "revenue": 42857,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 11,
+      "rank": 7,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Ford Motor Company",
@@ -693,12 +165,12 @@
       "subsector": "Auto OEM",
       "revenue": 184992,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 12,
+      "rank": 8,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Merck & Co. Inc.",
@@ -716,12 +188,12 @@
       "subsector": "Pharmaceuticals",
       "revenue": 64168,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 13,
+      "rank": 9,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Texas A&M University",
@@ -739,12 +211,12 @@
       "subsector": "R1 Research University",
       "revenue": 1220,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 14,
+      "rank": 10,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Northrop Grumman",
@@ -762,12 +234,12 @@
       "subsector": "Defense",
       "revenue": 40849,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 15,
+      "rank": 11,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "JPMorgan Chase & Co.",
@@ -785,12 +257,12 @@
       "subsector": "Money Center Bank",
       "revenue": 177421,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 16,
+      "rank": 12,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Meta Platforms Inc.",
@@ -808,12 +280,12 @@
       "subsector": "Social",
       "revenue": 164501,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 17,
+      "rank": 13,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Target Corporation",
@@ -831,12 +303,12 @@
       "subsector": "Retail",
       "revenue": 107412,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 18,
+      "rank": 14,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Stanford University",
@@ -854,12 +326,12 @@
       "subsector": "R1 Research University",
       "revenue": 1908,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 19,
+      "rank": 15,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Duke University",
@@ -877,12 +349,12 @@
       "subsector": "R1 Research University",
       "revenue": 1560,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 20,
+      "rank": 16,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Morgan Stanley",
@@ -900,12 +372,12 @@
       "subsector": "Investment Banking",
       "revenue": 54143,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 21,
+      "rank": 17,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Moody's Corporation",
@@ -923,12 +395,12 @@
       "subsector": "Ratings & Analytics",
       "revenue": 7088,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 22,
+      "rank": 18,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "UnitedHealth Group",
@@ -946,12 +418,12 @@
       "subsector": "Managed Care",
       "revenue": 371622,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 23,
+      "rank": 19,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Johnson & Johnson",
@@ -969,12 +441,12 @@
       "subsector": "Pharmaceuticals",
       "revenue": 88821,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 24,
+      "rank": 20,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Pfizer Inc.",
@@ -992,12 +464,12 @@
       "subsector": "Pharmaceuticals",
       "revenue": 63627,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 25,
+      "rank": 21,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Prudential Financial",
@@ -1015,12 +487,12 @@
       "subsector": "Life Insurance / Asset Mgmt",
       "revenue": 69991,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 26,
+      "rank": 22,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Visa Inc.",
@@ -1038,12 +510,12 @@
       "subsector": "Payment Networks",
       "revenue": 35926,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 27,
+      "rank": 23,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "PayPal Holdings",
@@ -1061,12 +533,12 @@
       "subsector": "Payments",
       "revenue": 31797,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 28,
+      "rank": 24,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Apple Inc.",
@@ -1084,12 +556,12 @@
       "subsector": "Consumer Tech",
       "revenue": 391035,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 29,
+      "rank": 25,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Intel Corporation",
@@ -1107,12 +579,12 @@
       "subsector": "Semiconductors",
       "revenue": 53101,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 30,
+      "rank": 26,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Walmart Inc.",
@@ -1130,12 +602,12 @@
       "subsector": "Retail",
       "revenue": 648125,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 31,
+      "rank": 27,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Columbia University",
@@ -1153,12 +625,12 @@
       "subsector": "Ivy League / R1",
       "revenue": 1389,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 32,
+      "rank": 28,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Cornell University",
@@ -1176,12 +648,12 @@
       "subsector": "Ivy League / R1",
       "revenue": 1369,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 33,
+      "rank": 29,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Georgia Institute of Technology",
@@ -1199,12 +671,12 @@
       "subsector": "R1 Research University",
       "revenue": 1357,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 34,
+      "rank": 30,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of Florida",
@@ -1222,12 +694,12 @@
       "subsector": "R1 Research University",
       "revenue": 1240,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 35,
+      "rank": 31,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Ameriprise Financial",
@@ -1245,12 +717,12 @@
       "subsector": "Wealth Mgmt",
       "revenue": 16934,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 36,
+      "rank": 32,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Apollo Global Management",
@@ -1268,12 +740,12 @@
       "subsector": "Alt Asset Mgmt",
       "revenue": 26113,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 37,
+      "rank": 33,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Bank of New York Mellon",
@@ -1291,12 +763,35 @@
       "subsector": "Custody / Trust",
       "revenue": 17779,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 38,
+      "rank": 34,
+      "pod": "POD 1 Capital Markets",
+      "pod_short": "POD 1",
+      "company": "BlackRock Inc.",
+      "domain": "blackrock.com",
+      "action": "Hold",
+      "net_new": 0,
+      "wow_pct": 0.0,
+      "notable": "—",
+      "ml_roles_this_week": 0,
+      "ml_roles_last_week": 0,
+      "high_signal": false,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "—",
+      "subsector": "Asset Management",
+      "revenue": 20407,
+      "sources": "—",
+      "week_of": "2026-06-15",
+      "jobs": []
+    },
+    {
+      "heat": "⬜ Quiet",
+      "rank": 35,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Blackstone Inc.",
@@ -1314,12 +809,12 @@
       "subsector": "Alt Asset Mgmt",
       "revenue": 11375,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 39,
+      "rank": 36,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Brookfield Corporation",
@@ -1337,12 +832,12 @@
       "subsector": "Alt Asset Mgmt",
       "revenue": 95061,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 40,
+      "rank": 37,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Charles Schwab Corporation",
@@ -1360,12 +855,12 @@
       "subsector": "Asset Mgmt / Brokerage",
       "revenue": 19600,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 41,
+      "rank": 38,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Franklin Resources",
@@ -1383,12 +878,12 @@
       "subsector": "Asset Management",
       "revenue": 8438,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 42,
+      "rank": 39,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Goldman Sachs Group Inc.",
@@ -1406,12 +901,12 @@
       "subsector": "Investment Banking",
       "revenue": 53510,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 43,
+      "rank": 40,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Intercontinental Exchange",
@@ -1429,12 +924,12 @@
       "subsector": "Exchanges",
       "revenue": 9333,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 44,
+      "rank": 41,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Jefferies Financial Group",
@@ -1452,12 +947,12 @@
       "subsector": "Investment Banking",
       "revenue": 7013,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 45,
+      "rank": 42,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "KKR & Co. Inc.",
@@ -1475,12 +970,12 @@
       "subsector": "Alt Asset Mgmt",
       "revenue": 15045,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 46,
+      "rank": 43,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "LPL Financial Holdings",
@@ -1498,12 +993,12 @@
       "subsector": "Wealth Mgmt",
       "revenue": 11314,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 47,
+      "rank": 44,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Northern Trust Corporation",
@@ -1521,12 +1016,12 @@
       "subsector": "Custody / Trust",
       "revenue": 7339,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 48,
+      "rank": 45,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Raymond James Financial",
@@ -1544,12 +1039,12 @@
       "subsector": "Wealth Mgmt",
       "revenue": 12922,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 49,
+      "rank": 46,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "S&P Global Inc.",
@@ -1567,12 +1062,12 @@
       "subsector": "Ratings & Analytics",
       "revenue": 13439,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 50,
+      "rank": 47,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "State Street Corporation",
@@ -1590,12 +1085,12 @@
       "subsector": "Custody / Trust",
       "revenue": 11939,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 51,
+      "rank": 48,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "T. Rowe Price Group",
@@ -1613,12 +1108,12 @@
       "subsector": "Asset Management",
       "revenue": 7090,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 52,
+      "rank": 49,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Abbott Laboratories",
@@ -1636,12 +1131,12 @@
       "subsector": "Medical Devices",
       "revenue": 41950,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 53,
+      "rank": 50,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "AbbVie Inc.",
@@ -1659,12 +1154,12 @@
       "subsector": "Pharmaceuticals",
       "revenue": 56334,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 54,
+      "rank": 51,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Amgen Inc.",
@@ -1682,12 +1177,12 @@
       "subsector": "Biotech",
       "revenue": 33424,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 55,
+      "rank": 52,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Bristol-Myers Squibb",
@@ -1705,12 +1200,12 @@
       "subsector": "Pharmaceuticals",
       "revenue": 48300,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 56,
+      "rank": 53,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Cardinal Health Inc.",
@@ -1728,12 +1223,12 @@
       "subsector": "Drug Distribution",
       "revenue": 226828,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 57,
+      "rank": 54,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Cencora Inc.",
@@ -1751,12 +1246,12 @@
       "subsector": "Drug Distribution",
       "revenue": 294041,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 58,
+      "rank": 55,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Centene Corporation",
@@ -1774,12 +1269,12 @@
       "subsector": "Managed Care",
       "revenue": 154000,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 59,
+      "rank": 56,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Cigna Group",
@@ -1797,12 +1292,12 @@
       "subsector": "Managed Care",
       "revenue": 240931,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 60,
+      "rank": 57,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "CVS Health Corporation",
@@ -1820,12 +1315,12 @@
       "subsector": "Pharmacy / PBM",
       "revenue": 372807,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 61,
+      "rank": 58,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Elevance Health Inc.",
@@ -1843,12 +1338,12 @@
       "subsector": "Managed Care",
       "revenue": 176815,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 62,
+      "rank": 59,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Gilead Sciences",
@@ -1866,12 +1361,12 @@
       "subsector": "Biotech",
       "revenue": 28754,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 63,
+      "rank": 60,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "HCA Healthcare Inc.",
@@ -1889,12 +1384,12 @@
       "subsector": "Hospitals",
       "revenue": 67871,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 64,
+      "rank": 61,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Humana Inc.",
@@ -1912,12 +1407,12 @@
       "subsector": "Managed Care",
       "revenue": 117761,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 65,
+      "rank": 62,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "McKesson Corporation",
@@ -1935,12 +1430,12 @@
       "subsector": "Drug Distribution",
       "revenue": 309014,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 66,
+      "rank": 63,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "3M Company",
@@ -1958,12 +1453,12 @@
       "subsector": "Industrial Conglomerate",
       "revenue": 24575,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 67,
+      "rank": 64,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Boeing Company",
@@ -1981,12 +1476,12 @@
       "subsector": "Aerospace",
       "revenue": 77794,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 68,
+      "rank": 65,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Carrier Global",
@@ -2004,12 +1499,12 @@
       "subsector": "HVAC",
       "revenue": 22489,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 69,
+      "rank": 66,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Caterpillar Inc.",
@@ -2027,12 +1522,12 @@
       "subsector": "Heavy Equipment",
       "revenue": 64809,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 70,
+      "rank": 67,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Cummins Inc.",
@@ -2050,12 +1545,12 @@
       "subsector": "Engines / Power",
       "revenue": 34102,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 71,
+      "rank": 68,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Deere & Company",
@@ -2073,12 +1568,12 @@
       "subsector": "Agri Equipment",
       "revenue": 51716,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 72,
+      "rank": 69,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Eaton Corporation",
@@ -2096,12 +1591,12 @@
       "subsector": "Power Mgmt",
       "revenue": 24879,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 73,
+      "rank": 70,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Emerson Electric Co.",
@@ -2119,12 +1614,12 @@
       "subsector": "Automation",
       "revenue": 17492,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 74,
+      "rank": 71,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "GE Vernova Inc.",
@@ -2142,12 +1637,12 @@
       "subsector": "Power & Energy",
       "revenue": 34935,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 75,
+      "rank": 72,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "General Dynamics",
@@ -2165,12 +1660,12 @@
       "subsector": "Defense",
       "revenue": 47716,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 76,
+      "rank": 73,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "General Electric Aerospace",
@@ -2188,12 +1683,12 @@
       "subsector": "Aerospace",
       "revenue": 38702,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 77,
+      "rank": 74,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Honeywell International",
@@ -2211,12 +1706,35 @@
       "subsector": "Industrial Conglomerate",
       "revenue": 37847,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 78,
+      "rank": 75,
+      "pod": "POD 3 Manufacturing & Robotics",
+      "pod_short": "POD 3",
+      "company": "Jacobs Solutions Inc.",
+      "domain": "jacobs.com",
+      "action": "Hold",
+      "net_new": 0,
+      "wow_pct": 0.0,
+      "notable": "—",
+      "ml_roles_this_week": 0,
+      "ml_roles_last_week": 0,
+      "high_signal": false,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "—",
+      "subsector": "Engineering / Defense",
+      "revenue": 16751,
+      "sources": "—",
+      "week_of": "2026-06-15",
+      "jobs": []
+    },
+    {
+      "heat": "⬜ Quiet",
+      "rank": 76,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "L3Harris Technologies",
@@ -2234,12 +1752,12 @@
       "subsector": "Defense",
       "revenue": 21321,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 79,
+      "rank": 77,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Lockheed Martin Corp.",
@@ -2257,12 +1775,12 @@
       "subsector": "Defense",
       "revenue": 71043,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 80,
+      "rank": 78,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "PACCAR Inc.",
@@ -2280,12 +1798,12 @@
       "subsector": "Trucks",
       "revenue": 33656,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 81,
+      "rank": 79,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Parker-Hannifin",
@@ -2303,12 +1821,12 @@
       "subsector": "Industrial Machinery",
       "revenue": 19930,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 82,
+      "rank": 80,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "RTX Corporation",
@@ -2326,12 +1844,12 @@
       "subsector": "Defense",
       "revenue": 80738,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 83,
+      "rank": 81,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Trane Technologies",
@@ -2349,12 +1867,12 @@
       "subsector": "HVAC",
       "revenue": 19829,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 84,
+      "rank": 82,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "AIG (American Intl. Group)",
@@ -2372,12 +1890,12 @@
       "subsector": "P&C Insurance",
       "revenue": 46951,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 85,
+      "rank": 83,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Allstate Corporation",
@@ -2395,12 +1913,12 @@
       "subsector": "Auto/Home Insurance",
       "revenue": 64104,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 86,
+      "rank": 84,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "American Express Company",
@@ -2418,12 +1936,12 @@
       "subsector": "Payments",
       "revenue": 65454,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 87,
+      "rank": 85,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Bank of America Corp.",
@@ -2441,12 +1959,12 @@
       "subsector": "Money Center Bank",
       "revenue": 98581,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 88,
+      "rank": 86,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Berkshire Hathaway Inc.",
@@ -2464,12 +1982,12 @@
       "subsector": "Diversified Insurance",
       "revenue": 371433,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 89,
+      "rank": 87,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Block Inc.",
@@ -2487,12 +2005,12 @@
       "subsector": "Payments",
       "revenue": 24121,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 90,
+      "rank": 88,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Chubb Limited",
@@ -2510,12 +2028,12 @@
       "subsector": "P&C Insurance",
       "revenue": 55400,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 91,
+      "rank": 89,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Citigroup Inc.",
@@ -2533,12 +2051,12 @@
       "subsector": "Money Center Bank",
       "revenue": 71355,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 92,
+      "rank": 90,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Hartford Financial Services",
@@ -2556,12 +2074,12 @@
       "subsector": "P&C Insurance",
       "revenue": 24341,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 93,
+      "rank": 91,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Mastercard Incorporated",
@@ -2579,12 +2097,12 @@
       "subsector": "Payment Networks",
       "revenue": 28167,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 94,
+      "rank": 92,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "MetLife Inc.",
@@ -2602,12 +2120,12 @@
       "subsector": "Life Insurance",
       "revenue": 71008,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 95,
+      "rank": 93,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Progressive Corporation",
@@ -2625,12 +2143,12 @@
       "subsector": "Auto Insurance",
       "revenue": 75342,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 96,
+      "rank": 94,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Travelers Companies",
@@ -2648,12 +2166,12 @@
       "subsector": "P&C Insurance",
       "revenue": 46421,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 97,
+      "rank": 95,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "U.S. Bancorp",
@@ -2671,12 +2189,12 @@
       "subsector": "Regional Bank",
       "revenue": 40496,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 98,
+      "rank": 96,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Wells Fargo & Company",
@@ -2694,12 +2212,12 @@
       "subsector": "Money Center Bank",
       "revenue": 82596,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 99,
+      "rank": 97,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Alphabet Inc.",
@@ -2717,12 +2235,12 @@
       "subsector": "Search / Cloud",
       "revenue": 350018,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 100,
+      "rank": 98,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Broadcom Inc.",
@@ -2740,12 +2258,12 @@
       "subsector": "Semiconductors",
       "revenue": 51574,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 101,
+      "rank": 99,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Cisco Systems Inc.",
@@ -2763,12 +2281,12 @@
       "subsector": "Networking",
       "revenue": 53803,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 102,
+      "rank": 100,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Comcast Corporation",
@@ -2786,12 +2304,12 @@
       "subsector": "Cable / Media",
       "revenue": 123731,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 103,
+      "rank": 101,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "General Motors Company",
@@ -2809,12 +2327,12 @@
       "subsector": "Auto OEM",
       "revenue": 187442,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 104,
+      "rank": 102,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Netflix Inc.",
@@ -2832,12 +2350,12 @@
       "subsector": "Streaming",
       "revenue": 39001,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 105,
+      "rank": 103,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Qualcomm Inc.",
@@ -2855,12 +2373,12 @@
       "subsector": "Semiconductors",
       "revenue": 38962,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 106,
+      "rank": 104,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Salesforce Inc.",
@@ -2878,12 +2396,12 @@
       "subsector": "SaaS",
       "revenue": 37895,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 107,
+      "rank": 105,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Stellantis N.V.",
@@ -2901,12 +2419,12 @@
       "subsector": "Auto OEM",
       "revenue": 201202,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 108,
+      "rank": 106,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Tesla Inc.",
@@ -2924,12 +2442,12 @@
       "subsector": "EV / Auto",
       "revenue": 97690,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 109,
+      "rank": 107,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "AT&T Inc.",
@@ -2947,12 +2465,12 @@
       "subsector": "Telco",
       "revenue": 122336,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 110,
+      "rank": 108,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Best Buy Co.",
@@ -2970,12 +2488,12 @@
       "subsector": "Retail",
       "revenue": 41528,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 111,
+      "rank": 109,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Charter Communications",
@@ -2993,12 +2511,12 @@
       "subsector": "Cable",
       "revenue": 55085,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 112,
+      "rank": 110,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Costco Wholesale",
@@ -3016,12 +2534,12 @@
       "subsector": "Retail",
       "revenue": 254453,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 113,
+      "rank": 111,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Dollar General Corp.",
@@ -3039,12 +2557,12 @@
       "subsector": "Retail",
       "revenue": 40612,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 114,
+      "rank": 112,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Dollar Tree Inc.",
@@ -3062,12 +2580,12 @@
       "subsector": "Retail",
       "revenue": 30603,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 115,
+      "rank": 113,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Home Depot Inc.",
@@ -3085,12 +2603,12 @@
       "subsector": "Retail",
       "revenue": 159514,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 116,
+      "rank": 114,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Kroger Co.",
@@ -3108,12 +2626,12 @@
       "subsector": "Grocery",
       "revenue": 150039,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 117,
+      "rank": 115,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Lowe's Companies",
@@ -3131,12 +2649,12 @@
       "subsector": "Retail",
       "revenue": 86377,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 118,
+      "rank": 116,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Paramount Global",
@@ -3154,12 +2672,12 @@
       "subsector": "Media",
       "revenue": 29206,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 119,
+      "rank": 117,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Performance Food Group",
@@ -3177,12 +2695,12 @@
       "subsector": "Food Distribution",
       "revenue": 58281,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 120,
+      "rank": 118,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Sysco Corporation",
@@ -3200,12 +2718,12 @@
       "subsector": "Food Distribution",
       "revenue": 79767,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 121,
+      "rank": 119,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "T-Mobile US Inc.",
@@ -3223,12 +2741,12 @@
       "subsector": "Telco",
       "revenue": 81400,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 122,
+      "rank": 120,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "TJX Companies",
@@ -3246,12 +2764,12 @@
       "subsector": "Retail",
       "revenue": 56360,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 123,
+      "rank": 121,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "US Foods Holding",
@@ -3269,12 +2787,12 @@
       "subsector": "Food Distribution",
       "revenue": 37874,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 124,
+      "rank": 122,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Verizon Communications",
@@ -3292,12 +2810,12 @@
       "subsector": "Telco",
       "revenue": 134788,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 125,
+      "rank": 123,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Walgreens Boots Alliance",
@@ -3315,12 +2833,12 @@
       "subsector": "Pharmacy Retail",
       "revenue": 147658,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 126,
+      "rank": 124,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Warner Bros. Discovery",
@@ -3338,12 +2856,12 @@
       "subsector": "Media",
       "revenue": 39321,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 127,
+      "rank": 125,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Harvard University",
@@ -3361,12 +2879,12 @@
       "subsector": "Ivy League / R1",
       "revenue": 1320,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 128,
+      "rank": 126,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Ohio State University",
@@ -3384,12 +2902,12 @@
       "subsector": "R1 Research University",
       "revenue": 1370,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 129,
+      "rank": 127,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Pennsylvania State University",
@@ -3407,12 +2925,12 @@
       "subsector": "R1 Research University",
       "revenue": 1239,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 130,
+      "rank": 128,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of California Los Angeles",
@@ -3430,12 +2948,12 @@
       "subsector": "R1 Research University",
       "revenue": 1623,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 131,
+      "rank": 129,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of California San Diego",
@@ -3453,12 +2971,12 @@
       "subsector": "R1 Research University",
       "revenue": 1614,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 132,
+      "rank": 130,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of California San Francisco",
@@ -3476,12 +2994,12 @@
       "subsector": "Medical Research University",
       "revenue": 1944,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 133,
+      "rank": 131,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of Maryland",
@@ -3499,12 +3017,12 @@
       "subsector": "R1 Research University",
       "revenue": 1450,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 134,
+      "rank": 132,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of Michigan",
@@ -3522,12 +3040,12 @@
       "subsector": "R1 Research University",
       "revenue": 1860,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 135,
+      "rank": 133,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of North Carolina",
@@ -3545,12 +3063,12 @@
       "subsector": "R1 Research University",
       "revenue": 1300,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 136,
+      "rank": 134,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of Pennsylvania",
@@ -3568,12 +3086,12 @@
       "subsector": "Ivy League / R1",
       "revenue": 1696,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 137,
+      "rank": 135,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of Washington",
@@ -3591,12 +3109,12 @@
       "subsector": "R1 Research University",
       "revenue": 1672,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 138,
+      "rank": 136,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of Wisconsin-Madison",
@@ -3614,53 +3132,99 @@
       "subsector": "R1 Research University",
       "revenue": 1620,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
+      "jobs": []
+    },
+    {
+      "heat": "⬜ Quiet",
+      "rank": 137,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Uber Technologies",
+      "domain": "uber.com",
+      "action": "Hold",
+      "net_new": -5,
+      "wow_pct": -100.0,
+      "notable": "—",
+      "ml_roles_this_week": 0,
+      "ml_roles_last_week": 5,
+      "high_signal": false,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "—",
+      "subsector": "Mobility / Delivery",
+      "revenue": 43970,
+      "sources": "—",
+      "week_of": "2026-06-15",
+      "jobs": []
+    },
+    {
+      "heat": "⬜ Quiet",
+      "rank": 138,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Oracle Corporation",
+      "domain": "oracle.com",
+      "action": "Hold",
+      "net_new": -10,
+      "wow_pct": -100.0,
+      "notable": "—",
+      "ml_roles_this_week": 0,
+      "ml_roles_last_week": 10,
+      "high_signal": false,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "—",
+      "subsector": "Software / Cloud",
+      "revenue": 52961,
+      "sources": "—",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
       "rank": 139,
-      "pod": "POD 3 Manufacturing & Robotics",
-      "pod_short": "POD 3",
-      "company": "Jacobs Solutions Inc.",
-      "domain": "jacobs.com",
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Microsoft Corporation",
+      "domain": "microsoft.com",
       "action": "Hold",
-      "net_new": -1,
+      "net_new": -11,
       "wow_pct": -100.0,
       "notable": "—",
       "ml_roles_this_week": 0,
-      "ml_roles_last_week": 1,
+      "ml_roles_last_week": 11,
       "high_signal": false,
       "director_count": 0,
       "gpu_signal": false,
       "top_role": "—",
-      "subsector": "Engineering / Defense",
-      "revenue": 16751,
+      "subsector": "Software",
+      "revenue": 245122,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
       "rank": 140,
-      "pod": "POD 1 Capital Markets",
-      "pod_short": "POD 1",
-      "company": "BlackRock Inc.",
-      "domain": "blackrock.com",
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "NVIDIA Corporation",
+      "domain": "nvidia.com",
       "action": "Hold",
-      "net_new": -3,
+      "net_new": -28,
       "wow_pct": -100.0,
       "notable": "—",
       "ml_roles_this_week": 0,
-      "ml_roles_last_week": 3,
+      "ml_roles_last_week": 28,
       "high_signal": false,
       "director_count": 0,
       "gpu_signal": false,
       "top_role": "—",
-      "subsector": "Asset Management",
-      "revenue": 20407,
+      "subsector": "Semiconductors",
+      "revenue": 130497,
       "sources": "—",
-      "week_of": "2026-06-08",
+      "week_of": "2026-06-15",
       "jobs": []
     }
   ]
