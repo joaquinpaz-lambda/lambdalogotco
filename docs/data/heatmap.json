@@ -1,15 +1,2951 @@
 {
-  "week_of": "2026-06-29",
-  "generated_at": "2026-06-29T00:09:05Z",
+  "week_of": "2026-07-06",
+  "generated_at": "2026-07-06T00:04:51Z",
   "summary": {
-    "hot": 0,
+    "hot": 36,
     "warm": 0,
-    "quiet": 140
+    "quiet": 104
   },
   "accounts": [
     {
-      "heat": "⬜ Quiet",
+      "heat": "🟩 Hot",
       "rank": 1,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "NVIDIA Corporation",
+      "domain": "nvidia.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 76,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; GPU/inference signal; +76 new ML roles WoW",
+      "ml_roles_this_week": 76,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 2,
+      "gpu_signal": true,
+      "top_role": "Principal Machine Learning Engineer, Accelerated Apache Spark",
+      "subsector": "Semiconductors",
+      "revenue": 130497,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Research Scientist, Generative AI for Physical AI - PhD New College Grad 2026",
+          "url": "https://www.linkedin.com/jobs/view/research-scientist-generative-ai-for-physical-ai-phd-new-college-grad-2026-at-nvidia-4398197686",
+          "date_posted": "2026-07-05",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior GPU Architect, Deep Learning",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-GPU-Architect--Deep-Learning_JR2019902",
+          "date_posted": "2026-07-05",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Software Engineer, Machine Learning Inference",
+          "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-machine-learning-inference-at-nvidia-4398188750",
+          "date_posted": "2026-07-05",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Solutions Architect - Deep Learning",
+          "url": "https://il.linkedin.com/jobs/view/senior-solutions-architect-deep-learning-at-nvidia-4395485120",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Solutions Architect, Generative AI Deployment and AIOps",
+          "url": "https://www.linkedin.com/jobs/view/senior-solutions-architect-generative-ai-deployment-and-aiops-at-nvidia-4395925008",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior CUDA Test Development Software Engineer, SDET",
+          "url": "https://cn.linkedin.com/jobs/view/senior-cuda-test-development-software-engineer-sdet-at-nvidia-4435496714",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Principal Machine Learning Engineer, Accelerated Apache Spark",
+          "url": "https://www.linkedin.com/jobs/view/principal-machine-learning-engineer-accelerated-apache-spark-at-nvidia-4416721797",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Solution Architect, Computer Vision – Media and Entertainment",
+          "url": "https://fr.linkedin.com/jobs/view/solution-architect-computer-vision-%E2%80%93-media-and-entertainment-at-nvidia-4416723782",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Deep Learning Compiler Engineer - XLA",
+          "url": "https://www.linkedin.com/jobs/view/senior-deep-learning-compiler-engineer-xla-at-nvidia-4395475671",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Staff AI Platform Engineer",
+          "url": "https://www.linkedin.com/jobs/view/senior-staff-ai-platform-engineer-at-nvidia-4395484209",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Developer Relations Manager - Robotics and Generative AI",
+          "url": "https://sg.linkedin.com/jobs/view/developer-relations-manager-robotics-and-generative-ai-at-nvidia-4395474369",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Quantum AI Research Scientist,  Applied Research",
+          "url": "https://www.linkedin.com/jobs/view/senior-quantum-ai-research-scientist-applied-research-at-nvidia-4416738701",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Solutions Architect - AI Technology Center, Foundation Model Building",
+          "url": "https://kr.linkedin.com/jobs/view/solutions-architect-ai-technology-center-foundation-model-building-at-nvidia-4416343416",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Research Scientist, Human‑AI Perception and Interaction Research - PhD New College Grad 2026",
+          "url": "https://www.linkedin.com/jobs/view/research-scientist-human%E2%80%91ai-perception-and-interaction-research-phd-new-college-grad-2026-at-nvidia-4395479271",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Product Marketing Manager - AI Platform Software",
+          "url": "https://www.linkedin.com/jobs/view/product-marketing-manager-ai-platform-software-at-nvidia-4395479302",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Deep Learning Frameworks Sustaining Engineer",
+          "url": "https://www.linkedin.com/jobs/view/senior-deep-learning-frameworks-sustaining-engineer-at-nvidia-4395481210",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Product Manager, AI Platform SW - Agentic AI Kernel Generation",
+          "url": "https://www.linkedin.com/jobs/view/product-manager-ai-platform-sw-agentic-ai-kernel-generation-at-nvidia-4407096457",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Software Engineer, C++ and CUDA - Analytics and Data Intelligence",
+          "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-c++-and-cuda-analytics-and-data-intelligence-at-nvidia-4435705228",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Solutions Architect - AI Infrastructure",
+          "url": "https://www.linkedin.com/jobs/view/senior-solutions-architect-ai-infrastructure-at-nvidia-4435282488",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Solutions Architect, Generative AI - CSP",
+          "url": "https://cn.linkedin.com/jobs/view/solutions-architect-generative-ai-csp-at-nvidia-4395481508",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Research Scientist, AI Accelerator Design and VLSI - New College Grad 2026",
+          "url": "https://www.linkedin.com/jobs/view/research-scientist-ai-accelerator-design-and-vlsi-new-college-grad-2026-at-nvidia-4395476613",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Solutions Architect - Generative AI",
+          "url": "https://in.linkedin.com/jobs/view/senior-solutions-architect-generative-ai-at-nvidia-4406928038",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Solutions Architect, Generative AI - CSP",
+          "url": "https://cn.linkedin.com/jobs/view/solutions-architect-generative-ai-csp-at-nvidia-4395485286",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Solutions Architect - AI Infrastructure",
+          "url": "https://www.linkedin.com/jobs/view/senior-solutions-architect-ai-infrastructure-at-nvidia-4435281561",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Deep Learning Performance Architect",
+          "url": "https://cn.linkedin.com/jobs/view/deep-learning-performance-architect-at-nvidia-4426158960",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "System Software Engineer - Deep Learning",
+          "url": "https://in.linkedin.com/jobs/view/system-software-engineer-deep-learning-at-nvidia-4395481511",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Technical Lead, GenAI - Autonomous Vehicles",
+          "url": "https://www.linkedin.com/jobs/view/technical-lead-genai-autonomous-vehicles-at-nvidia-4395476292",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Applied Machine Learning Engineer, Circuit Design - New College Grad 2026",
+          "url": "https://www.linkedin.com/jobs/view/applied-machine-learning-engineer-circuit-design-new-college-grad-2026-at-nvidia-4395485157",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Research Scientist, Circuits",
+          "url": "https://www.linkedin.com/jobs/view/senior-research-scientist-circuits-at-nvidia-4395938002",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Solutions Architect, Generative AI Specialist",
+          "url": "https://www.linkedin.com/jobs/view/senior-solutions-architect-generative-ai-specialist-at-nvidia-4395934009",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Machine Learning Applications and Compiler Engineer, LPX",
+          "url": "https://ca.linkedin.com/jobs/view/senior-machine-learning-applications-and-compiler-engineer-lpx-at-nvidia-4395477550",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Deep Learning Compiler Engineer - PyTorch",
+          "url": "https://ch.linkedin.com/jobs/view/senior-deep-learning-compiler-engineer-pytorch-at-nvidia-4395469592",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior DGX Cloud AI Infrastructure Software Engineer",
+          "url": "https://www.linkedin.com/jobs/view/senior-dgx-cloud-ai-infrastructure-software-engineer-at-nvidia-4395490222",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Research Scientist, Multi-Modal Language Models",
+          "url": "https://www.linkedin.com/jobs/view/senior-research-scientist-multi-modal-language-models-at-nvidia-4395483200",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Research Scientist - Autonomous Vehicles",
+          "url": "https://www.linkedin.com/jobs/view/senior-research-scientist-autonomous-vehicles-at-nvidia-4395472511",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Applied Deep Learning Scientist - Large Vision Language Models",
+          "url": "https://ch.linkedin.com/jobs/view/senior-applied-deep-learning-scientist-large-vision-language-models-at-nvidia-4416341420",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Speech LLM Engineer, Voice-First Agentic AI",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Vietnam-Ho-Chi-Minh-City/Speech-LLM-Engineer--Voice-First-Agentic-AI_JR2020070",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Research Engineer, Foundation Model Training Infrastructure",
+          "url": "https://www.linkedin.com/jobs/view/senior-research-engineer-foundation-model-training-infrastructure-at-nvidia-4395483306",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Research Scientist, System Software and I/O Architecture",
+          "url": "https://www.linkedin.com/jobs/view/senior-research-scientist-system-software-and-i-o-architecture-at-nvidia-4395471562",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Deep Learning Framework Communications Engineer",
+          "url": "https://www.linkedin.com/jobs/view/senior-deep-learning-framework-communications-engineer-at-nvidia-4395474464",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior AI and LLM Solutions Software Engineer",
+          "url": "https://il.linkedin.com/jobs/view/senior-ai-and-llm-solutions-software-engineer-at-nvidia-4395482535",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026",
+          "url": "https://www.linkedin.com/jobs/view/research-scientist-generalist-embodied-agent-research-phd-new-college-grad-2026-at-nvidia-4395473358",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Deep Learning Algorithms Engineer - ACOT",
+          "url": "https://vn.linkedin.com/jobs/view/deep-learning-algorithms-engineer-acot-at-nvidia-4395487228",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Deep Learning Performance Software Engineer",
+          "url": "https://cn.linkedin.com/jobs/view/deep-learning-performance-software-engineer-at-nvidia-4395491314",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Software Engineer, CUDA Core Libraries",
+          "url": "https://de.linkedin.com/jobs/view/senior-software-engineer-cuda-core-libraries-at-nvidia-4395484537",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Manager, Deep Learning Algorithms",
+          "url": "https://www.linkedin.com/jobs/view/manager-deep-learning-algorithms-at-nvidia-4395477324",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Software Engineer, CUDA-Q",
+          "url": "https://www.linkedin.com/jobs/view/software-engineer-cuda-q-at-nvidia-4395487144",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Deep Learning Algorithms Engineer - ACOT",
+          "url": "https://vn.linkedin.com/jobs/view/deep-learning-algorithms-engineer-acot-at-nvidia-4395471700",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Developer Relations Manager- GenAI",
+          "url": "https://kr.linkedin.com/jobs/view/senior-developer-relations-manager-genai-at-nvidia-4416335601",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Principal Deep Learning Senior Engineer, End-To-End Autonomous Driving",
+          "url": "https://www.linkedin.com/jobs/view/principal-deep-learning-senior-engineer-end-to-end-autonomous-driving-at-nvidia-4395477554",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior QA Automation Engineer — Network AI Platform",
+          "url": "https://www.linkedin.com/jobs/view/senior-qa-automation-engineer-%E2%80%94-network-ai-platform-at-nvidia-4395468602",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Deep Learning Engineer - Model Evaluation & AI Systems",
+          "url": "https://www.linkedin.com/jobs/view/senior-deep-learning-engineer-model-evaluation-ai-systems-at-nvidia-4395481244",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Research Scientist, AI-Mediated Reality and Interaction Research - PhD New College Grad 2026",
+          "url": "https://www.linkedin.com/jobs/view/research-scientist-ai-mediated-reality-and-interaction-research-phd-new-college-grad-2026-at-nvidia-4395474649",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Research Scientist, Efficient Deep Learning",
+          "url": "https://www.linkedin.com/jobs/view/senior-research-scientist-efficient-deep-learning-at-nvidia-4395475354",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Research Scientist, Robotics Research -  PhD New College Grad 2026",
+          "url": "https://www.linkedin.com/jobs/view/research-scientist-robotics-research-phd-new-college-grad-2026-at-nvidia-4395489138",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Research Scientist, Fundamental Generative AI",
+          "url": "https://www.linkedin.com/jobs/view/senior-research-scientist-fundamental-generative-ai-at-nvidia-4395486159",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior SOCD Applied AI Engineer",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-SOCD-Applied-AI-Engineer_JR2020550",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "DL System Software Engineer - AI Platform",
+          "url": "https://ca.linkedin.com/jobs/view/dl-system-software-engineer-ai-platform-at-nvidia-4426002853",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Technical Marketing Engineer — CUDA-Q Developer Enablement",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Technical-Marketing-Engineer---CUDA-Q-Developer-Enablement_JR2020731",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Applied AI Engineer, Product Convergence and Closure",
+          "url": "https://cn.linkedin.com/jobs/view/applied-ai-engineer-product-convergence-and-closure-at-nvidia-4415732626",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Technical Program Manager, Deep Learning Software",
+          "url": "https://cn.linkedin.com/jobs/view/senior-technical-program-manager-deep-learning-software-at-nvidia-4406235850",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Deep Learning Kernel Software Performance Architect",
+          "url": "https://cn.linkedin.com/jobs/view/deep-learning-kernel-software-performance-architect-at-nvidia-4395470808",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Systems Software Engineer - Deep Learning Solutions",
+          "url": "https://ca.linkedin.com/jobs/view/senior-systems-software-engineer-deep-learning-solutions-at-nvidia-4395473453",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Data Scientist – Finance",
+          "url": "https://www.linkedin.com/jobs/view/senior-data-scientist-%E2%80%93-finance-at-nvidia-4434187357",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior AI Platform Engineer",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-AI-Platform-Engineer_JR2019516",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Deep Learning Product Research Engineer",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Deep-Learning-Product-Research-Engineer_JR2019482",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Deep Learning Solution Architect",
+          "url": "https://cn.linkedin.com/jobs/view/senior-deep-learning-solution-architect-at-nvidia-4425531733",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Deep Learning Product Research Engineer - Product Innovation",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Deep-Learning-Product-Research-Engineer---Product-Innovation_JR2019404",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Applied Research Scientist",
+          "url": "https://www.linkedin.com/jobs/view/senior-applied-research-scientist-at-nvidia-4434180851",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Deep Learning Engineer – Autonomous Vehicles",
+          "url": "https://www.linkedin.com/jobs/view/senior-deep-learning-engineer-%E2%80%93-autonomous-vehicles-at-nvidia-4434194223",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Deep Learning Software Engineer, Inference",
+          "url": "https://pl.linkedin.com/jobs/view/senior-deep-learning-software-engineer-inference-at-nvidia-4425536726",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "AI Engineering Platform Development Engineer",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Israel-Yokneam/AI-Engineering-Platform-Development-Engineer_JR2019514",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Deep Learning Compiler CI/Infrastructure Engineer",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Compiler-CI-Infrastructure-Engineer_JR2020326",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior HPC Support Engineer - Ethernet and AI Infrastructure",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TN-Remote/Senior-HPC-Support-Engineer---Ethernet-and-AI-Infrastructure_JR2020403",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior System Software Engineer, AI Infrastructure",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Technical-Marketing-Engineer--AI-Infrastructure_JR2001250",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior MLOps Manager",
+          "url": "https://cn.linkedin.com/jobs/view/senior-mlops-manager-at-nvidia-4434181750",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 2,
+      "pod": "POD 4 Banking Payments Insurance",
+      "pod_short": "POD 4",
+      "company": "JPMorgan Chase & Co.",
+      "domain": "jpmorganchase.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 25,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; GPU/inference signal; +25 new ML roles WoW",
+      "ml_roles_this_week": 25,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 7,
+      "gpu_signal": true,
+      "top_role": "Quantum Computing Research Scientist - Vice President",
+      "subsector": "Money Center Bank",
+      "revenue": 177421,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Senior Lead Software Engineer - Python/AWS/AI/LLM",
+          "url": "https://jpmorganchase.contacthr.com/152635137",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Lead Software Engineer - Java and AI/ML",
+          "url": "https://jpmorganchase.contacthr.com/152633258",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Quantum Computing Research Scientist - Senior Associate",
+          "url": "https://jpmorganchase.contacthr.com/152620112",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "2026 Machine Learning Center of Excellence (NLP)-Internship",
+          "url": "https://jpmorganchase.contacthr.com/152623627",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Quantum Computing Research Scientist - Vice President",
+          "url": "https://jpmorganchase.contacthr.com/152620109",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Security Engineer III - AI/ML",
+          "url": "https://jpmorganchase.contacthr.com/152625805",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Software Engineer III - Python, AWS, GenAI",
+          "url": "https://jpmorganchase.contacthr.com/152617749",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Lead Software Engineer - Java/Python, AWS,LLM",
+          "url": "https://jpmorganchase.contacthr.com/152610999",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Data Scientist Senior Associate",
+          "url": "https://jpmorganchase.contacthr.com/152616448",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "SR Principal Software Engineer - Applied AI Engineering",
+          "url": "https://jpmorganchase.contacthr.com/152617830",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Product Manager - R&D - Data Scientist Lead",
+          "url": "https://uk.linkedin.com/jobs/view/product-manager-r-d-data-scientist-lead-at-jpmorganchase-4380350335",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Product Manager, AI Platform",
+          "url": "https://www.linkedin.com/jobs/view/product-manager-ai-platform-at-jpmorganchase-4408758194",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Product Director Speech and Voice AI/ML",
+          "url": "https://www.linkedin.com/jobs/view/product-director-speech-and-voice-ai-ml-at-jpmorganchase-4420923032",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning Scientist - Vice President",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-scientist-vice-president-at-jpmorganchase-4367158207",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Applied AI/ML Lead",
+          "url": "https://ar.linkedin.com/jobs/view/applied-ai-ml-lead-at-jpmorganchase-4427947321",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Asset Management - AI Quant Analyst - Artificial Intelligence & Machine Learning Focus",
+          "url": "https://cn.linkedin.com/jobs/view/asset-management-ai-quant-analyst-artificial-intelligence-machine-learning-focus-at-jpmorganchase-4420239333",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Data Scientist - Product/UI/UX",
+          "url": "https://ph.linkedin.com/jobs/view/data-scientist-product-ui-ux-at-jpmorganchase-4423565823",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Machine Learning Engineer - Document Digitization (LLMs)-Vice President",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-document-digitization-llms-vice-president-at-jpmorganchase-4395254930",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Software Engineer III - AI/ML, Java/Python, REACT",
+          "url": "https://jpmorganchase.contacthr.com/152597932",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Machine Learning Engineering & Applied AI ML Lead - Vice President",
+          "url": "https://uk.linkedin.com/jobs/view/machine-learning-engineering-applied-ai-ml-lead-vice-president-at-jpmorganchase-4416426293",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Principal Software Engineer - Engineering Manager - Data and AI Platform",
+          "url": "https://jpmorganchase.contacthr.com/152588350",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Lead Software Engineer - Python Full Stack, AI/ML",
+          "url": "https://jpmorganchase.contacthr.com/152590898",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Software Engineer III - Python Developer + AWS + LLM / Gen AI",
+          "url": "https://jpmorganchase.contacthr.com/152588340",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Software Engineering III - AI/ML Engineer",
+          "url": "https://jpmorganchase.contacthr.com/152590982",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Applied AI/ML & Causal Inference - Senior Associate",
+          "url": "https://jpmorganchase.contacthr.com/152596719",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 3,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Qualcomm Inc.",
+      "domain": "qualcomm.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 24,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +24 new ML roles WoW",
+      "ml_roles_this_week": 24,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "AI Performance Engineer (Cloud AI Engineering), Sr | Staff | Sr. Staff",
+      "subsector": "Semiconductors",
+      "revenue": 38962,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Sr. Lead/Sr. Engineer– Enterprise AI Platform",
+          "url": "https://in.linkedin.com/jobs/view/sr-lead-sr-engineer%E2%80%93-enterprise-ai-platform-at-qualcomm-4398141017",
+          "date_posted": "2026-07-05",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "AI Performance Engineer (Cloud AI Engineering), Sr | Staff | Sr. Staff",
+          "url": "https://www.linkedin.com/jobs/view/ai-performance-engineer-cloud-ai-engineering-sr-staff-sr-staff-at-qualcomm-4306675637",
+          "date_posted": "2026-07-05",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning Engineer - College Graduate",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-college-graduate-at-qualcomm-4397276661",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "System AI Engineer, Display",
+          "url": "https://ca.linkedin.com/jobs/view/system-ai-engineer-display-at-qualcomm-4416570226",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "AI Platform & Inference Suite Engineer (Staff/Senior Staff level) - Riyadh, KSA",
+          "url": "https://sa.linkedin.com/jobs/view/ai-platform-inference-suite-engineer-staff-senior-staff-level-riyadh-ksa-at-qualcomm-4416574095",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Qualcomm_AI Platform_F2F in Bengaluru For Hyderabad Role _11th Jul 26",
+          "url": "https://www.naukri.com/job-listings-qualcomm-ai-platform-f2f-in-bengaluru-for-hyderabad-role-11th-jul-26-qualcomm-bengaluru-0-to-2-years-030726021622",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning & AI Customer Engineer/Sr",
+          "url": "https://cn.linkedin.com/jobs/view/machine-learning-ai-customer-engineer-sr-at-qualcomm-4416580083",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "ML Platform Software Engineer - Qualcomm, flexible on location anywhere in Europe",
+          "url": "https://it.linkedin.com/jobs/view/ml-platform-software-engineer-qualcomm-flexible-on-location-anywhere-in-europe-at-qualcomm-4395438654",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Staff Embedded Machine Learning Engineer (Open)",
+          "url": "https://ca.linkedin.com/jobs/view/staff-embedded-machine-learning-engineer-open-at-qualcomm-4397275663",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior AI Researcher, On-Device LLM Efficiency",
+          "url": "https://www.linkedin.com/jobs/view/senior-ai-researcher-on-device-llm-efficiency-at-qualcomm-4385941061",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Engineer/Associate Engineer - AI Platform",
+          "url": "https://careers.qualcomm.com/careers/job/446719463158",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Machine Learning Engineer (Qualcomm AI Research, Amsterdam)",
+          "url": "https://nl.linkedin.com/jobs/view/senior-machine-learning-engineer-qualcomm-ai-research-amsterdam-at-qualcomm-4406992991",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Sr. Engineer, AI Platforms",
+          "url": "https://app.eightfold.ai/careers/job/446719428904?domain=qualcomm.com",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Staff Engineer – GenAI Platforms & Agentic SDLC",
+          "url": "https://careers.qualcomm.com/careers/job/446719073751",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "AI Machine Learning Software Engineer, up to Staff (Taipei)",
+          "url": "https://careers.qualcomm.com/careers/job/446716501079",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Engineer - Machine Learning",
+          "url": "https://app.eightfold.ai/careers/job/446719204330?domain=qualcomm.com",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Staff Java Fullstack Developer ( Generative AI and agentic AI)",
+          "url": "https://careers.qualcomm.com/careers/job/446718545552",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Sr. AI Engineer",
+          "url": "https://careers.qualcomm.com/careers/job/446716385089",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Deep Learning Engineer for Automated Driving",
+          "url": "https://careers.qualcomm.com/careers/job/446716539093",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "IE-IOT- Embedded Software Applications Engineer – AI/ML - Qualcomm - Farnborough, UK",
+          "url": "https://app.eightfold.ai/careers/job/446719422270?domain=qualcomm.com",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Research Engineer – Machine Learning, Computer Vision & Graphics (Digital Avatar / XR)",
+          "url": "https://tw.linkedin.com/jobs/view/senior-research-engineer-%E2%80%93-machine-learning-computer-vision-graphics-digital-avatar-xr-at-qualcomm-4405993287",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Engineer - C++/embedded and AI/ML",
+          "url": "https://careers.qualcomm.com/careers/job/446719366698",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Machine Learning Engineer (AI Research Vietnam)",
+          "url": "https://vn.linkedin.com/jobs/view/senior-machine-learning-engineer-ai-research-vietnam-at-qualcomm-4337896330",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Infrastructure & Site Reliability Engineer – Datacentre AI Engineering - Riyadh, KSA",
+          "url": "https://careers.qualcomm.com/careers/job/446715695355",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 4,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Apple Inc.",
+      "domain": "apple.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 17,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +17 new ML roles WoW",
+      "ml_roles_this_week": 17,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "Senior Machine Learning Engineer - Model Inference",
+      "subsector": "Consumer Tech",
+      "revenue": 391035,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Senior Machine Learning Engineer - Model Inference",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670871-0836&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200670871-0836%2Fsenior-machine-learning-engineer-model-inference%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D3077dd69-7829-11f1-8f56-8d4e163cedbe%26rx_job%3D200670871-0836%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260705T080407Z%26rx_vp%3Dcpc%26team%3DSFTWR",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning Engineer - Generative AI & Agents",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670613-0351_CN&rx_url=https%3A%2F%2Fjobs.apple.com%2Fzh-cn%2Fdetails%2F200670613-0351%2Fmachine-learning-engineer-generative-ai-agents%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D7f855697-7697-11f1-bf3e-2b06ff139c47%26rx_job%3D200670613-0351_CN%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260703T120405Z%26rx_vp%3Dcpc%26team%3DSLDEV",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Demographic Data Scientist",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670761-0157&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200670761-0157%2Fdemographic-data-scientist%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D33987e9e-7829-11f1-8f56-95ff4cd576f2%26rx_job%3D200670761-0157%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260705T080407Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "ML Engineer, Apple Foundation Models",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670922-0836&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200670922-0836%2Fml-engineer-apple-foundation-models%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D32009fea-7829-11f1-8f56-5dbe225c529d%26rx_job%3D200670922-0836%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260705T080407Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Machine Learning Engineer Search Capabilities, Proactive",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670397-3760&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200670397-3760%2Fsenior-machine-learning-engineer-search-capabilities-proactive%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D33499acb-7829-11f1-8f56-37fb5cff62bb%26rx_job%3D200670397-3760%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260705T080407Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Sr. Machine Learning Engineer",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670390-3760&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200670390-3760%2Fsr-machine-learning-engineer%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D04092624-7760-11f1-9c79-8f25ed39f8bd%26rx_job%3D200670390-3760%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260704T100415Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Full-Stack AI Engineer",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670615-0351_CN&rx_url=https%3A%2F%2Fjobs.apple.com%2Fzh-cn%2Fdetails%2F200670615-0351%2Ffull-stack-ai-engineer%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3De087af50-75cd-11f1-a1ee-fb381e0a2aff%26rx_job%3D200670615-0351_CN%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260702T100407Z%26rx_vp%3Dcpc%26team%3DSLDEV",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Manager, Product Management Data Scientist",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200669478-0836&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200669478-0836%2Fmanager-product-management-data-scientist%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D2cc197a9-7697-11f1-bf3e-39dfb91df3d1%26rx_job%3D200669478-0836%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260703T120405Z%26rx_vp%3Dcpc%26team%3DMKTG",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Computer Vision / Machine Learning Engineer (Video Generation)",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670625-0351_CN&rx_url=https%3A%2F%2Fjobs.apple.com%2Fzh-cn%2Fdetails%2F200670625-0351%2Fcomputer-vision-machine-learning-engineer-video-generation%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D7b737724-7697-11f1-bf3e-3f64a7ee5a4a%26rx_job%3D200670625-0351_CN%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260703T120405Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Machine Learning Scientist - AppleCare WW Demand Planning",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200644291-3401&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200644291-3401%2Fmachine-learning-scientist-applecare-ww-demand-planning%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D015d6683-7760-11f1-9c79-954cea73b3c9%26rx_job%3D200644291-3401%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260704T100415Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Computer Vision / Machine Learning Intern (Video Intelligence)",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670629-0351_CN&rx_url=https%3A%2F%2Fjobs.apple.com%2Fzh-cn%2Fdetails%2F200670629-0351%2Fcomputer-vision-machine-learning-intern-video-intelligence%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3De0a5bede-75cd-11f1-a1ee-97d5f8aa1e01%26rx_job%3D200670629-0351_CN%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260702T100407Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Sr. Machine Learning Engineer - Apple News",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670243-0836&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200670243-0836%2Fsr-machine-learning-engineer-apple-news%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D1fe2c32b-7697-11f1-bf3e-d398ce64d82f%26rx_job%3D200670243-0836%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260703T120405Z%26rx_vp%3Dcpc%26team%3DSFTWR",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning Engineer - Intelligent Quality Systems",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670335-0836&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200670335-0836%2Fmachine-learning-engineer-intelligent-quality-systems%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D2b1ac536-7697-11f1-bf3e-51101353682b%26rx_job%3D200670335-0836%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260703T120405Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Machine Learning Engineer / Senior Applied Scientist, Search & AI",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670460-0321&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-in%2Fdetails%2F200670460-0321%2Fsenior-machine-learning-engineer-senior-applied-scientist-search-ai%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3Dd0dbdf6a-7506-11f1-ae84-3fd2b47fe163%26rx_job%3D200670460-0321%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260701T100417Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Machine Learning Engineer, Personal Search Intelligence - Proactive",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670539-0836&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200670539-0836%2Fsenior-machine-learning-engineer-personal-search-intelligence-proactive%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D1f70ee3e-7697-11f1-bf3e-736c5c117bd9%26rx_job%3D200670539-0836%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260703T120405Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning Research Scientist - Health AIML",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670570-3337&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200670570-3337%2Fmachine-learning-research-scientist-health-aiml%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D23b66084-7697-11f1-bf3e-757a821546be%26rx_job%3D200670570-3337%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260703T120405Z%26rx_vp%3Dcpc%26team%3DMLAI",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Health Sensing ML Engineer",
+          "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200670408-0836&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200670408-0836%2Fhealth-sensing-ml-engineer%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D27089863-7697-11f1-bf3e-31db76d7c5fb%26rx_job%3D200670408-0836%26rx_medium%3Dcpc%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20260703T120405Z%26rx_vp%3Dcpc%26team%3DHRDWR",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 5,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Microsoft Corporation",
+      "domain": "microsoft.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 12,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; GPU/inference signal; +12 new ML roles WoW",
+      "ml_roles_this_week": 12,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 3,
+      "gpu_signal": true,
+      "top_role": "Senior Director Product Marketing,  Azure Cloud and AI Platform",
+      "subsector": "Software",
+      "revenue": 245122,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Senior Data Scientist - Industry Solutions Engineering",
+          "url": "https://apply.careers.microsoft.com/careers/job/1970393556868159",
+          "date_posted": "2026-07-05",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Solution Engineer - Cloud & AI Infrastructure",
+          "url": "https://www.linkedin.com/jobs/view/solution-engineer-cloud-ai-infrastructure-at-microsoft-4418602414",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Machine Learning Research Engineer - Research Engineering - MSR Cambridge",
+          "url": "https://apply.careers.microsoft.com/careers/job/1970393556918610",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Member of Technical Staff - Machine Learning",
+          "url": "https://www.linkedin.com/jobs/view/member-of-technical-staff-machine-learning-at-microsoft-4342719725",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Researcher - Machine Learning for Life Sciences - Microsoft Research",
+          "url": "https://www.linkedin.com/jobs/view/senior-researcher-machine-learning-for-life-sciences-microsoft-research-at-microsoft-4370161249",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Director Product Marketing,  Azure Cloud and AI Platform",
+          "url": "https://apply.careers.microsoft.com/careers/job/1970393556868261",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Applied Scientist - CoreAI Voice Agent",
+          "url": "https://cn.linkedin.com/jobs/view/senior-applied-scientist-coreai-voice-agent-at-microsoft-4435590000",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Principal Applied Scientist - CoreAI",
+          "url": "https://apply.careers.microsoft.com/careers/job/1970393556918465",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Cambridge Residency Programme: AI Researcher in Interactive Generative AI systems",
+          "url": "https://apply.careers.microsoft.com/careers/job/1970393556915128",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Applied Scientist Manager",
+          "url": "https://apply.careers.microsoft.com/careers/job/1970393556915363",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Applied AI Engineer II",
+          "url": "https://apply.careers.microsoft.com/careers/job/1970393556864775",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Principal Applied Scientist, Experimentation Platform - CoreAI",
+          "url": "https://apply.careers.microsoft.com/careers/job/1970393556915309",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 6,
+      "pod": "POD 4 Banking Payments Insurance",
+      "pod_short": "POD 4",
+      "company": "Citigroup Inc.",
+      "domain": "citigroup.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 11,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; GPU/inference signal; +11 new ML roles WoW",
+      "ml_roles_this_week": 11,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 7,
+      "gpu_signal": true,
+      "top_role": "Application Development AI Engineer - Vice President",
+      "subsector": "Money Center Bank",
+      "revenue": 71355,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Generative AI Engineer, Officer",
+          "url": "https://www.linkedin.com/jobs/view/generative-ai-engineer-officer-at-citi-4415120883",
+          "date_posted": "2026-07-05",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Lead Data Scientist & Gen AI",
+          "url": "https://in.linkedin.com/jobs/view/lead-data-scientist-gen-ai-at-citi-4417154959",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Application Development AI Engineer - Vice President",
+          "url": "https://jobs.citi.com/job/mississauga/application-development-ai-engineer-vice-president/287/97274240512",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Generative AI Engineer with Java Full-stack - Vice President",
+          "url": "https://in.linkedin.com/jobs/view/senior-generative-ai-engineer-with-java-full-stack-vice-president-at-citi-4386898208",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Generative AI Engineer - Vice President",
+          "url": "https://in.linkedin.com/jobs/view/senior-generative-ai-engineer-vice-president-at-citi-4397623745",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "BANAMEX Machine Learning Analyst",
+          "url": "https://jobs.citi.com/job/ciudad-de-mexico/banamex-machine-learning-analyst/287/97177011488",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Data Scientist Vice President",
+          "url": "https://jobs.citi.com/job/san-antonio/senior-data-scientist-vice-president/287/97177108768",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Golang Software Engineering Lead - GenAI platforms - Senior Vice President",
+          "url": "https://jobs.citi.com/job/pune/golang-software-engineering-lead-genai-platforms-senior-vice-president/287/97193043056",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior AI Engineer, Banking Technology – Vice President",
+          "url": "https://ca.linkedin.com/jobs/view/senior-ai-engineer-banking-technology-%E2%80%93-vice-president-at-citi-4415670636",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Data Scientist",
+          "url": "https://jobs.citi.com/job/bengaluru/senior-data-scientist/287/97153212096",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "GenAI & Data Science Engineer - Assistant Vice President",
+          "url": "https://jobs.citi.com/job/pune/genai-and-data-science-engineer-assistant-vice-president/287/97083841200",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 7,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Netflix Inc.",
+      "domain": "netflix.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 10,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +10 new ML roles WoW",
+      "ml_roles_this_week": 10,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "Machine Learning Scientist 4 - Subscription Forecasting",
+      "subsector": "Streaming",
+      "revenue": 39001,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Machine Learning Scientist 4 - Subscription Forecasting",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-scientist-4-subscription-forecasting-at-netflix-4398637710",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning Scientist 4 - Content & Conversation Modeling",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-scientist-4-content-conversation-modeling-at-netflix-4348054763",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Product Designer, GenAI Ad Formats",
+          "url": "https://www.linkedin.com/jobs/view/senior-product-designer-genai-ad-formats-at-netflix-4413636994",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Machine Learning Scientist 5 - Ad Ranking",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-scientist-5-ad-ranking-at-netflix-4398409915",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Machine Learning Scientist 5 - Ads Bidding",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-scientist-5-ads-bidding-at-netflix-4413654511",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior ML Engineer, GenAI - Games",
+          "url": "https://www.linkedin.com/jobs/view/senior-ml-engineer-genai-games-at-netflix-4398256282",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Full-Stack Engineer 5 –  AI Insights & Visualizations, AI Platform",
+          "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-5-%E2%80%93-ai-insights-visualizations-ai-platform-at-netflix-4347685563",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Data Scientist 4/5 - Identity DSE",
+          "url": "https://www.linkedin.com/jobs/view/data-scientist-4-5-identity-dse-at-netflix-4412870607",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning Engineer 5 - Ads Platform Engineering",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-5-ads-platform-engineering-at-netflix-4212079983",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning Engineer 5 - Ads Inventory Management & Forecasting",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-5-ads-inventory-management-forecasting-at-netflix-4373117009",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 8,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Oracle Corporation",
+      "domain": "oracle.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 7,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; GPU/inference signal; +7 new ML roles WoW",
+      "ml_roles_this_week": 7,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 4,
+      "gpu_signal": true,
+      "top_role": "Principal Applied Scientist",
+      "subsector": "Software / Cloud",
+      "revenue": 52961,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Principal Applied Scientist",
+          "url": "https://ae.linkedin.com/jobs/view/principal-applied-scientist-at-oracle-4432723382",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Principal Software Developer, AI Infrastructure",
+          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334288",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Data Scientist - AI/ML",
+          "url": "https://ma.linkedin.com/jobs/view/data-scientist-ai-ml-at-oracle-4431965282",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Lead Principal Applied Scientist - Robotics",
+          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/338681",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Lead Consulting Developer- Python, AI/ML, Distributed System, Microservices",
+          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/322033",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Data Scientist - AI/ML",
+          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/338502",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "[Remote] Principal Applied Scientist",
+          "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334692",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 9,
+      "pod": "POD 4 Banking Payments Insurance",
+      "pod_short": "POD 4",
+      "company": "Visa Inc.",
+      "domain": "visa.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 7,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +7 new ML roles WoW",
+      "ml_roles_this_week": 7,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "Data Scientist, Credit Card Analytics",
+      "subsector": "Payment Networks",
+      "revenue": 35926,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Data Scientist, Credit Card Analytics",
+          "url": "https://visa.wd5.myworkdayjobs.com/Visa_Talent_Portal/job/IN---Remote---IND/Data-Scientist--Credit-Card-Analytics_REF074949W-2",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Manager Data Scientist",
+          "url": "https://visa.wd5.myworkdayjobs.com/Visa_Talent_Portal/job/IN---Bengaluru-India/Manager-Data-Scientist_REF082332W-2",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior AI Engineer",
+          "url": "https://sg.linkedin.com/jobs/view/senior-ai-engineer-at-visa-4436369832",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Software Engineer - Sr.Consultant Level - Python, React, GenAI Architecture",
+          "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Software-Engineer---SrConsultant-Level---Python--React--GenAI-Architecture_REF080421W",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Machine Learning Engineer- Senior Consultant Level",
+          "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Machine-Learning-Engineer--Senior-Consultant-Level_REF083276W",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Research Scientist IV",
+          "url": "https://sg.linkedin.com/jobs/view/research-scientist-iv-at-visa-4435511128",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Software Engineer - GenAI, Finance Tech",
+          "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/SW-Engineer-Austin_REF083267W",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 10,
+      "pod": "POD 4 Banking Payments Insurance",
+      "pod_short": "POD 4",
+      "company": "Mastercard Incorporated",
+      "domain": "mastercard.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 7,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; GPU/inference signal; +7 new ML roles WoW",
+      "ml_roles_this_week": 7,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 1,
+      "gpu_signal": true,
+      "top_role": "Director, Data Scientist",
+      "subsector": "Payment Networks",
+      "revenue": 28167,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Lead Data Scientist - Financial Crime",
+          "url": "https://ca.linkedin.com/jobs/view/lead-data-scientist-financial-crime-at-mastercard-4425328608",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Director, Data Scientist",
+          "url": "https://ca.linkedin.com/jobs/view/director-data-scientist-at-mastercard-4422753816",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Manager, Data Scientist",
+          "url": "https://pt.linkedin.com/jobs/view/manager-data-scientist-at-mastercard-4423158361",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Data Scientist II",
+          "url": "https://in.linkedin.com/jobs/view/data-scientist-ii-at-mastercard-4432371016",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior AI Engineer-1",
+          "url": "https://ie.linkedin.com/jobs/view/senior-ai-engineer-1-at-mastercard-4431973728",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior AI Engineer",
+          "url": "https://ie.linkedin.com/jobs/view/senior-ai-engineer-at-mastercard-4431948796",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Lead AI Engineer",
+          "url": "https://ie.linkedin.com/jobs/view/lead-ai-engineer-at-mastercard-4431546532",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 11,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Cisco Systems Inc.",
+      "domain": "cisco.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 7,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +7 new ML roles WoW",
+      "ml_roles_this_week": 7,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "AI Platform Security Engineer Hybrid",
+      "subsector": "Networking",
+      "revenue": 53803,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Senior Data Scientist (Time Series + ML)",
+          "url": "https://www.naukri.com/job-listings-senior-data-scientist-time-series-ml-cisco-bengaluru-6-to-11-years-020726502379",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Solutions Engineer - US Federal - Cloud and AI Infrastructure",
+          "url": "https://careers.cisco.com/global/en/job/2015269",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Data Scientist (Time Series + ML) | 6+ Years",
+          "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-time-series-+-ml-6+-years-at-cisco-4434639033",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "url": "https://careers.cisco.com/global/en/job/2017922",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "AI Platform Security Engineer Hybrid",
+          "url": "https://careers.cisco.com/global/en/job/2018214",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "AI Researcher - AI Research & Development, Deep Learning Frameworks",
+          "url": "https://www.naukri.com/job-listings-ai-researcher-ai-research-development-deep-learning-frameworks-cisco-bengaluru-10-to-15-years-300626502394",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "AI Researcher - AI Research & Development, Deep Learning Frameworks, Neural Architecture Design, Exp:12-20 Yrs",
+          "url": "https://in.linkedin.com/jobs/view/ai-researcher-ai-research-development-deep-learning-frameworks-neural-architecture-design-exp-12-20-yrs-at-cisco-4434715002",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 12,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Salesforce Inc.",
+      "domain": "salesforce.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 5,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; GPU/inference signal; +5 new ML roles WoW",
+      "ml_roles_this_week": 5,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 1,
+      "gpu_signal": true,
+      "top_role": "Principal Applied Scientist, Agentforce Operations",
+      "subsector": "SaaS",
+      "revenue": 37895,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Principal Applied Scientist, Agentforce Operations",
+          "url": "https://www.linkedin.com/jobs/view/principal-applied-scientist-agentforce-operations-at-salesforce-4436959612",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Offensive Security MTS/SMTS - AI Platform & Orchestration - Hyderabad",
+          "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/MTS-SMTS---AI-Platform---Orchestration--Offensive-Security---Hyderabad_JR350411",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "MTS/SMTS - AI Platform & Orchestration, Offensive Security - Hyderabad",
+          "url": "https://in.linkedin.com/jobs/view/mts-smts-ai-platform-orchestration-offensive-security-hyderabad-at-salesforce-4436738119",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "AI Engineer - Forward Deployed Engineer",
+          "url": "https://ar.linkedin.com/jobs/view/ai-engineer-forward-deployed-engineer-at-salesforce-4436134953",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Lead Applied Scientist, Agentforce Operations",
+          "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Washington---Seattle-Metro---Remote/Lead-Applied-Scientist--Agentforce-Operations_JR349246",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 13,
+      "pod": "POD 6 Cyber Telco Retail M&E",
+      "pod_short": "POD 6",
+      "company": "Paramount Global",
+      "domain": "paramount.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 5,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; GPU/inference signal; +5 new ML roles WoW",
+      "ml_roles_this_week": 5,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 1,
+      "gpu_signal": true,
+      "top_role": "Senior Director, Technical Product Management - ML Platform & Infrastructure",
+      "subsector": "Media",
+      "revenue": 29206,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Senior Machine Learning Operations Engineer",
+          "url": "https://www.linkedin.com/jobs/view/senior-machine-learning-operations-engineer-at-paramount-4409564127",
+          "date_posted": "2026-07-05",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-paramount-4409456969",
+          "date_posted": "2026-07-05",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Director, Technical Product Management - ML Platform & Infrastructure",
+          "url": "https://www.linkedin.com/jobs/view/senior-director-technical-product-management-ml-platform-infrastructure-at-paramount-4408508139",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Machine Learning Engineer, Ads Personalization",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-ads-personalization-at-paramount-4408503712",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "ML Platform Engineer",
+          "url": "https://www.linkedin.com/jobs/view/ml-platform-engineer-at-paramount-4408294802",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 14,
+      "pod": "POD 6 Cyber Telco Retail M&E",
+      "pod_short": "POD 6",
+      "company": "Walmart Inc.",
+      "domain": "walmart.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 4,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +4 ML roles added",
+      "ml_roles_this_week": 4,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "(USA) Staff, Data Scientist",
+      "subsector": "Retail",
+      "revenue": 648125,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "(USA) Staff, Data Scientist",
+          "url": "https://www.linkedin.com/jobs/view/usa-staff-data-scientist-at-walmart-4337710013",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Data Scientist",
+          "url": "https://www.linkedin.com/jobs/view/senior-data-scientist-at-walmart-4416385009",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior, Data Scientist",
+          "url": "https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/Mississauga-ON/Senior--Data-Scientist_R-2370628",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "STAFF, DATA SCIENTIST (MLE)",
+          "url": "https://www.naukri.com/job-listings-staff-data-scientist-mle-walmart-labs-bengaluru-6-to-11-years-010726501223",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 15,
+      "pod": "POD 2 Healthcare & Life Sciences",
+      "pod_short": "POD 2",
+      "company": "AbbVie Inc.",
+      "domain": "abbvie.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 4,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; GPU/inference signal; +4 ML roles added",
+      "ml_roles_this_week": 4,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 4,
+      "gpu_signal": true,
+      "top_role": "Principal Applied AI Engineer (Hybrid)",
+      "subsector": "Pharmaceuticals",
+      "revenue": 56334,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Principal Applied AI Engineer (Hybrid)",
+          "url": "https://www.linkedin.com/jobs/view/principal-applied-ai-engineer-hybrid-at-abbvie-4434693178",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Senior Principal Research Scientist",
+          "url": "https://www.linkedin.com/jobs/view/senior-principal-research-scientist-at-abbvie-4425892770",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Principal Research Scientist I",
+          "url": "https://jobs.smartrecruiters.com/AbbVie/3743990013841291-principal-research-scientist-i",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        },
+        {
+          "title": "Principal Research Scientist II, Analytical Lead, R&D",
+          "url": "https://jobs.smartrecruiters.com/AbbVie/3743990013847326-principal-research-scientist-ii-analytical-lead-r-d",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 16,
+      "pod": "POD 4 Banking Payments Insurance",
+      "pod_short": "POD 4",
+      "company": "PayPal Holdings",
+      "domain": "paypal.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 3,
+      "wow_pct": 100.0,
+      "notable": "+3 ML roles added",
+      "ml_roles_this_week": 3,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "Machine Learning Engineer",
+      "subsector": "Payments",
+      "revenue": 31797,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Machine Learning Engineer",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-paypal-4408575253",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Sr Data Scientist - CRM and Media analytics",
+          "url": "https://de.linkedin.com/jobs/view/sr-data-scientist-crm-and-media-analytics-at-paypal-4416237971",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Sr Data Scientist - CRM and Media Analytics",
+          "url": "https://de.linkedin.com/jobs/view/sr-data-scientist-crm-and-media-analytics-at-paypal-4416255721",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 17,
+      "pod": "POD 1 Capital Markets",
+      "pod_short": "POD 1",
+      "company": "BlackRock Inc.",
+      "domain": "blackrock.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 3,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; +3 ML roles added",
+      "ml_roles_this_week": 3,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 2,
+      "gpu_signal": false,
+      "top_role": "Artificial Intelligence & Machine Learning Engineer, Director",
+      "subsector": "Asset Management",
+      "revenue": 20407,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Artificial Intelligence & Machine Learning Engineer, Associate",
+          "url": "https://www.linkedin.com/jobs/view/artificial-intelligence-machine-learning-engineer-associate-at-blackrock-4418064764",
+          "date_posted": "2026-07-04",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Artificial Intelligence & Machine Learning Engineer, Director",
+          "url": "https://www.linkedin.com/jobs/view/artificial-intelligence-machine-learning-engineer-director-at-blackrock-4387404959",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Java/AI Engineer (Vice President)",
+          "url": "https://careers.blackrock.com/job/new-york/senior-java-ai-engineer-vice-president/45831/97198285584",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 18,
+      "pod": "POD 3 Manufacturing & Robotics",
+      "pod_short": "POD 3",
+      "company": "Caterpillar Inc.",
+      "domain": "caterpillar.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 3,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +3 ML roles added",
+      "ml_roles_this_week": 3,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "Lead Data Scientist (Service Events & Insights)",
+      "subsector": "Heavy Equipment",
+      "revenue": 64809,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Lead Data Scientist (Service Events & Insights)",
+          "url": "https://careers.caterpillar.com/en/jobs/r0000379510/lead-data-scientist-service-events-insights/",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Data Scientist II- Data Algorithms & Optimization, Cat Digital",
+          "url": "https://careers.caterpillar.com/en/jobs/r0000379727/data-scientist-ii-data-algorithms-optimization-cat-digital/",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Data Scientist - Artificial Intelligence R&D",
+          "url": "https://careers.caterpillar.com/en/jobs/r0000379465/senior-data-scientist-artificial-intelligence-rd/",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 19,
+      "pod": "POD 3 Manufacturing & Robotics",
+      "pod_short": "POD 3",
+      "company": "Eaton Corporation",
+      "domain": "eaton.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 3,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +3 ML roles added",
+      "ml_roles_this_week": 3,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "AI Engineer - MDM",
+      "subsector": "Power Mgmt",
+      "revenue": 24879,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "AI Engineer - MDM",
+          "url": "http://app.eightfold.ai/careers/job/687237468656?domain=eaton.com",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Lead Data Scientist",
+          "url": "http://app.eightfold.ai/careers/job/687237366115?domain=eaton.com",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Associate Engineer- Machine Learning",
+          "url": "http://app.eightfold.ai/careers/job/687237567838?domain=eaton.com",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 20,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Tesla Inc.",
+      "domain": "tesla.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 3,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +3 ML roles added",
+      "ml_roles_this_week": 3,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "Machine Learning Engineer, Supply Chain Systems",
+      "subsector": "EV / Auto",
+      "revenue": 97690,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Machine Learning Engineer, Supply Chain Systems",
+          "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-supply-chain-systems-at-tesla-4436463263",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Internship, AI Engineer, Tesla AI (Fall 2026)",
+          "url": "https://www.tesla.com/careers/search/job/275331?source=Indeed",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Internship, Machine Learning Engineer, Factory Software (Fall 2026)",
+          "url": "https://www.tesla.com/careers/search/job/275380?source=Indeed",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 21,
+      "pod": "POD 6 Cyber Telco Retail M&E",
+      "pod_short": "POD 6",
+      "company": "Target Corporation",
+      "domain": "target.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 2,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +2 ML roles added",
+      "ml_roles_this_week": 2,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "Sr Data Scientist- Promo Optimisation",
+      "subsector": "Retail",
+      "revenue": 107412,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Sr Data Scientist- Promo Optimisation",
+          "url": "https://in.linkedin.com/jobs/view/sr-data-scientist-promo-optimisation-at-target-4436412874",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        },
+        {
+          "title": "Sr. AI Engineer-Promo Optimisation",
+          "url": "https://in.linkedin.com/jobs/view/sr-ai-engineer-promo-optimisation-at-target-4436412875",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 22,
+      "pod": "POD 2 Healthcare & Life Sciences",
+      "pod_short": "POD 2",
+      "company": "Pfizer Inc.",
+      "domain": "pfizer.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 2,
+      "wow_pct": 100.0,
+      "notable": "+2 ML roles added",
+      "ml_roles_this_week": 2,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "Senior Machine Learning Research Scientist (m/f/d) - Generative AI for Drug Desi",
+      "subsector": "Pharmaceuticals",
+      "revenue": 63627,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Senior Machine Learning Research Scientist (m/f/d) - Generative AI for Drug Design",
+          "url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/Germany---Berlin/Senior-Machine-Learning-Research-Scientist--m-f-d-----Generative-AI-for-Drug-Design_4959830",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Senior Statistical Data Scientist",
+          "url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/India---Chennai/Senior-Statistical-Data-Scientist_4960011",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 23,
+      "pod": "POD 2 Healthcare & Life Sciences",
+      "pod_short": "POD 2",
+      "company": "Amgen Inc.",
+      "domain": "amgen.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 2,
+      "wow_pct": 100.0,
+      "notable": "+2 ML roles added",
+      "ml_roles_this_week": 2,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "Translational Data Management, Automation, & AI Engineer",
+      "subsector": "Biotech",
+      "revenue": 33424,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Translational Data Management, Automation, & AI Engineer",
+          "url": "https://careers.amgen.com/en/job/hyderabad/translational-data-management-automation-and-ai-engineer/87/97228929120",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Data Scientist (US Value & Access Insights)",
+          "url": "https://careers.amgen.com/en/job/hyderabad/data-scientist-us-value-and-access-insights/87/97209587280",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 24,
+      "pod": "POD 2 Healthcare & Life Sciences",
+      "pod_short": "POD 2",
+      "company": "McKesson Corporation",
+      "domain": "mckesson.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 2,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +2 ML roles added",
+      "ml_roles_this_week": 2,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "Sr. Machine Learning Ops Engineer",
+      "subsector": "Drug Distribution",
+      "revenue": 309014,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Data Scientist - Predictive Analytics",
+          "url": "https://www.linkedin.com/jobs/view/data-scientist-predictive-analytics-at-mckesson-4408594773",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Sr. Machine Learning Ops Engineer",
+          "url": "https://ca.linkedin.com/jobs/view/sr-machine-learning-ops-engineer-at-mckesson-4416916026",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 25,
+      "pod": "POD 3 Manufacturing & Robotics",
+      "pod_short": "POD 3",
+      "company": "Boeing Company",
+      "domain": "boeing.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 2,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +2 ML roles added",
+      "ml_roles_this_week": 2,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "Full Stack Data Scientist",
+      "subsector": "Aerospace",
+      "revenue": 77794,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Senior Agentic AI Engineer",
+          "url": "https://jobs.boeing.com/job/bengaluru/senior-agentic-ai-engineer/185/97274194576",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Full Stack Data Scientist",
+          "url": "https://jobs.boeing.com/job/seattle/full-stack-data-scientist/185/97252802592",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 26,
+      "pod": "POD 4 Banking Payments Insurance",
+      "pod_short": "POD 4",
+      "company": "Travelers Companies",
+      "domain": "travelers.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 2,
+      "wow_pct": 100.0,
+      "notable": "+2 ML roles added",
+      "ml_roles_this_week": 2,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "Data Science Leadership Development Program (DSLDP) Associate Data Scientist",
+      "subsector": "P&C Insurance",
+      "revenue": 46421,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Data Science Leadership Development Program (DSLDP) Associate Data Scientist",
+          "url": "https://travelersindex.contacthr.com/152632721",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Data Science Leadership Development Program (DSLDP) Sr. Associate Data Scientist",
+          "url": "https://travelersindex.contacthr.com/152632714",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 27,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Comcast Corporation",
+      "domain": "corporate.comcast.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 2,
+      "wow_pct": 100.0,
+      "notable": "+2 ML roles added",
+      "ml_roles_this_week": 2,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "Data Scientist 4",
+      "subsector": "Cable / Media",
+      "revenue": 123731,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Data Scientist 4",
+          "url": "https://in.linkedin.com/jobs/view/data-scientist-4-at-comcast-4435464952",
+          "date_posted": "2026-07-03",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        },
+        {
+          "title": "Machine Learning Engineer 2",
+          "url": "https://jobs.comcast.com/job/-/-/45483/97099276208?source=ind_orga_at",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 28,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Intel Corporation",
+      "domain": "intel.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 1,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +1 ML roles added",
+      "ml_roles_this_week": 1,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "AI/ML Technologist",
+      "subsector": "Semiconductors",
+      "revenue": 53101,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "AI/ML Technologist",
+          "url": "https://in.linkedin.com/jobs/view/ai-ml-technologist-at-intel-4434304851",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 29,
+      "pod": "POD 2 Healthcare & Life Sciences",
+      "pod_short": "POD 2",
+      "company": "Humana Inc.",
+      "domain": "humana.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 1,
+      "wow_pct": 100.0,
+      "notable": "+1 ML roles added",
+      "ml_roles_this_week": 1,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "Lead Data Scientist, Stars Population Health",
+      "subsector": "Managed Care",
+      "revenue": 117761,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Lead Data Scientist, Stars Population Health",
+          "url": "https://click.appcast.io/t/LXbMZdDuPdy-4ZFnbF-7jvw1I6ug3wQ9oPJVkwsHIXE=",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 30,
+      "pod": "POD 3 Manufacturing & Robotics",
+      "pod_short": "POD 3",
+      "company": "Cummins Inc.",
+      "domain": "cummins.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 1,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +1 ML roles added",
+      "ml_roles_this_week": 1,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "AI Intern - LLM",
+      "subsector": "Engines / Power",
+      "revenue": 34102,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "AI Intern - LLM",
+          "url": "https://rr.jobsyn.org/2717560AD3EC41DBA4BE53B33B3694121554",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 31,
+      "pod": "POD 3 Manufacturing & Robotics",
+      "pod_short": "POD 3",
+      "company": "RTX Corporation",
+      "domain": "rtx.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 1,
+      "wow_pct": 100.0,
+      "notable": "Director+ hiring; GPU/inference signal; +1 ML roles added",
+      "ml_roles_this_week": 1,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 1,
+      "gpu_signal": true,
+      "top_role": "Principal Cyber Research Scientist",
+      "subsector": "Defense",
+      "revenue": 80738,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Principal Cyber Research Scientist",
+          "url": "https://www.linkedin.com/jobs/view/principal-cyber-research-scientist-at-rtx-4373827054",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": true,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 32,
+      "pod": "POD 4 Banking Payments Insurance",
+      "pod_short": "POD 4",
+      "company": "Chubb Limited",
+      "domain": "chubb.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 1,
+      "wow_pct": 100.0,
+      "notable": "+1 ML roles added",
+      "ml_roles_this_week": 1,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "【TW Life】Senior AI Engineer",
+      "subsector": "P&C Insurance",
+      "revenue": 55400,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "【TW Life】Senior AI Engineer",
+          "url": "https://tw.linkedin.com/jobs/view/%E3%80%90tw-life%E3%80%91senior-ai-engineer-at-chubb-4432390006",
+          "date_posted": "2026-07-01",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 33,
+      "pod": "POD 4 Banking Payments Insurance",
+      "pod_short": "POD 4",
+      "company": "MetLife Inc.",
+      "domain": "metlife.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 1,
+      "wow_pct": 100.0,
+      "notable": "+1 ML roles added",
+      "ml_roles_this_week": 1,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "Senior Data Scientist I",
+      "subsector": "Life Insurance",
+      "revenue": 71008,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Senior Data Scientist I",
+          "url": "https://www.metlifecareers.com/en_US/ml/ApplicationMethods?formValues=&jobId=16817&recommendation=&source=Indeed&tags=&user=",
+          "date_posted": "2026-06-30",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 34,
+      "pod": "POD 5 Consumer Internet Software Auto",
+      "pod_short": "POD 5",
+      "company": "Stellantis N.V.",
+      "domain": "stellantis.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 1,
+      "wow_pct": 100.0,
+      "notable": "+1 ML roles added",
+      "ml_roles_this_week": 1,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "Applied AI Engineer (Supply Chain)",
+      "subsector": "Auto OEM",
+      "revenue": 201202,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Applied AI Engineer (Supply Chain)",
+          "url": "https://fr.linkedin.com/jobs/view/applied-ai-engineer-supply-chain-at-stellantis-4432785788",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 35,
+      "pod": "POD 6 Cyber Telco Retail M&E",
+      "pod_short": "POD 6",
+      "company": "T-Mobile US Inc.",
+      "domain": "t-mobile.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 1,
+      "wow_pct": 100.0,
+      "notable": "GPU/inference signal; +1 ML roles added",
+      "ml_roles_this_week": 1,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": true,
+      "top_role": "T Hub - AI Intern – LLM, Voice to Text & Agentic Systems",
+      "subsector": "Telco",
+      "revenue": 81400,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "T Hub - AI Intern – LLM, Voice to Text & Agentic Systems",
+          "url": "https://magentateam.pl/pl/ogloszenie?id=559951-20008533-4894182",
+          "date_posted": "2026-07-02",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": true
+        }
+      ]
+    },
+    {
+      "heat": "🟩 Hot",
+      "rank": 36,
+      "pod": "POD 6 Cyber Telco Retail M&E",
+      "pod_short": "POD 6",
+      "company": "Verizon Communications",
+      "domain": "verizon.com",
+      "action": "Outbound Now — High ML Signal",
+      "net_new": 1,
+      "wow_pct": 100.0,
+      "notable": "+1 ML roles added",
+      "ml_roles_this_week": 1,
+      "ml_roles_last_week": 0,
+      "high_signal": true,
+      "director_count": 0,
+      "gpu_signal": false,
+      "top_role": "Sr Engr Cslt-AI/ML Engineering",
+      "subsector": "Telco",
+      "revenue": 134788,
+      "sources": "TheirStack",
+      "week_of": "2026-07-06",
+      "jobs": [
+        {
+          "title": "Sr Engr Cslt-AI/ML Engineering",
+          "url": "https://in.linkedin.com/jobs/view/sr-engr-cslt-ai-ml-engineering-at-verizon-4419418099",
+          "date_posted": "2026-06-29",
+          "is_new": true,
+          "is_director": false,
+          "has_gpu": false
+        }
+      ]
+    },
+    {
+      "heat": "⬜ Quiet",
+      "rank": 37,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Capital One Financial",
@@ -27,12 +2963,12 @@
       "subsector": "Consumer Bank",
       "revenue": 39135,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 2,
+      "rank": 38,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Amazon.com Inc.",
@@ -50,58 +2986,12 @@
       "subsector": "E-commerce / Cloud",
       "revenue": 637959,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 3,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "NVIDIA Corporation",
-      "domain": "nvidia.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Semiconductors",
-      "revenue": 130497,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 4,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Oracle Corporation",
-      "domain": "oracle.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Software / Cloud",
-      "revenue": 52961,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 5,
+      "rank": 39,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Walt Disney Company",
@@ -119,35 +3009,12 @@
       "subsector": "Media / Streaming",
       "revenue": 91361,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 6,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Microsoft Corporation",
-      "domain": "microsoft.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Software",
-      "revenue": 245122,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 7,
+      "rank": 40,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Eli Lilly and Company",
@@ -165,12 +3032,12 @@
       "subsector": "Pharmaceuticals",
       "revenue": 45042,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 8,
+      "rank": 41,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Uber Technologies",
@@ -188,12 +3055,12 @@
       "subsector": "Mobility / Delivery",
       "revenue": 43970,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 9,
+      "rank": 42,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Johns Hopkins University",
@@ -211,12 +3078,12 @@
       "subsector": "R1 Research University",
       "revenue": 3833,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 10,
+      "rank": 43,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Thermo Fisher Scientific",
@@ -234,12 +3101,12 @@
       "subsector": "Life Sci Tools",
       "revenue": 42857,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 11,
+      "rank": 44,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Ford Motor Company",
@@ -257,12 +3124,12 @@
       "subsector": "Auto OEM",
       "revenue": 184992,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 12,
+      "rank": 45,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Merck & Co. Inc.",
@@ -280,12 +3147,12 @@
       "subsector": "Pharmaceuticals",
       "revenue": 64168,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 13,
+      "rank": 46,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Texas A&M University",
@@ -303,12 +3170,12 @@
       "subsector": "R1 Research University",
       "revenue": 1220,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 14,
+      "rank": 47,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Northrop Grumman",
@@ -326,35 +3193,12 @@
       "subsector": "Defense",
       "revenue": 40849,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 15,
-      "pod": "POD 4 Banking Payments Insurance",
-      "pod_short": "POD 4",
-      "company": "JPMorgan Chase & Co.",
-      "domain": "jpmorganchase.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Money Center Bank",
-      "revenue": 177421,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 16,
+      "rank": 48,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Meta Platforms Inc.",
@@ -372,35 +3216,12 @@
       "subsector": "Social",
       "revenue": 164501,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 17,
-      "pod": "POD 6 Cyber Telco Retail M&E",
-      "pod_short": "POD 6",
-      "company": "Target Corporation",
-      "domain": "target.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Retail",
-      "revenue": 107412,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 18,
+      "rank": 49,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Stanford University",
@@ -418,12 +3239,12 @@
       "subsector": "R1 Research University",
       "revenue": 1908,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 19,
+      "rank": 50,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Duke University",
@@ -441,12 +3262,12 @@
       "subsector": "R1 Research University",
       "revenue": 1560,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 20,
+      "rank": 51,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Morgan Stanley",
@@ -464,12 +3285,12 @@
       "subsector": "Investment Banking",
       "revenue": 54143,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 21,
+      "rank": 52,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Moody's Corporation",
@@ -487,12 +3308,12 @@
       "subsector": "Ratings & Analytics",
       "revenue": 7088,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 22,
+      "rank": 53,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "UnitedHealth Group",
@@ -510,12 +3331,12 @@
       "subsector": "Managed Care",
       "revenue": 371622,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 23,
+      "rank": 54,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Johnson & Johnson",
@@ -533,35 +3354,12 @@
       "subsector": "Pharmaceuticals",
       "revenue": 88821,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 24,
-      "pod": "POD 2 Healthcare & Life Sciences",
-      "pod_short": "POD 2",
-      "company": "Pfizer Inc.",
-      "domain": "pfizer.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Pharmaceuticals",
-      "revenue": 63627,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 25,
+      "rank": 55,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Prudential Financial",
@@ -579,127 +3377,12 @@
       "subsector": "Life Insurance / Asset Mgmt",
       "revenue": 69991,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 26,
-      "pod": "POD 4 Banking Payments Insurance",
-      "pod_short": "POD 4",
-      "company": "Visa Inc.",
-      "domain": "visa.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Payment Networks",
-      "revenue": 35926,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 27,
-      "pod": "POD 4 Banking Payments Insurance",
-      "pod_short": "POD 4",
-      "company": "PayPal Holdings",
-      "domain": "paypal.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Payments",
-      "revenue": 31797,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 28,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Apple Inc.",
-      "domain": "apple.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Consumer Tech",
-      "revenue": 391035,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 29,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Intel Corporation",
-      "domain": "intel.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Semiconductors",
-      "revenue": 53101,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 30,
-      "pod": "POD 6 Cyber Telco Retail M&E",
-      "pod_short": "POD 6",
-      "company": "Walmart Inc.",
-      "domain": "walmart.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Retail",
-      "revenue": 648125,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 31,
+      "rank": 56,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Columbia University",
@@ -717,12 +3400,12 @@
       "subsector": "Ivy League / R1",
       "revenue": 1389,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 32,
+      "rank": 57,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Cornell University",
@@ -740,12 +3423,12 @@
       "subsector": "Ivy League / R1",
       "revenue": 1369,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 33,
+      "rank": 58,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "Georgia Institute of Technology",
@@ -763,12 +3446,12 @@
       "subsector": "R1 Research University",
       "revenue": 1357,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 34,
+      "rank": 59,
       "pod": "POD 7 Higher Education",
       "pod_short": "POD 7",
       "company": "University of Florida",
@@ -786,12 +3469,12 @@
       "subsector": "R1 Research University",
       "revenue": 1240,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 35,
+      "rank": 60,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Ameriprise Financial",
@@ -809,12 +3492,12 @@
       "subsector": "Wealth Mgmt",
       "revenue": 16934,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 36,
+      "rank": 61,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Apollo Global Management",
@@ -832,12 +3515,12 @@
       "subsector": "Alt Asset Mgmt",
       "revenue": 26113,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 37,
+      "rank": 62,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Bank of New York Mellon",
@@ -855,35 +3538,12 @@
       "subsector": "Custody / Trust",
       "revenue": 17779,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 38,
-      "pod": "POD 1 Capital Markets",
-      "pod_short": "POD 1",
-      "company": "BlackRock Inc.",
-      "domain": "blackrock.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Asset Management",
-      "revenue": 20407,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 39,
+      "rank": 63,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Blackstone Inc.",
@@ -901,12 +3561,12 @@
       "subsector": "Alt Asset Mgmt",
       "revenue": 11375,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 40,
+      "rank": 64,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Brookfield Corporation",
@@ -924,12 +3584,12 @@
       "subsector": "Alt Asset Mgmt",
       "revenue": 95061,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 41,
+      "rank": 65,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Charles Schwab Corporation",
@@ -947,12 +3607,12 @@
       "subsector": "Asset Mgmt / Brokerage",
       "revenue": 19600,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 42,
+      "rank": 66,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Franklin Resources",
@@ -970,12 +3630,12 @@
       "subsector": "Asset Management",
       "revenue": 8438,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 43,
+      "rank": 67,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Goldman Sachs Group Inc.",
@@ -993,12 +3653,12 @@
       "subsector": "Investment Banking",
       "revenue": 53510,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 44,
+      "rank": 68,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Intercontinental Exchange",
@@ -1016,12 +3676,12 @@
       "subsector": "Exchanges",
       "revenue": 9333,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 45,
+      "rank": 69,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Jefferies Financial Group",
@@ -1039,12 +3699,12 @@
       "subsector": "Investment Banking",
       "revenue": 7013,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 46,
+      "rank": 70,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "KKR & Co. Inc.",
@@ -1062,12 +3722,12 @@
       "subsector": "Alt Asset Mgmt",
       "revenue": 15045,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 47,
+      "rank": 71,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "LPL Financial Holdings",
@@ -1085,12 +3745,12 @@
       "subsector": "Wealth Mgmt",
       "revenue": 11314,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 48,
+      "rank": 72,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Northern Trust Corporation",
@@ -1108,12 +3768,12 @@
       "subsector": "Custody / Trust",
       "revenue": 7339,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 49,
+      "rank": 73,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "Raymond James Financial",
@@ -1131,12 +3791,12 @@
       "subsector": "Wealth Mgmt",
       "revenue": 12922,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 50,
+      "rank": 74,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "S&P Global Inc.",
@@ -1154,12 +3814,12 @@
       "subsector": "Ratings & Analytics",
       "revenue": 13439,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 51,
+      "rank": 75,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "State Street Corporation",
@@ -1177,12 +3837,12 @@
       "subsector": "Custody / Trust",
       "revenue": 11939,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 52,
+      "rank": 76,
       "pod": "POD 1 Capital Markets",
       "pod_short": "POD 1",
       "company": "T. Rowe Price Group",
@@ -1200,12 +3860,12 @@
       "subsector": "Asset Management",
       "revenue": 7090,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 53,
+      "rank": 77,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Abbott Laboratories",
@@ -1223,58 +3883,12 @@
       "subsector": "Medical Devices",
       "revenue": 41950,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 54,
-      "pod": "POD 2 Healthcare & Life Sciences",
-      "pod_short": "POD 2",
-      "company": "AbbVie Inc.",
-      "domain": "abbvie.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Pharmaceuticals",
-      "revenue": 56334,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 55,
-      "pod": "POD 2 Healthcare & Life Sciences",
-      "pod_short": "POD 2",
-      "company": "Amgen Inc.",
-      "domain": "amgen.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Biotech",
-      "revenue": 33424,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 56,
+      "rank": 78,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Bristol-Myers Squibb",
@@ -1292,12 +3906,12 @@
       "subsector": "Pharmaceuticals",
       "revenue": 48300,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 57,
+      "rank": 79,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Cardinal Health Inc.",
@@ -1315,12 +3929,12 @@
       "subsector": "Drug Distribution",
       "revenue": 226828,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 58,
+      "rank": 80,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Cencora Inc.",
@@ -1338,12 +3952,12 @@
       "subsector": "Drug Distribution",
       "revenue": 294041,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 59,
+      "rank": 81,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Centene Corporation",
@@ -1361,12 +3975,12 @@
       "subsector": "Managed Care",
       "revenue": 154000,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 60,
+      "rank": 82,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Cigna Group",
@@ -1384,12 +3998,12 @@
       "subsector": "Managed Care",
       "revenue": 240931,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 61,
+      "rank": 83,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "CVS Health Corporation",
@@ -1407,12 +4021,12 @@
       "subsector": "Pharmacy / PBM",
       "revenue": 372807,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 62,
+      "rank": 84,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Elevance Health Inc.",
@@ -1430,12 +4044,12 @@
       "subsector": "Managed Care",
       "revenue": 176815,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 63,
+      "rank": 85,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "Gilead Sciences",
@@ -1453,12 +4067,12 @@
       "subsector": "Biotech",
       "revenue": 28754,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 64,
+      "rank": 86,
       "pod": "POD 2 Healthcare & Life Sciences",
       "pod_short": "POD 2",
       "company": "HCA Healthcare Inc.",
@@ -1476,58 +4090,12 @@
       "subsector": "Hospitals",
       "revenue": 67871,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 65,
-      "pod": "POD 2 Healthcare & Life Sciences",
-      "pod_short": "POD 2",
-      "company": "Humana Inc.",
-      "domain": "humana.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Managed Care",
-      "revenue": 117761,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 66,
-      "pod": "POD 2 Healthcare & Life Sciences",
-      "pod_short": "POD 2",
-      "company": "McKesson Corporation",
-      "domain": "mckesson.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Drug Distribution",
-      "revenue": 309014,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 67,
+      "rank": 87,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "3M Company",
@@ -1545,35 +4113,12 @@
       "subsector": "Industrial Conglomerate",
       "revenue": 24575,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 68,
-      "pod": "POD 3 Manufacturing & Robotics",
-      "pod_short": "POD 3",
-      "company": "Boeing Company",
-      "domain": "boeing.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Aerospace",
-      "revenue": 77794,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 69,
+      "rank": 88,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Carrier Global",
@@ -1591,58 +4136,12 @@
       "subsector": "HVAC",
       "revenue": 22489,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 70,
-      "pod": "POD 3 Manufacturing & Robotics",
-      "pod_short": "POD 3",
-      "company": "Caterpillar Inc.",
-      "domain": "caterpillar.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Heavy Equipment",
-      "revenue": 64809,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 71,
-      "pod": "POD 3 Manufacturing & Robotics",
-      "pod_short": "POD 3",
-      "company": "Cummins Inc.",
-      "domain": "cummins.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Engines / Power",
-      "revenue": 34102,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 72,
+      "rank": 89,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Deere & Company",
@@ -1660,35 +4159,12 @@
       "subsector": "Agri Equipment",
       "revenue": 51716,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 73,
-      "pod": "POD 3 Manufacturing & Robotics",
-      "pod_short": "POD 3",
-      "company": "Eaton Corporation",
-      "domain": "eaton.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Power Mgmt",
-      "revenue": 24879,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 74,
+      "rank": 90,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Emerson Electric Co.",
@@ -1706,12 +4182,12 @@
       "subsector": "Automation",
       "revenue": 17492,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 75,
+      "rank": 91,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "GE Vernova Inc.",
@@ -1729,12 +4205,12 @@
       "subsector": "Power & Energy",
       "revenue": 34935,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 76,
+      "rank": 92,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "General Dynamics",
@@ -1752,12 +4228,12 @@
       "subsector": "Defense",
       "revenue": 47716,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 77,
+      "rank": 93,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "General Electric Aerospace",
@@ -1775,12 +4251,12 @@
       "subsector": "Aerospace",
       "revenue": 38702,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 78,
+      "rank": 94,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Honeywell International",
@@ -1798,12 +4274,12 @@
       "subsector": "Industrial Conglomerate",
       "revenue": 37847,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 79,
+      "rank": 95,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Jacobs Solutions Inc.",
@@ -1821,12 +4297,12 @@
       "subsector": "Engineering / Defense",
       "revenue": 16751,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 80,
+      "rank": 96,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "L3Harris Technologies",
@@ -1844,12 +4320,12 @@
       "subsector": "Defense",
       "revenue": 21321,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 81,
+      "rank": 97,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Lockheed Martin Corp.",
@@ -1867,12 +4343,12 @@
       "subsector": "Defense",
       "revenue": 71043,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 82,
+      "rank": 98,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "PACCAR Inc.",
@@ -1890,12 +4366,12 @@
       "subsector": "Trucks",
       "revenue": 33656,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 83,
+      "rank": 99,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Parker-Hannifin",
@@ -1913,35 +4389,12 @@
       "subsector": "Industrial Machinery",
       "revenue": 19930,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 84,
-      "pod": "POD 3 Manufacturing & Robotics",
-      "pod_short": "POD 3",
-      "company": "RTX Corporation",
-      "domain": "rtx.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Defense",
-      "revenue": 80738,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 85,
+      "rank": 100,
       "pod": "POD 3 Manufacturing & Robotics",
       "pod_short": "POD 3",
       "company": "Trane Technologies",
@@ -1959,12 +4412,12 @@
       "subsector": "HVAC",
       "revenue": 19829,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 86,
+      "rank": 101,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "AIG (American Intl. Group)",
@@ -1982,12 +4435,12 @@
       "subsector": "P&C Insurance",
       "revenue": 46951,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 87,
+      "rank": 102,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Allstate Corporation",
@@ -2005,12 +4458,12 @@
       "subsector": "Auto/Home Insurance",
       "revenue": 64104,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 88,
+      "rank": 103,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "American Express Company",
@@ -2028,12 +4481,12 @@
       "subsector": "Payments",
       "revenue": 65454,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 89,
+      "rank": 104,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Bank of America Corp.",
@@ -2051,12 +4504,12 @@
       "subsector": "Money Center Bank",
       "revenue": 98581,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 90,
+      "rank": 105,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Berkshire Hathaway Inc.",
@@ -2074,12 +4527,12 @@
       "subsector": "Diversified Insurance",
       "revenue": 371433,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 91,
+      "rank": 106,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Block Inc.",
@@ -2097,58 +4550,12 @@
       "subsector": "Payments",
       "revenue": 24121,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 92,
-      "pod": "POD 4 Banking Payments Insurance",
-      "pod_short": "POD 4",
-      "company": "Chubb Limited",
-      "domain": "chubb.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "P&C Insurance",
-      "revenue": 55400,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 93,
-      "pod": "POD 4 Banking Payments Insurance",
-      "pod_short": "POD 4",
-      "company": "Citigroup Inc.",
-      "domain": "citigroup.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Money Center Bank",
-      "revenue": 71355,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 94,
+      "rank": 107,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Hartford Financial Services",
@@ -2166,58 +4573,12 @@
       "subsector": "P&C Insurance",
       "revenue": 24341,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 95,
-      "pod": "POD 4 Banking Payments Insurance",
-      "pod_short": "POD 4",
-      "company": "Mastercard Incorporated",
-      "domain": "mastercard.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Payment Networks",
-      "revenue": 28167,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 96,
-      "pod": "POD 4 Banking Payments Insurance",
-      "pod_short": "POD 4",
-      "company": "MetLife Inc.",
-      "domain": "metlife.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Life Insurance",
-      "revenue": 71008,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 97,
+      "rank": 108,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Progressive Corporation",
@@ -2235,35 +4596,12 @@
       "subsector": "Auto Insurance",
       "revenue": 75342,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 98,
-      "pod": "POD 4 Banking Payments Insurance",
-      "pod_short": "POD 4",
-      "company": "Travelers Companies",
-      "domain": "travelers.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "P&C Insurance",
-      "revenue": 46421,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 99,
+      "rank": 109,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "U.S. Bancorp",
@@ -2281,12 +4619,12 @@
       "subsector": "Regional Bank",
       "revenue": 40496,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 100,
+      "rank": 110,
       "pod": "POD 4 Banking Payments Insurance",
       "pod_short": "POD 4",
       "company": "Wells Fargo & Company",
@@ -2304,12 +4642,12 @@
       "subsector": "Money Center Bank",
       "revenue": 82596,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 101,
+      "rank": 111,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Alphabet Inc.",
@@ -2327,12 +4665,12 @@
       "subsector": "Search / Cloud",
       "revenue": 350018,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 102,
+      "rank": 112,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "Broadcom Inc.",
@@ -2350,58 +4688,12 @@
       "subsector": "Semiconductors",
       "revenue": 51574,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 103,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Cisco Systems Inc.",
-      "domain": "cisco.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Networking",
-      "revenue": 53803,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 104,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Comcast Corporation",
-      "domain": "corporate.comcast.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Cable / Media",
-      "revenue": 123731,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 105,
+      "rank": 113,
       "pod": "POD 5 Consumer Internet Software Auto",
       "pod_short": "POD 5",
       "company": "General Motors Company",
@@ -2419,127 +4711,12 @@
       "subsector": "Auto OEM",
       "revenue": 187442,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 106,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Netflix Inc.",
-      "domain": "netflix.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Streaming",
-      "revenue": 39001,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 107,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Qualcomm Inc.",
-      "domain": "qualcomm.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Semiconductors",
-      "revenue": 38962,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 108,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Salesforce Inc.",
-      "domain": "salesforce.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "SaaS",
-      "revenue": 37895,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 109,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Stellantis N.V.",
-      "domain": "stellantis.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Auto OEM",
-      "revenue": 201202,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 110,
-      "pod": "POD 5 Consumer Internet Software Auto",
-      "pod_short": "POD 5",
-      "company": "Tesla Inc.",
-      "domain": "tesla.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "EV / Auto",
-      "revenue": 97690,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 111,
+      "rank": 114,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "AT&T Inc.",
@@ -2557,12 +4734,12 @@
       "subsector": "Telco",
       "revenue": 122336,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 112,
+      "rank": 115,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Best Buy Co.",
@@ -2580,12 +4757,12 @@
       "subsector": "Retail",
       "revenue": 41528,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 113,
+      "rank": 116,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Charter Communications",
@@ -2603,12 +4780,12 @@
       "subsector": "Cable",
       "revenue": 55085,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 114,
+      "rank": 117,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Costco Wholesale",
@@ -2626,12 +4803,12 @@
       "subsector": "Retail",
       "revenue": 254453,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 115,
+      "rank": 118,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Dollar General Corp.",
@@ -2649,12 +4826,12 @@
       "subsector": "Retail",
       "revenue": 40612,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 116,
+      "rank": 119,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Dollar Tree Inc.",
@@ -2672,12 +4849,12 @@
       "subsector": "Retail",
       "revenue": 30603,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 117,
+      "rank": 120,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Home Depot Inc.",
@@ -2695,12 +4872,12 @@
       "subsector": "Retail",
       "revenue": 159514,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 118,
+      "rank": 121,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Kroger Co.",
@@ -2718,12 +4895,12 @@
       "subsector": "Grocery",
       "revenue": 150039,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 119,
+      "rank": 122,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Lowe's Companies",
@@ -2741,35 +4918,12 @@
       "subsector": "Retail",
       "revenue": 86377,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 120,
-      "pod": "POD 6 Cyber Telco Retail M&E",
-      "pod_short": "POD 6",
-      "company": "Paramount Global",
-      "domain": "paramount.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Media",
-      "revenue": 29206,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 121,
+      "rank": 123,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Performance Food Group",
@@ -2787,12 +4941,12 @@
       "subsector": "Food Distribution",
       "revenue": 58281,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 122,
+      "rank": 124,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "Sysco Corporation",
@@ -2810,35 +4964,12 @@
       "subsector": "Food Distribution",
       "revenue": 79767,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 123,
-      "pod": "POD 6 Cyber Telco Retail M&E",
-      "pod_short": "POD 6",
-      "company": "T-Mobile US Inc.",
-      "domain": "t-mobile.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Telco",
-      "revenue": 81400,
-      "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 124,
+      "rank": 125,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "TJX Companies",
@@ -2856,12 +4987,12 @@
       "subsector": "Retail",
       "revenue": 56360,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
       "heat": "⬜ Quiet",
-      "rank": 125,
+      "rank": 126,
       "pod": "POD 6 Cyber Telco Retail M&E",
       "pod_short": "POD 6",
       "company": "US Foods Holding",
@@ -2879,30 +5010,7 @@
       "subsector": "Food Distribution",
       "revenue": 37874,
       "sources": "—",
-      "week_of": "2026-06-29",
-      "jobs": []
-    },
-    {
-      "heat": "⬜ Quiet",
-      "rank": 126,
-      "pod": "POD 6 Cyber Telco Retail M&E",
-      "pod_short": "POD 6",
-      "company": "Verizon Communications",
-      "domain": "verizon.com",
-      "action": "Hold",
-      "net_new": 0,
-      "wow_pct": 0.0,
-      "notable": "—",
-      "ml_roles_this_week": 0,
-      "ml_roles_last_week": 0,
-      "high_signal": false,
-      "director_count": 0,
-      "gpu_signal": false,
-      "top_role": "—",
-      "subsector": "Telco",
-      "revenue": 134788,
-      "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -2925,7 +5033,7 @@
       "subsector": "Pharmacy Retail",
       "revenue": 147658,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -2948,7 +5056,7 @@
       "subsector": "Media",
       "revenue": 39321,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -2971,7 +5079,7 @@
       "subsector": "Ivy League / R1",
       "revenue": 1320,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -2994,7 +5102,7 @@
       "subsector": "R1 Research University",
       "revenue": 1370,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -3017,7 +5125,7 @@
       "subsector": "R1 Research University",
       "revenue": 1239,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -3040,7 +5148,7 @@
       "subsector": "R1 Research University",
       "revenue": 1623,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -3063,7 +5171,7 @@
       "subsector": "R1 Research University",
       "revenue": 1614,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -3086,7 +5194,7 @@
       "subsector": "Medical Research University",
       "revenue": 1944,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -3109,7 +5217,7 @@
       "subsector": "R1 Research University",
       "revenue": 1450,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -3132,7 +5240,7 @@
       "subsector": "R1 Research University",
       "revenue": 1860,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -3155,7 +5263,7 @@
       "subsector": "R1 Research University",
       "revenue": 1300,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -3178,7 +5286,7 @@
       "subsector": "Ivy League / R1",
       "revenue": 1696,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -3201,7 +5309,7 @@
       "subsector": "R1 Research University",
       "revenue": 1672,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     },
     {
@@ -3224,7 +5332,7 @@
       "subsector": "R1 Research University",
       "revenue": 1620,
       "sources": "—",
-      "week_of": "2026-06-29",
+      "week_of": "2026-07-06",
       "jobs": []
     }
   ]
