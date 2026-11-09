@@ -1,1093 +1,1092 @@
 {
   "capitalone.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "amazon.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "nvidia.com": {
-    "count": 144,
-    "week_of": "2026-11-02",
+    "count": 71,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "senior solutions architect, higher education and research - open models and llm",
-      "senior product manager - ai platform inference",
-      "principal data scientist - cloud gaming and ai",
-      "senior deep learning engineer, accuracy evaluation",
-      "senior web software engineer, ai infrastructure",
-      "ai infrastructure and frameworks intern, cosmos lab - 2027",
-      "agentic ai platform senior account manager, dach",
-      "deep learning compiler verification engineer",
-      "senior deep learning compiler engineer - pytorch",
-      "senior deep learning compiler engineer - pytorch",
-      "deep learning compiler verification engineer",
-      "senior mlops engineer - dsx enablement",
-      "senior deep learning communication architect",
-      "senior deep learning software infrastructure engineer",
-      "senior software engineer - cuda and unified memory",
-      "senior deep learning frameworks cuda software engineer",
-      "senior deep reinforcement learning engineer - autonomous driving",
-      "senior deep learning hardware modeling architect - lpu",
-      "applied machine learning engineer, ai for vlsi design - new college grad 2026",
-      "senior technical product marketing manager - ai infrastructure",
-      "senior software engineer, dgx cloud ai infrastructure",
-      "senior product architect, k8s-based ai infrastructure",
-      "senior data scientist, data quality and ai evaluation",
-      "principal software engineer \u2013 large-scale llm memory and storage systems",
-      "technical lead, genai - autonomous vehicles",
-      "senior system software engineer - cuda chips",
-      "principal deep learning communication architect",
-      "senior software engineer, cuda c++ core libraries",
-      "relational foundation model engineer, modern data stack",
-      "research scientist, physical ai - foundation models - phd new college grad 2026",
-      "principal system software engineer - cuda driver",
-      "senior research scientist for generative ai",
-      "research scientist, robotics research -  phd new college grad 2026",
-      "research scientist, ai for graphics and gaming - new college grad 2026",
-      "senior inference engineer, gpu kernel optimization",
-      "senior applied ai engineer",
-      "applied machine learning engineer - ai for vlsi design",
-      "senior machine learning engineer, accelerated apache spark",
-      "product marketing manager, cuda languages",
-      "senior deep learning software engineer, dlsim",
-      "manager, solutions architecture - ai infrastructure build readiness",
-      "senior machine learning applications and compiler engineer, lpx",
-      "senior software engineer, c++ and cuda - analytics and data intelligence",
-      "senior quantum applied research scientist, calibration and decoding",
-      "senior solutions architect, robotics foundation model training",
-      "senior deep learning frameworks sustaining engineer",
-      "senior system software engineer, cuda driver for windows",
-      "principal data scientist - cloud gaming and ai",
-      "senior context fusion ai engineer - autonomous vehicles",
-      "senior robotics research scientist",
-      "principal partner enablement product manager, ai infrastructure",
-      "senior quantum error correction research scientist, applied research",
-      "senior deep learning engineer, cosmo 3d spatial",
-      "senior software engineer, cuda python core libraries",
-      "senior research scientist, fundamental generative ai",
-      "senior software engineer, dgx cloud ai infrastructure",
+      "senior deep learning algorithm engineer",
       "senior solutions architect - ai infrastructure",
-      "senior deep learning communication architect",
-      "senior gpu architect, deep learning",
-      "senior hpc support engineer - ethernet and ai infrastructure",
-      "senior deep learning performance architect - lpu",
-      "senior research scientist, system software and i/o architecture",
-      "principal research scientist, synthetic data generation",
-      "senior context fusion ai engineer - autonomous vehicles",
-      "senior machine learning and simulation engineer - autonomous vehicles",
-      "senior gpu architect, deep learning",
-      "principal engineer, cuda umd - gpu kernel scheduling",
-      "technical marketing engineer  - ai platform software",
-      "senior manager, machine learning ops engineering - automotive",
-      "senior software engineer cuda umd - gpu kernel scheduling",
-      "senior customer program manager \u2013 ai platform",
-      "senior system software engineer, performance - cuda driver",
-      "senior deep learning frameworks cuda software engineer",
-      "manager, deep learning \u2013 autonomous vehicles and robotics",
-      "senior systems software engineer - deep learning solutions",
-      "engineering manager, deep learning inference",
-      "senior product manager - ai platform inference",
-      "senior ai infrastructure business development manager \u2014 service providers and telco",
-      "product manager, ai platform sw - agentic ai kernel generation",
-      "senior deep learning frameworks sustaining engineer",
-      "phd research intern, fundamental generative ai - 2027",
-      "deep learning compiler engineer",
-      "applied ai engineer - vlsi design",
-      "senior solution architect, ai infrastructure",
-      "principal system software engineer - cuda driver",
-      "senior research scientist, multimodal foundation models and robotics",
-      "senior data scientist \u2013 finance",
-      "senior deep learning systems architect",
-      "product marketing manager - ai platform software",
-      "senior data scientist \u2013 finance",
-      "senior dgx cloud ai infrastructure software engineer",
-      "senior machine learning engineer, perception - autonomous driving",
-      "research scientist, ml systems - phd new college grad 2026",
-      "senior product architect, k8s-based ai infrastructure",
-      "senior software engineer - cuda driver",
-      "senior software engineer, cuda umd - graphs and gpu sharing",
-      "senior software engineer, cuda umd - graphs and gpu sharing",
-      "senior dl compiler engineer -cuda tile",
-      "senior research scientist, security and privacy",
-      "senior quantum ai research scientist,  applied research",
-      "senior research scientist - autonomous vehicles",
-      "principal high-performance llm training engineer",
-      "senior software engineer, c++ and cuda - analytics and data intelligence",
-      "solutions architect, llm model builder",
-      "senior data scientist, data quality and ai evaluation",
-      "applied ai engineer - vlsi design",
-      "lead principal engineer, enterprise agentic ai platform",
-      "engineering manager, deep learning inference",
-      "senior research engineer, foundation model training infrastructure",
-      "senior research scientist, circuits",
-      "senior applied research scientist \u2013 computational geometry and meshingmill",
-      "senior deep learning engineer, cosmo 3d spatial",
-      "senior solutions architect, generative ai",
-      "senior applied research scientist \u2013 computational geometry and meshingmill",
-      "manager, data analytics \u2014 ai infrastructure",
-      "senior applied research scientist \u2013 gpu native numerical algorithms",
-      "senior applied research scientist \u2013 gpu native numerical algorithms",
-      "senior research scientist, eda and ai",
-      "manager, data analytics \u2014 ai infrastructure",
-      "senior research scientist, eda and ai",
-      "senior software engineer, ai infrastructure - developer experience",
-      "senior software engineer, ai infrastructure",
-      "performance engineering intern, deep learning and hpc - 2027",
-      "senior dft methodology - data analytics and applied ai engineer",
-      "senior high-performance llm training engineer",
-      "senior software engineer, ai infrastructure - developer experience",
-      "senior software engineer, ai infrastructure",
-      "research scientist, electronic design automation - new college grad 2026",
-      "deep learning performance architect - new college grad 2027",
-      "senior solutions architect, autonomous driving - genai",
-      "solution architect, generative ai",
       "senior solutions architect, generative ai deployment and aiops",
-      "deep learning performance architect - new college grad 2027",
-      "technical marketing engineer  - ai platform software",
-      "structured data foundation model engineer, modern data stack",
-      "senior machine learning and simulation engineer - autonomous vehicles",
-      "senior staff ai engineer \u2013 finance",
-      "structured data foundation model engineer, modern data stack",
-      "senior software engineer, cuda rust core libraries",
-      "senior staff ai engineer \u2013 finance",
-      "research scientist - nemotron",
-      "senior technical program manager - llm safety",
-      "developer relations account manager, generative ai",
-      "senior technical program manager - llm safety"
+      "senior developer relations manager- genai",
+      "senior deep learning framework communications engineer",
+      "senior ai infrastructure engineer - eda infrastructure",
+      "senior ai infrastructure engineer - eda infrastructure",
+      "senior software architect - deep learning and hpc communications",
+      "phd research scientist, fundamental generative ai - new college grad\u00a02026",
+      "senior product marketing manager, ai infrastructure",
+      "senior system software engineer, dgx cloud ai infrastructure",
+      "reinforcement learning intern - 2027",
+      "senior ai engineer, ai safety",
+      "research scientist, ai and systems security - phd new college grad 2026",
+      "senior machine learning data pipeline engineer",
+      "machine learning engineer, data curation - autonomous vehicles",
+      "senior quantum applied research scientist, calibration and decoding",
+      "machine learning engineer, data curation - autonomous vehicles",
+      "research scientist, ai and systems security - phd new college grad 2026",
+      "ai computing development intern, tensorrt-llm - 2027",
+      "senior product marketing manager, ai infrastructure",
+      "performance engineer, deep learning and hpc",
+      "senior system software engineer, dgx cloud ai infrastructure",
+      "senior machine learning data pipeline engineer",
+      "senior ai engineer, ai safety",
+      "senior machine learning engineer, ai safety evaluations",
+      "senior ai infrastructure engineer - dgx cloud",
+      "senior solutions architect, higher education and research - open models and llm",
+      "senior machine learning engineer, ai safety evaluations",
+      "senior performance engineer - deep learning",
+      "senior quantum applied research scientist, physics modeling",
+      "senior quantum applied research scientist, physics modeling",
+      "product marketing manager, cuda languages",
+      "senior performance engineer - deep learning",
+      "ai computing software development intern, llm inference - 2027",
+      "senior system software engineer - cuda chips",
+      "senior ai infrastructure engineer - dgx cloud",
+      "senior machine learning engineer, ai safety evaluations",
+      "senior software engineer, ai infrastructure solutions",
+      "performance software intern, deep learning libraries - 2027",
+      "senior technical program manager, deep learning software",
+      "senior quantum applied research scientist, physics modeling",
+      "deep learning scientist intern, llm, multimodal and agentic ai - summer 2027",
+      "senior applied research scientist",
+      "principal applied quantum research scientist",
+      "senior applied research scientist",
+      "senior system software engineer, deep learning accelerator",
+      "senior applied research scientist \u2013 ai native numerical methods",
+      "ai infrastructure and frameworks intern, cosmos lab - 2027",
+      "performance engineer, deep learning and hpc",
+      "deep learning scientist intern, llm, multimodal and agentic ai - summer 2027",
+      "llm reinforcement learning framework intern - 2027",
+      "ai compiler intern, cuda tile ir - summer 2027",
+      "senior systems software engineer, cuda driver",
+      "senior applied research scientist \u2013 ai native numerical methods",
+      "ai compiler intern, cuda tile ir - summer 2027",
+      "manager, solutions architecture - ai infrastructure build readiness",
+      "llm reinforcement learning framework intern - 2027",
+      "software engineer, ai infrastructure",
+      "software engineer, ai infrastructure",
+      "senior deep learning research engineer \u2013 multimedia gpu team",
+      "technical product marketing mba intern, ai infrastructure - summer 2027",
+      "senior ai engineer, forward deployed engineering",
+      "senior software engineer, machine learning safety",
+      "senior software engineer, machine learning safety",
+      "senior performance software engineer, deep learning libraries",
+      "product marketing mba intern, ai infrastructure \u2014 summer 2027",
+      "product marketing mba intern, ai infrastructure \u2014 summer 2027",
+      "senior performance software engineer, deep learning libraries",
+      "senior ai engineer, forward deployed engineering",
+      "technical product marketing mba intern, ai infrastructure - summer 2027"
     ]
   },
   "oracle.com": {
-    "count": 15,
-    "week_of": "2026-11-02",
+    "count": 5,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "principal applied scientist - robotics",
-      "principal applied scientist - robotics",
-      "software developer 5 , ai infrastructure",
-      "principal core infrastructure engineer, ai infrastructure",
-      "principal applied scientist - robotics",
-      "software developer 5 , ai infrastructure",
-      "senior / principal applied scientist - generative ai",
-      "senior/principal applied scientist",
-      "lead principal applied scientist",
-      "[remote] machine learning engineer",
-      "software engineer, core infrastructure (ai infrastructure)",
-      "principal solution engineer \u2013 cloud & ai infrastructure",
-      "senior data scientist - demand planning and forecasting",
-      "senior core infrastructure engineer - ai infrastructure",
-      "senior python developer \u2013 backend, ai/ml & rag"
+      "lead principal applied scientist - robotics",
+      "strategic oci & ai infrastructure lead",
+      "principal cloud architect \u2013 hpc/gpu & ai platform solutions",
+      "senior principal data center delivery technical pm deployment & integration (ai infrastructure / gpu)",
+      "senior data scientist"
     ]
   },
   "disney.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "microsoft.com": {
-    "count": 10,
-    "week_of": "2026-11-02",
+    "count": 23,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "principal data scientist lead",
-      "solution engineering manager cloud & ai platform",
-      "applied scientist: internship opportunities, turing",
-      "senior product manager - ai infrastructure competitive strategy",
-      "sr. sales excellence manager, cloud and ai platform (caip)",
-      "research intern - machine learning and optimization - redmond",
-      "principal product manager - m365 copilot llm platform",
-      "senior data scientist for copilot evals",
-      "applied scientist (agentic ai)-phd graduate",
-      "applied scientist (computer vision)-phd graduate"
+      "data scientist ii, m365 copilot",
+      "senior cloud & ai infrastructure cloud solution architect- ctj - poly",
+      "digital solution engineer - cloud & ai infrastructure",
+      "principal applied scientist - ads ranking & retrieval",
+      "cloud & ai platform solution engineer",
+      "senior ai engineer",
+      "applied scientist ii",
+      "senior applied scientist - outlook science team",
+      "principal data scientist - product analytics - xbox growth",
+      "principal research scientist",
+      "senior machine learning engineer / applied scientist",
+      "senior applied scientist - ai for safe changes health gating",
+      "senior software engineer - ai/ml infrastructure coreai",
+      "principal data scientist - product analytics - xbox growth",
+      "applied scientist ii / senior applied scientist - responsible ai (coreai)",
+      "principal applied scientist - coreai",
+      "software engineer ii - ai/ml infrastructure coreai",
+      "principal product manager - commerce ai platform",
+      "principal data and applied scientist",
+      "senior research engineer machine learning, ai for science",
+      "software engineer ii - ai infrastructure",
+      "cloud solution architect / cloud + ai platform  full-time loa backfill",
+      "applied scientist ii - machine learning"
     ]
   },
   "lilly.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "uber.com": {
-    "count": 9,
-    "week_of": "2026-11-02",
+    "count": 3,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "sr staff ml engineer - applied ai",
-      "sr staff machine learning engineer - uber ai solutions",
-      "senior machine learning engineer - pricing",
-      "staff ml engineer, generative ai",
-      "machine learning engineer ii - semantics, av labs",
-      "staff machine learning engineer - applied ai",
-      "senior staff machine learning engineer - core services engineering",
-      "machine learning engineer - semantics - av labs",
-      "staff machine learning engineer - semantics - av labs"
+      "staff ml engineer (optimization)",
+      "sr machine learning engineer - consumer incentives",
+      "sr applied scientist"
     ]
   },
   "jhu.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "thermofisher.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "ford.com": {
-    "count": 3,
-    "week_of": "2026-11-02",
+    "count": 1,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "ai engineer",
-      "ai platform engineer",
-      "data scientist, long-term forecast analytics"
+      "senior data scientist \u2013 go-to-market advanced analytics (yield management)"
     ]
   },
   "merck.com": {
-    "count": 2,
-    "week_of": "2026-11-02",
+    "count": 1,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "artificial intelligence/machine learning (ai/ml) capability engineering team lead",
-      "artificial intelligence/machine learning (ai/ml) capability engineering team lead"
+      "director, ai platform & agentic engineering, ai & genome sciences"
     ]
   },
   "tamu.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "northropgrumman.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "jpmorganchase.com": {
-    "count": 27,
-    "week_of": "2026-11-02",
+    "count": 34,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "software engineer iii - ai/ml data platforms (python, cloud native)",
-      "data scientist - sr. associate",
-      "data scientist lead - business banking lending - vice president",
-      "data scientist-fraud strategy-vice president",
-      "data scientist, auto finance data & analytics - sr. associate",
-      "software engineer iii - python/ai/mlops",
-      "data scientist, sr. associate",
-      "chase customer insights - data scientist senior associate",
-      "international consumer banking ai/ml governance control manager - vice president",
-      "applied ai ml lead - generative ai and semantic modeling",
-      "senior director software engineer, ai engineering - dex products",
-      "machine learning engineer - document digitization (llms)-senior associate",
-      "software engineer ii - ai/ml",
-      "applied machine learning scientist - vice president",
-      "ai/ml senior lead software engineer - agentic pricing",
-      "data scientist - sr associate",
-      "manager of software engineering - java full stack, ai/ml",
-      "marketing analytics data scientist vice president",
-      "sr lead software engineer - ai engineer",
-      "2027 machine learning center of excellence - time series and reinforcement learning (tsrl) - summer associate",
-      "data scientist - process intelligence analytics",
-      "lead software engineer python genai",
-      "data scientist lead - vice president - payments data and analytic",
-      "2027 machine learning center of excellence (quant ai) - summer associate",
-      "data scientist, senior associate",
-      "ai/ml - chief financial risk office - vice president",
-      "ai/ml engineer - senior associate"
+      "software engineer iii- ai/ml platform",
+      "senior lead software engineer - ai/ml/databricks/python",
+      "applied ai/ml senior associate",
+      "wfp lead data scientist - vice president",
+      "data scientist lead-vice president",
+      "vice president - data scientist lead  (llm/genai)",
+      "2027 machine learning center of excellence (nlp) - internship",
+      "sr lead software engineer - agentic pricing & ai/ml",
+      "lead software engineer - python/java, ai/ml - equity derivatives",
+      "workforce planning - data scientist - senior associate",
+      "lead cybersecurity architect - ai/ml specialty",
+      "intelligent automation & analytics associate (genai, python/sql)",
+      "ai/ml data and analytics - strategic product manager, vice president",
+      "chasenet data scientist",
+      "lead software engineer java, spring boot, ai/ml",
+      "machine learning intelligent operations team - quant analytics senior associate",
+      "lead software engineer - ai/ml - ai agent platform",
+      "applied ai machine learning vice president (fraud modelling)",
+      "sr. lead software developer - java, aws & ai platform",
+      "ai ml engineering lead - vice president - ai for payments",
+      "software engineer iii - java, microservice,  aws, databricks, mlops",
+      "applied ai/ml lead - small business",
+      "director of software engineering - machine learning/ai",
+      "software engineer iii - java, microservice, aws, databricks, mlops",
+      "data scientist (small business product) - senior associate",
+      "data scientist lead- python, ml & gen ai",
+      "senior lead software engineer - data & ai platform engineer",
+      "applied ai/ml sr. associate - small business",
+      "software engineer iii - ai/ml developer",
+      "lead software developer - python, aws & ai platform",
+      "data scientist lead - agentic solutions",
+      "data scientist senior associate \u2014 business observability & ai platform",
+      "data scientist lead, vice president",
+      "machine learning engineer - digital intelligence"
     ]
   },
   "meta.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "target.com": {
-    "count": 6,
-    "week_of": "2026-11-02",
+    "count": 3,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "principal data scientist - supply chain network planning and design",
-      "sr data scientist- space presentation",
-      "lead ai engineer - advanced ai (applied ml, gen ai, ml ops)(remote or hybrid)",
-      "sr engineer - forward deployed engineer (fde) ai platforms team",
-      "sr ai engineer - advanced ai (applied ml, gen ai, ml ops)",
-      "sr applied data scientist - supply chain optimization"
+      "lead forward deployed engineer (fde) - ai platforms (ml, llms, apis, ml ops)(remote or hybrid)",
+      "sr data scientist-pricing & clearance",
+      "sr applied data scientist - personalization (applied ml, pytorch, recsys)"
     ]
   },
   "stanford.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "duke.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "morganstanley.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "moodys.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "unitedhealthgroup.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "jnj.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "pfizer.com": {
     "count": 4,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": [
-      "graduate data scientist (pfizer ringaskiddy)",
-      "sr associate, ai engineer",
-      "senior ai infrastructure & platform engineer",
-      "director, ai platform & foundation"
+      "senior principal machine learning scientist",
+      "associate director, ai/ml & digital health analytics",
+      "sr manager data scientist supply chain",
+      "senior data scientist medical analytics, care gaps & customer segmentation team"
     ]
   },
   "prudential.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "visa.com": {
     "count": 5,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": [
-      "software engineer (1-2 years' experience, python / go, ml engineering)",
-      "sr. data scientist",
-      "sr. sw engineer (3 - 6 years of experience as a full-stack developer - .net / python, react / angular, genai)",
-      "director, software engineering (14+ years, scala, spark, data pipeline, genai) spark,",
-      "data scientist, featurespace"
+      "director (technology leader with hands-on exp in platform / application development, genai, python, java, 14 - 18 years exp.)",
+      "software engineer - sr.consultant level - python, react, genai architecture",
+      "sr. sw engineer (3-5 yrs of experience in python and genai automation development & basic windows and macos knowledge)",
+      "senior data scientist",
+      "sr. director - software engineering (java, genai, payment risk, cloud, nosql - 18+ years' exp)"
     ]
   },
   "paypal.com": {
-    "count": 3,
-    "week_of": "2026-11-02",
+    "count": 10,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "data scientist - payments risk management & data analytics",
-      "data scientist - payments risk management & data analytics",
-      "data scientist - payments risk management & data analytics"
+      "staff data scientist",
+      "machine learning engineer intern - summer 2027",
+      "machine learning engineer intern - summer 2027",
+      "sr data scientist",
+      "sr data scientist",
+      "data scientist intern - summer 2027",
+      "machine learning engineer phd intern - summer 2027",
+      "data scientist intern - summer 2027",
+      "machine learning engineer phd intern - summer 2027",
+      "data scientist"
     ]
   },
   "apple.com": {
-    "count": 20,
-    "week_of": "2026-11-02",
+    "count": 44,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "deep learning research engineer - ml & physics - q",
-      "senior signal/image processing & machine learning engineer - sensing technologies & real-time models",
-      "senior engineering program manager: apple music, ai/ml",
-      "latin america aiml data scientist (decision intelligence)",
-      "senior signal/image processing & machine learning engineer - sensing technologies & real-time models",
-      "data scientist - wpc - analytics",
-      "aiml - machine learning engineer, evaluation - responsible ai and safety",
-      "machine learning ph.d student - agentic ai",
-      "senior applied ai engineer - aidp",
-      "staff / sr. ml engineer, indexing infrastructure",
-      "machine learning engineer, sales engineering",
-      "machine learning systems engineer - video computer vision",
-      "apple media products - machine learning engineering manager",
-      "aiml - machine learning research (speech-to-speech translation) - tmi",
-      "machine learning engineer, computer vision",
-      "product manager - generative ai, ai & data platforms (aidp)",
-      "agentic systems engineer, proactive intelligence - automation & llm orchestration",
-      "machine learning engineer, evaluation and quality, creativity apps",
-      "gpu drivers & metal test engineer - media, graphics, games, compute, & machine learning technologies",
-      "engineering intern (ai/ml & automation) for hardware - shanghai"
+      "senior machine learning engineer - apple store online",
+      "aiml - sr machine learning platform engineer, evaluation",
+      "applied ai engineer \u2013 global siri",
+      "machine learning engineer, ai/ml model quality",
+      "aiml - sr. machine learning engineer - data and ml innovation",
+      "machine learning engineer - product marketing customer analytics",
+      "machine learning engineer, strategic data solutions",
+      "aiml - apple foundation models: ml research engineer, rl & agentic reasoning",
+      "sw optimization engineer ai/ml",
+      "principal machine learning engineer, ai & data platforms (aidp)",
+      "embedded machine learning engineer, wireless technologies & ecosystems",
+      "machine learning engineer",
+      "machine learning researcher - apple services engineering - generative audio",
+      "aiml - software engineer, machine learning platform & infrastructure",
+      "computer vision algorithm engineer",
+      "machine learning video processing engineer",
+      "aiml - machine learning engineer, data & machine learning innovation",
+      "generative ai engineer, camera algorithms",
+      "aiml - machine learning engineer, visual intelligence technology",
+      "staff machine learning engineer - matching, apple ads",
+      "ai/ml software engineer",
+      "ml engineer",
+      "aiml - machine learning engineer, foundation models",
+      "aiml - machine learning researcher, data and ml innovation",
+      "computer vision and machine learning engineer",
+      "senior machine learning engineer, media knowledge",
+      "machine learning algorithm and software engineer",
+      "generative ai engineer, image/video restoration",
+      "aiml - apple foundation models: senior ml research scientist, rl & agentic reasoning",
+      "staff machine learning engineer \u2014 commerce & growth intelligence",
+      "machine learning engineer - 3d vision & perception",
+      "machine learning engineer, platform architecture",
+      "privacy-preserving machine learning researcher - q",
+      "software engineer in natural language processing (nlp) and machine learning (ml)",
+      "lead machine learning engineer, human sensing",
+      "machine learning engineer, siml",
+      "computational support for machine learning and transformers, core os",
+      "machine learning engineer, siri speech",
+      "internship - machine learning research (recurrent models | generative models | interpretability)",
+      "machine learning engineer, data for foundation models",
+      "senior ml engineer - ads ml infrastructure",
+      "machine learning research engineer, siml - ise",
+      "senior staff/principal engineer, foundation model compute infra",
+      "software engineer (genai platform), ai & data platforms"
     ]
   },
   "intel.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "walmart.com": {
-    "count": 2,
-    "week_of": "2026-11-02",
+    "count": 8,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "(usa) senior, data scientist",
-      "senior, data scientist (computer vision)"
+      "(usa) staff, data scientist",
+      "(usa) distinguished, data scientist - operations research",
+      "(usa) principal, data scientist",
+      "(usa) principal, data scientist",
+      "principal, data scientist",
+      "(usa) staff, machine learning engineer",
+      "distinguished data scientist: associate ai experience",
+      "principal data scientist: associate ai experience"
     ]
   },
   "columbia.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "cornell.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "gatech.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "ufl.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "ameriprise.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "apollo.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "bnymellon.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "blackrock.com": {
-    "count": 0,
-    "week_of": "2026-11-02",
-    "job_keys": []
+    "count": 1,
+    "week_of": "2026-11-09",
+    "job_keys": [
+      "associate, ai data scientist- private markets"
+    ]
   },
   "blackstone.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "bn.brookfield.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "schwab.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "franklinresources.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "goldmansachs.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "ice.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "jefferies.com": {
-    "count": 0,
-    "week_of": "2026-11-02",
-    "job_keys": []
+    "count": 4,
+    "week_of": "2026-11-09",
+    "job_keys": [
+      "data scientist \u2013 equity research",
+      "data scientist \u2013 equity research",
+      "avp - microsoft copilot and agentic ai engineer - it infrastructure",
+      "avp - microsoft copilot and agentic ai engineer - it infrastructure"
+    ]
   },
   "kkr.com": {
-    "count": 0,
-    "week_of": "2026-11-02",
-    "job_keys": []
+    "count": 1,
+    "week_of": "2026-11-09",
+    "job_keys": [
+      "helix, vice president, technical lead \u2013 ai infrastructure"
+    ]
   },
   "lpl.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "northerntrust.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "raymondjames.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "spglobal.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "statestreet.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "troweprice.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "abbott.com": {
-    "count": 1,
-    "week_of": "2026-11-02",
+    "count": 3,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "data scientist- abbott park, il"
+      "senior software & ai engineer",
+      "sr. data scientist",
+      "data scientist"
     ]
   },
   "abbvie.com": {
     "count": 7,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": [
-      "principal research scientist i, in vivo car-t biology",
-      "director \u2013 process engineering / senior principal research scientist",
-      "principal research scientist i, biologics drug product development",
-      "principal research scientist ii",
-      "senior data scientist i \u2013 bioassay data scientist",
-      "principal research scientist i, engineering",
-      "principal research scientist i, novel therapeutics"
+      "principal research scientist i - biologics analytical research and development, cmc biologics development",
+      "senior principal research scientist",
+      "principal research scientist i - process engineering",
+      "senior scientist ii / principal research scientist i - analytical r&d",
+      "principal research scientist i, biologics analytical research and development, cmc biologics development",
+      "ai engineer",
+      "software engineer - ai platform (hybrid)"
     ]
   },
   "amgen.com": {
-    "count": 11,
-    "week_of": "2026-11-02",
+    "count": 10,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "sr data scientist",
-      "associate data scientist - value & access strategy",
-      "us value & access insights - associate data scientist",
-      "associate data scientist - value and access strategy",
-      "us value & access insights - associate data scientist",
-      "associate data scientist - value and access strategy",
-      "machine learning engineer",
-      "us v&a insights - data scientist",
-      "associate ai engineer, oi&a",
-      "associate data scientist",
-      "reinforcement learning engineer"
+      "cd&a data scientist, obesity and related conditions - senior associate",
+      "sr associate - commercial analytics & ai enablement (data scientist)",
+      "sr associate - commercial analytics & ai enablement (data scientist)",
+      "manager - commercial analytics & ai enablement (sr data scientist)",
+      "manager - commercial analytics & ai enablement (sr data scientist)",
+      "sr data scientist - full stack app development",
+      "data scientist",
+      "sr data scientist - full stack app development",
+      "senior data scientist",
+      "senior data scientist - safety analytics & signal detection"
     ]
   },
   "bms.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "cardinalhealth.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "cencora.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "centene.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "cigna.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "cvshealth.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "elevancehealth.com": {
-    "count": 1,
-    "week_of": "2026-11-02",
+    "count": 2,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "health research scientist"
+      "distinguished ai engineer",
+      "data scientist senior"
     ]
   },
   "gilead.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "hcahealthcare.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "humana.com": {
-    "count": 2,
-    "week_of": "2026-11-02",
+    "count": 6,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "ai engineer",
-      "lead applied scientist, nba \u2013 reinforcement learning"
+      "research scientist 2",
+      "senior research scientist",
+      "senior research scientist",
+      "principal ai engineer",
+      "lead ai engineer",
+      "senior ai engineer"
     ]
   },
   "mckesson.com": {
     "count": 6,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": [
-      "principal ai engineer",
-      "principal ai engineer",
-      "lead ai engineer",
-      "lead ai engineer",
-      "sr. ai/ml engineer, raib",
-      "sr. ai/ml engineer, raib"
+      "confidential sr. specialist, machine learning engineering",
+      "ai engineer sr. specialist - hrbr",
+      "confidential sr. specialist, machine learning engineering",
+      "confidential sr. specialist, machine learning engineering",
+      "ai engineer sr. specialist - hrbr",
+      "sr. ai/ml ops specialist , raib"
     ]
   },
   "3m.com": {
     "count": 1,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": [
-      "senior data scientist - sumare, brasil."
+      "senior ai/machine learning specialist"
     ]
   },
   "boeing.com": {
     "count": 3,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": [
-      "spirit defense - experienced data scientist",
-      "senior ai/ml data engineer",
-      "senior data scientist"
+      "ai engineer",
+      "solution architect/data scientist",
+      "solution architect/data scientist"
     ]
   },
   "carrier.com": {
-    "count": 2,
-    "week_of": "2026-11-02",
-    "job_keys": [
-      "agentic ai engineer lead",
-      "senior ai / llm engineer (m/w/d)"
-    ]
+    "count": 0,
+    "week_of": "2026-11-09",
+    "job_keys": []
   },
   "caterpillar.com": {
-    "count": 0,
-    "week_of": "2026-11-02",
-    "job_keys": []
+    "count": 3,
+    "week_of": "2026-11-09",
+    "job_keys": [
+      "data scientist",
+      "lead ai platform engineer",
+      "ai platform engineer"
+    ]
   },
   "cummins.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "deere.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "eaton.com": {
-    "count": 0,
-    "week_of": "2026-11-02",
-    "job_keys": []
+    "count": 1,
+    "week_of": "2026-11-09",
+    "job_keys": [
+      "senior engineer- machine learning"
+    ]
   },
   "emerson.com": {
-    "count": 0,
-    "week_of": "2026-11-02",
-    "job_keys": []
+    "count": 1,
+    "week_of": "2026-11-09",
+    "job_keys": [
+      "ai engineer"
+    ]
   },
   "gevernova.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "gd.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "ge.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "honeywell.com": {
-    "count": 3,
-    "week_of": "2026-11-02",
+    "count": 2,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "data scientist ii",
-      "senior ai platform engineer \u2013 agentic ai",
-      "senior ai platform engineer \u2013 agentic ai"
+      "sr advanced data scientist",
+      "lead ai engineer"
     ]
   },
   "jacobs.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "l3harris.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "lockheedmartin.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "paccar.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "parker.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "rtx.com": {
-    "count": 7,
-    "week_of": "2026-11-02",
+    "count": 4,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "applied ai engineer (hybrid)",
-      "ai platform engineer (hybrid)",
-      "applied ai engineer (hybrid)",
-      "ai platform engineer (hybrid)",
-      "manager - ai platform engineer",
-      "manager - ai platform engineer",
-      "senior machine learning engineer ii - flightaware (remote)"
+      "senior manager, solutions architect - data, analytics & ai/ml platforms (remote)",
+      "devsecops & ai platform engineer (hybrid)",
+      "senior principal,  signal processing research scientist",
+      "senior principal, signal processing research scientist"
     ]
   },
   "tranetechnologies.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "aig.com": {
-    "count": 1,
-    "week_of": "2026-11-02",
+    "count": 2,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "genai data modeler"
+      "senior full stack software engineer - genai",
+      "manager data science, genai"
     ]
   },
   "allstate.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "americanexpress.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "bankofamerica.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "berkshirehathaway.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "block.xyz": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "chubb.com": {
-    "count": 1,
-    "week_of": "2026-11-02",
+    "count": 2,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "\u3010tw life\u3011sub-manager, ai engineer"
+      "sr. data scientist",
+      "senior ai/ml engineer"
     ]
   },
   "citigroup.com": {
-    "count": 1,
-    "week_of": "2026-11-02",
+    "count": 17,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "principal generative ai engineering lead - senior vice president"
+      "genai developer",
+      "senior ai engineer - vice president",
+      "senior ai engineer, kyc operations - vice president",
+      "ai engineer \u2013 startups & partnerships",
+      "generative ai reporting solutions svp",
+      "senior fx prime brokerage and ai engineer",
+      "lead ai engineer - enterprise ai products",
+      "generative ai quality engineer - assistant vice president",
+      "generative ai senior delivery lead",
+      "svp - genai full-stack engineer lead",
+      "generative ai engineer -vice president",
+      "lead generative ai python  engineer - vice president",
+      "senior ai engineer - wholesale credit risk analytics -  senior vice president",
+      "principal data scientist",
+      "senior architect - java and generative ai - vice president",
+      "generative ai engineering lead - senior vice president",
+      "senior ai and machine learning engineer - assistant vice president"
     ]
   },
   "thehartford.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "mastercard.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "metlife.com": {
-    "count": 2,
-    "week_of": "2026-11-02",
+    "count": 4,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "lead data scientist",
-      "data scientist"
+      "senior data scientist - i",
+      "lead ai engineer(ai solution lead)/japan",
+      "principal platform & ai engineering lead",
+      "principal platform & ai engineering lead"
     ]
   },
   "progressive.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "travelers.com": {
-    "count": 1,
-    "week_of": "2026-11-02",
-    "job_keys": [
-      "senior data scientist - customer experience genai"
-    ]
+    "count": 0,
+    "week_of": "2026-11-09",
+    "job_keys": []
   },
   "usbank.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "wellsfargo.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "abc.xyz": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "broadcom.com": {
-    "count": 0,
-    "week_of": "2026-11-02",
-    "job_keys": []
+    "count": 2,
+    "week_of": "2026-11-09",
+    "job_keys": [
+      "# ai/ml silicon accelerator memory architect",
+      "# ai/ml silicon accelerator memory architect"
+    ]
   },
   "cisco.com": {
-    "count": 4,
-    "week_of": "2026-11-02",
+    "count": 6,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "ai infrastructure engineer - golang, kubernetes, dockers, linux - 8-12 years",
-      "lead machine learning engineer , ai defense (hybrid)",
-      "ai data scientist technical leader (hybrid)",
-      "senior data scientist (time series + ml)"
+      "senior software engineer, ai/ml network engineering",
+      "director of product, ai platform - network platform and assurance (hybrid)",
+      "full-stack ui engineer (ai platforms) nc - hybrid",
+      "leader, partner sales, ai infrastructure and connectivity",
+      "software qa engineer - genai/llm",
+      "software qa engineer - genai/llm (8 to 12 yrs)"
     ]
   },
   "corporate.comcast.com": {
-    "count": 0,
-    "week_of": "2026-11-02",
-    "job_keys": []
+    "count": 1,
+    "week_of": "2026-11-09",
+    "job_keys": [
+      "engineer 2 - machine learning"
+    ]
   },
   "gm.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "netflix.com": {
-    "count": 6,
-    "week_of": "2026-11-02",
+    "count": 5,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "machine learning scientist 5- forecasting aggregation",
-      "senior manager, content & business products and delivery f&s - genai enterprise & workforce productivity",
-      "senior creative technologist, games genai",
-      "staff/ principal software engineer (l6/l7): ai platform model serving",
-      "software engineer 4/5 \u2013  data and feature infrastructure, ai platform",
-      "machine learning engineer (l4/l5) - studio media algorithms"
+      "machine learning scientist 5 - ads bidding",
+      "data scientist 5 - media science dse",
+      "software engineer 5 \u2013 training platform, ai platform",
+      "machine learning engineer 5 - ads platform engineering",
+      "engineering manager, online serving and inference, ai platform"
     ]
   },
   "qualcomm.com": {
-    "count": 28,
-    "week_of": "2026-11-02",
+    "count": 14,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "machine learning & artificial intelligence engineering internship \u2013 summer 2027",
-      "robotic embodied ai engineer",
-      "intern- deep learning r&d for automated driving",
-      "system performance engineer (nsp/npu, ai/ml)",
-      "#machine learning engineer - generative ai",
-      "data center ai platform firmware engineer, senior to staff",
-      "machine learning framework, compiler & performance engineer",
-      "infrastructure engineer - edge ai platform - qualcomm - remote - europe",
-      "computer vision & ai engineer, up to senior level",
-      "staff machine learning software engineer",
-      "senior computer vision software engineer",
-      "fy27 intern - deep learning research internship - embodied ai - canada (4 months)",
-      "senior gpu engineer",
-      "senior staff deep learning researcher \u2013 model efficiency - qualcomm - amsterdam",
-      "machine learning research engineer, senior",
-      "senior machine learning software engineer",
-      "staff gpu engineer",
-      "senior deep learning researcher \u2013 model efficiency - qualcomm - amsterdam",
-      "fy27 intern - deep learning research internship - canada (4 months)",
-      "senior director of engineering - ai platform",
-      "artificial intelligence for video compression - research scientist",
-      "2026 intern-machine learning/ai  engineer",
-      "genai system integration and testing engineer",
-      "ai/ml application software engineer, staff",
-      "sr. engineer, ai platforms",
-      "lead engineer, senior-system performance engineer (nsp, ai/ml, cpu, ddr)",
-      "fy27 intern - machine learning compiler & performance engineering intern - canada (16 months)",
-      "senior ml engineer - biometrics"
+      "ai infrastructure software engineer",
+      "machine learning engineer",
+      "principal sw engineer - llm serving (cloud ai)",
+      "software engineer, machine learning",
+      "fy27 intern - machine learning engineering internship - canada (4 months)",
+      "machine learning senior engineer - generative ai",
+      "gpu architecture & ai/ml engineer | iit or nit freshers | 0\u20133 years",
+      "fy27 intern - deep learning researcher internship - 4 months, amsterdam",
+      "modem machine learning engineer",
+      "camera ai engineer (iot)",
+      "senior soc physical design engineer - ai/ml",
+      "machine learning engineer, ai software (c++)",
+      "senior ai platform / agentic systems engineer",
+      "#machine learning engineer \u2013 agentic ai"
     ]
   },
   "salesforce.com": {
-    "count": 4,
-    "week_of": "2026-11-02",
+    "count": 3,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "staff / principal product data scientist - slack",
-      "product manager (agentforce ai platform)",
-      "senior data scientist (smts)",
-      "software engineering pmts - ml engineer"
+      "principal member of technical staff (pmts) / staff software engineer \u2013 ai platform (agentic systems)",
+      "data scientist",
+      "data scientist - meshmesh"
     ]
   },
   "stellantis.com": {
-    "count": 0,
-    "week_of": "2026-11-02",
-    "job_keys": []
+    "count": 4,
+    "week_of": "2026-11-09",
+    "job_keys": [
+      "data scientist \u2013 fleet data",
+      "manager, ai/ml engineering",
+      "data scientist - ai executive",
+      "director, ai/ml engineering"
+    ]
   },
   "tesla.com": {
-    "count": 2,
-    "week_of": "2026-11-02",
+    "count": 9,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "senior ai engineer (m/w/d) - gigafactory berlin - brandenburg",
-      "sr. machine learning engineer"
+      "reinforcement learning engineer, policy, digital optimus",
+      "sr. machine learning engineer, energy optimization",
+      "sr. machine learning integration engineer, tesla si",
+      "machine learning engineer, maps & navigation, robotaxi",
+      "internship, software engineer, si reinforcement learning (winter/spring 2027)",
+      "computer vision & machine learning engineer",
+      "electrical / mechanical / software engineer - optimisation and machine learning",
+      "machine learning engineer, battery manufacturing development, optimus",
+      "sr. software backend engineer, machine learning data pipelines"
     ]
   },
   "att.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "bestbuy.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "corporate.charter.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "costco.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "dollargeneral.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "dollartree.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "homedepot.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "kroger.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "lowes.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "paramount.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "pfgc.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "sysco.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "t-mobile.com": {
-    "count": 2,
-    "week_of": "2026-11-02",
+    "count": 4,
+    "week_of": "2026-11-09",
     "job_keys": [
-      "sr ai engineer",
-      "summer 2027 assoc ai engineer internship"
+      "sr manager, machine learning",
+      "lead ai platform engineer (m/f/d)",
+      "senior business development manager (m/f/d/x) for generative ai",
+      "expert ai engineer"
     ]
   },
   "tjx.com": {
-    "count": 1,
-    "week_of": "2026-11-02",
-    "job_keys": [
-      "staff engineer - data engineering, analytics & ai/ml"
-    ]
+    "count": 0,
+    "week_of": "2026-11-09",
+    "job_keys": []
   },
   "usfoods.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "verizon.com": {
     "count": 5,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": [
-      "senior ai/ml engineer - ai live operations",
-      "r-1101008 senior ai engineer",
-      "counsel - ai infrastructure and strategic transactions",
-      "associate director - ai platform engineering",
-      "principal  engineer- ai platform architect"
+      "senior engineering consultant- ai/llm",
+      "sr engr cslt-ai/ml engineering",
+      "associate director - ai/ml engineering",
+      "associate director - ai/ml engineering",
+      "senior data scientist"
     ]
   },
   "walgreensbootsalliance.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "wbd.com": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "harvard.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "osu.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "psu.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "ucla.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "ucsd.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "ucsf.edu": {
     "count": 1,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": [
-      "machine learning engineer"
+      "ai engineer (ai accelerator program)"
     ]
   },
   "umd.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "umich.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "unc.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "upenn.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "washington.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   },
   "wisc.edu": {
     "count": 0,
-    "week_of": "2026-11-02",
+    "week_of": "2026-11-09",
     "job_keys": []
   }
 }
